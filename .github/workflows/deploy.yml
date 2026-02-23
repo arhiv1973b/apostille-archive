@@ -1,38 +1,47 @@
-name: Deploy Evidence Portal
+name: Deploy to GitHub Pages
 
 on:
   push:
     branches:
-      [
-        'main',
-        'master',
-        'evidence',
-        'evidence-branch',
-        'html-site',
-        'gh-pages',
-        'REVOLUTION-JUS-COGENS-V1',
-      ]
+      - main
+      - master
+      - evidence
+      - evidence-branch
+      - html-site
+      - REVOLUTION-JUS-COGENS-V1
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: 'pages'
+  cancel-in-progress: false
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          fetch-depth: 0
+          path: '.'
 
-      - name: Configure Git
-        run: |
-          git config user.name "GitHub Actions"
-          git config user.email "actions@github.com"
-
-      - name: Deploy to gh-pages
-        run: |
-          git checkout gh-pages || git checkout -b gh-pages
-          git merge --no-edit HEAD
-          git push origin gh-pages --force
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
