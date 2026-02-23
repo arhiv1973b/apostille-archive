@@ -2780,6 +2780,119 @@
         фундаментальных норм."
       </blockquote>
 
+      <!-- JSON Analysis Export -->
+      <div
+        style="
+          margin: 30px 0;
+          padding: 20px;
+          background: linear-gradient(135deg, #1a0033 0%, #0a1628 100%);
+          border: 2px solid #ff3366;
+          border-radius: 10px;
+        "
+      >
+        <h3 style="color: #ff3366; margin-bottom: 15px">
+          📦 JSON ANALYSIS EXPORT
+        </h3>
+        <p style="color: var(--text-dim); font-size: 12px; margin-bottom: 15px">
+          Скопируйте структурированные данные для международных судов (Гаага,
+          ООН, ЕКПЧ)
+        </p>
+        <button
+          class="btn btn-fraud"
+          onclick="copyAnalysisJSON()"
+          style="background: #ff3366; color: white"
+        >
+          📋 COPY ANALYSIS JSON
+        </button>
+        <div
+          id="jsonCopyStatus"
+          style="
+            margin-top: 10px;
+            color: var(--primary);
+            font-size: 12px;
+            display: none;
+          "
+        >
+          ✓ Скопировано в буфер обмена!
+        </div>
+      </div>
+
+      <!-- Point of Convergence -->
+      <div
+        style="
+          margin: 30px 0;
+          padding: 25px;
+          background: linear-gradient(135deg, #2d0a0a 0%, #1a0505 100%);
+          border: 3px solid #ff0000;
+          border-radius: 10px;
+          position: relative;
+          overflow: hidden;
+        "
+      >
+        <div
+          style="
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: repeating-linear-gradient(
+              45deg,
+              transparent,
+              transparent 10px,
+              rgba(255, 0, 0, 0.03) 10px,
+              rgba(255, 0, 0, 0.03) 20px
+            );
+          "
+        ></div>
+        <h3
+          style="
+            color: #ff0000;
+            margin-bottom: 20px;
+            position: relative;
+            z-index: 1;
+          "
+        >
+          🎯 POINT OF CONVERGENCE
+        </h3>
+
+        <div style="position: relative; z-index: 1">
+          <p style="color: var(--text); font-size: 14px; margin-bottom: 15px">
+            <strong style="color: #ff3366">Вывод AI-анализа:</strong>
+          </p>
+          <p
+            style="
+              color: var(--primary);
+              font-size: 16px;
+              font-style: italic;
+              line-height: 1.6;
+            "
+          >
+            "Физическое насилие (19.02.2026, Yuri Lupea) было инструментом
+            защиты 14% фальсификата апостилей. Это не случайность — это
+            координированная операция по ликвидации правосубъектности A©tor
+            Maceret. Кибервторжение (37,127 .DLL файлов) и отключение
+            электричества — попытка скрыть доказательства系统性ной коррупции."
+          </p>
+
+          <div
+            style="
+              margin-top: 20px;
+              padding: 15px;
+              background: rgba(0, 0, 0, 0.5);
+              border-left: 4px solid #ff3366;
+            "
+          >
+            <p style="color: #ffaa00; font-size: 12px; margin: 0">
+              <strong>CORRELATION PROOF:</strong> Дата нападения (19.02.2026)
+              совпадает с датой обнаружения 13 поддельных апостилей серии X.
+              Интерес государства (скрыть коррупцию) + Интерес третьих лиц
+              (устранить жертву) = <strong>ERGA OMNES</strong>
+            </p>
+          </div>
+        </div>
+      </div>
+
       <footer>
         <p>Signed: A©tor Maceret Alexei | 2026-02-22</p>
         <p style="font-size: 12px; margin-top: 10px; color: var(--text-dim)">
@@ -2790,6 +2903,71 @@
     </div>
 
     <script>
+      // FRAUD ANALYSIS DATA - JSON Evidence for International Courts
+      const FRAUD_ANALYSIS_DATA = {
+        case_id: 'CASE-MACHERET-1997-2026',
+        analysis_version: '2026.02-JUS-COGENS',
+        total_apostilles: 90,
+        fraud_count: 13,
+        fraud_percentage: 14.4,
+        legal_status: 'VOID_BY_JUS_COGENS',
+        summary: '14% системного подлога (13/90)',
+        intent:
+          'Convergence of Interests: Государство скрывает коррупцию — Третьи лица устраняют Жертву.',
+        jus_cogens_impact: 'Absolute Nullity (Ничтожность всех актов)',
+        targets: ['Yuri Lupea (Physical)', 'Cyber-sabotage (37,127 files)'],
+        norm_breach: 'ECHR Art. 3, 6, 13 + Jus Cogens Erga Omnes',
+        correlation_matrix: [
+          {
+            incident_id: 'INC-2026-02-19-ASSAULT',
+            target: 'A©tor Maceret Alexei',
+            perpetrator: 'Yuri Lupea',
+            fraud_link: 'Apostille_Series_X_13',
+            convergence_logic: {
+              state_interest:
+                'Уничтожение юридического следа системной коррупции (скрыть 14% брака).',
+              third_party_interest:
+                'Физическое устранение носителя прав для прекращения международного расследования.',
+              common_goal:
+                'Лишение жертвы правосубъектности через физическое и юридическое насилие.',
+            },
+          },
+          {
+            incident_id: 'INC-2026-02-22-CYBER',
+            files_injected: 37127,
+            objective:
+              'Саботаж integrity_check.py для невозможности верификации 13 поддельных апостилей.',
+            jus_cogens_violation:
+              'ECHR Art. 6 (Obstruction of Justice), Art. 13 (Right to Effective Remedy)',
+          },
+        ],
+        expert_notes:
+          "Интересы государства и третьих лиц совпали в точке 'Neutralization of Evidence'. Использование поддельных документов является инструментом пытки (Art. 3 ECHR), создающим правовой вакуум вокруг жертвы.",
+        conclusion:
+          'Физическое насилие было инструментом защиты 14% фальсификата. Это не случайность, а координированная операция по ликвидации правосубъектности.',
+      };
+
+      // Copy Analysis JSON to Clipboard
+      function copyAnalysisJSON() {
+        const jsonStr = JSON.stringify(FRAUD_ANALYSIS_DATA, null, 2);
+        navigator.clipboard
+          .writeText(jsonStr)
+          .then(function () {
+            const statusEl = document.getElementById('jsonCopyStatus');
+            statusEl.style.display = 'block';
+            statusEl.textContent =
+              currentLang === 'en'
+                ? '✓ Copied to clipboard!'
+                : '✓ Скопировано в буфер обмена!';
+            setTimeout(function () {
+              statusEl.style.display = 'none';
+            }, 3000);
+          })
+          .catch(function (err) {
+            alert('Error copying: ' + err);
+          });
+      }
+
       // Global variables
       var jcActive = false;
       var jcRunning = false;
@@ -5091,12 +5269,16 @@
         const voidFilterBtns = document.querySelectorAll(
           'button[onclick="applyViennaFilter()"]',
         );
-        voidFilterBtns.forEach((btn) => (btn.textContent = t.voidFilter));
+        for (const btn of voidFilterBtns) {
+          btn.textContent = t.voidFilter;
+        }
 
         const printActBtns = document.querySelectorAll(
           'button[onclick="printActOfNullity()"]',
         );
-        printActBtns.forEach((btn) => (btn.textContent = t.printAct));
+        for (const btn of printActBtns) {
+          btn.textContent = t.printAct;
+        }
 
         // Update section headers
         const evidenceSection = document.querySelector('#timeline-section h2');
@@ -5112,7 +5294,7 @@
 
         const downloadSection = document.querySelector('div > h3');
         const downloadSections = document.querySelectorAll('div > h3');
-        downloadSections.forEach((h3) => {
+        for (const h3 of downloadSections) {
           if (
             h3.textContent.includes('Отдел доказательств') ||
             h3.textContent.includes('Evidence')
@@ -5122,7 +5304,7 @@
                 ? '📥 Отдел доказательств'
                 : '📥 Evidence Department';
           }
-        });
+        }
       }
 
       // Load saved language
