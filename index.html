@@ -3410,9 +3410,10 @@
 
       function verifyJusCogens(code) {
         var result = { valid: true, reason: '', article: '' };
+        var found = null;
 
         if (typeof fraudData !== 'undefined') {
-          var found = fraudData.find(function (d) {
+          found = fraudData.find(function (d) {
             return d.code === code;
           });
           if (found) {
@@ -3599,14 +3600,14 @@
       }
 
       // Role switching
-      function showRole(role) {
+      function showRole(role, evt) {
         document.querySelectorAll('.role-tab').forEach(function (t) {
           t.classList.remove('active');
         });
         document.querySelectorAll('.role-panel').forEach(function (p) {
           p.classList.remove('active');
         });
-        var tab = event.target;
+        var tab = evt ? evt.target : document.querySelector('.role-tab');
         tab.classList.add('active');
         var panel = document.getElementById(role);
         panel.classList.add('active');
@@ -3685,9 +3686,17 @@
       // Network visualization
       function initNetwork() {
         const canvas = document.getElementById('networkCanvas');
+        if (!canvas) return;
         const ctx = canvas.getContext('2d');
-        canvas.width = canvas.offsetWidth;
-        canvas.height = canvas.offsetWidth;
+        if (!ctx) return;
+
+        if (typeof fraudData === 'undefined') {
+          console.log('fraudData not loaded');
+          return;
+        }
+
+        canvas.width = canvas.offsetWidth || 600;
+        canvas.height = canvas.offsetWidth || 600;
 
         const nodes = [];
         const centerX = canvas.width / 2;
@@ -4168,6 +4177,10 @@
 
       // Print Act of Nullity
       function printActOfNullity() {
+        if (typeof fraudData === 'undefined') {
+          alert('Данные не загружены');
+          return;
+        }
         var date = new Date().toLocaleDateString();
         var violations = fraudData.length;
         var tableContent = '';
