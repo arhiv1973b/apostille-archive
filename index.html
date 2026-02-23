@@ -2434,6 +2434,7 @@
       var pdfScale = 1.5;
       var currentPdfUrl = '';
       var githubFiles = [];
+      var currentLang = 'ru';
 
       // Data - Full database
       const fraudData = [
@@ -3561,33 +3562,66 @@
         }
 
         var result = '';
+        var isEn = currentLang === 'en';
+
         if (typeof fraudData !== 'undefined') {
           fraudData.forEach(function (d) {
             result += '\n🚨 ' + d.code + ' - ' + d.date + '\n';
-            result += '   Орган: ' + d.authority + '\n';
-            result += '   Статус: ❌ VOID BY JUS COGENS\n';
-            result += '   Основание: Статья 53 ВК 1969\n';
+            result +=
+              (isEn ? '   Authority: ' : '   Орган: ') + d.authority + '\n';
+            result +=
+              (isEn
+                ? '   Status: ❌ VOID BY JUS COGENS'
+                : '   Статус: ❌ VOID BY JUS COGENS') + '\n';
+            result +=
+              (isEn
+                ? '   Basis: Art. 53 VC 1969'
+                : '   Основание: Статья 53 ВК 1969') + '\n';
             result += '   --------------------------------\n';
           });
         }
 
+        var title = isEn
+          ? '⚠️ VIENNA FILTER - JUS COGENS ACTIVATED'
+          : '⚠️ ВЕНСКИЙ ФИЛЬТР - JUS COGENS ACTIVATED';
+        var separator = '━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━';
+        var violationsFound = isEn
+          ? 'VIOLATIONS DETECTED: '
+          : 'ОБНАРУЖЕНО НАРУШЕНИЙ: ';
+        var appliedNorms = isEn ? 'Applied norms:\n' : 'Применены нормы:\n';
+        var norm1 = isEn
+          ? '- Art. 53 VC 1969 (Jus Cogens)\n'
+          : '- Статья 53 ВК 1969 (Jus Cogens)\n';
+        var norm2 = isEn
+          ? '- Art. 5 Hague Convention 1961\n'
+          : '- Статья 5 Гаагской конвенции 1961\n';
+        var norm3 = isEn ? '- Art. 3, 6, 8 ECHR\n' : '- Статья 3, 6, 8 ЕКПЧ\n';
+        var voidDocs = isEn
+          ? 'DOCUMENTS WITH VOID STATUS:\n'
+          : 'ДОКУМЕНТЫ СО СТАТУСОМ VOID:\n';
+        var conclusion = isEn
+          ? 'All these apostilles are declared INVALID\nfrom the moment of creation (ex tunc) according to\ninternational law norms'
+          : 'Все эти апостили признаются НЕДЕЙСТВИТЕЛЬНЫМИ\nс момента создания (ex tunc) согласно нормам\nмеждународного права';
+
         alert(
-          '⚠️ ВЕНСКИЙ ФИЛЬТР - JUS COGENS ACTIVATED\n\n' +
-            '━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n' +
-            'ОБНАРУЖЕНО НАРУШЕНИЙ: ' +
+          title +
+            '\n\n' +
+            separator +
+            '\n\n' +
+            violationsFound +
             violations +
             '\n\n' +
-            'Применены нормы:\n' +
-            '- Статья 53 ВК 1969 (Jus Cogens)\n' +
-            '- Статья 5 Гаагской конвенции 1961\n' +
-            '- Статья 3, 6, 8 ЕКПЧ\n\n' +
-            '━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n' +
-            'ДОКУМЕНТЫ СО СТАТУСОМ VOID:\n' +
+            appliedNorms +
+            norm1 +
+            norm2 +
+            norm3 +
+            separator +
+            '\n\n' +
+            voidDocs +
             result +
-            '━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n' +
-            'Все эти апостили признаются НЕДЕЙСТВИТЕЛЬНЫМИ\n' +
-            'с момента создания (ex tunc) согласно нормам\n' +
-            'международного права',
+            separator +
+            '\n\n' +
+            conclusion,
         );
 
         // Visual feedback - highlight fraud entries
@@ -4178,12 +4212,17 @@
       // Print Act of Nullity
       function printActOfNullity() {
         if (typeof fraudData === 'undefined') {
-          alert('Данные не загружены');
+          alert(
+            currentLang === 'en' ? 'Data not loaded' : 'Данные не загружены',
+          );
           return;
         }
-        var date = new Date().toLocaleDateString();
+        var date = new Date().toLocaleDateString(
+          currentLang === 'en' ? 'en-US' : 'ru-RU',
+        );
         var violations = fraudData.length;
         var tableContent = '';
+        var isEn = currentLang === 'en';
 
         fraudData.forEach(function (d) {
           tableContent +=
@@ -4199,6 +4238,26 @@
             '</tr>';
         });
 
+        var title = isEn
+          ? 'Act of Nullity (Юридическая ничтожность)'
+          : 'Акт о юридической ничтожности (Act of Nullity)';
+        var basis = isEn
+          ? 'Based on imperative norms of Jus Cogens and Vienna Convention 1969'
+          : 'На основании императивных норм Jus Cogens и Венской конвенции 1969 г.';
+        var genDate = isEn ? 'Generation Date:' : 'Дата генерации:';
+        var subject = isEn
+          ? 'Legal Subject (A©tor):'
+          : 'Субъект права (A©tor):';
+        var subjectName = 'Maceret Alexei Arturovich';
+        var intro = isEn
+          ? 'This document confirms that the following documents are legally void (VOID) due to missing required fields (Field 3) per Art. 5 Hague Convention 1961 and Art. 53 VC 1969:'
+          : 'Настоящим подтверждается, что следующие документы признаны юридически ничтожными (VOID) ввиду отсутствия обязательных реквизитов (Поле 3) согласно ст. 5 Гаагской конвенции 1961 г. и ст. 53 ВК 1969 г.:';
+        var colCode = isEn ? 'Security Code' : 'Код (Security Code)';
+        var colDate = isEn ? 'Date' : 'Дата';
+        var colStatus = isEn ? 'Status' : 'Статус';
+        var colBasis = isEn ? 'Legal Basis' : 'Основание';
+        var signature = isEn ? 'A©tor Maceret Alexei' : 'A©tor Maceret Alexei';
+
         var printWindow = window.open('', '_blank');
         printWindow.document.write(
           '<html>' +
@@ -4212,22 +4271,42 @@
             '</head>' +
             '<body>' +
             '<div class="header">' +
-            '<h2>Акт о юридической ничтожности (Act of Nullity)</h2>' +
-            '<p>На основании императивных норм Jus Cogens и Венской конвенции 1969 г.</p>' +
+            '<h2>' +
+            title +
+            '</h2>' +
+            '<p>' +
+            basis +
+            '</p>' +
             '</div>' +
-            '<p><strong>Дата генерации:</strong> ' +
+            '<p><strong>' +
+            genDate +
+            '</strong> ' +
             date +
             '</p>' +
-            '<p><strong>Субъект права (A©tor):</strong> Мачерет Алексей Артурович</p>' +
+            '<p><strong>' +
+            subject +
+            '</strong> ' +
+            subjectName +
+            '</p>' +
             '<hr>' +
-            '<p>Настоящим подтверждается, что следующие документы признаны юридически ничтожными (VOID) ввиду отсутствия обязательных реквизитов (Поле 3) согласно ст. 5 Гаагской конвенции 1961 г. и ст. 53 ВК 1969 г.:</p>' +
+            '<p>' +
+            intro +
+            '</p>' +
             '<table style="width: 100%; border-collapse: collapse;">' +
             '<thead>' +
             '<tr style="background: #eee;">' +
-            '<th style="border: 1px solid black; padding: 5px;">Код (Security Code)</th>' +
-            '<th style="border: 1px solid black; padding: 5px;">Дата</th>' +
-            '<th style="border: 1px solid black; padding: 5px;">Статус</th>' +
-            '<th style="border: 1px solid black; padding: 5px;">Основание</th>' +
+            '<th style="border: 1px solid black; padding: 5px;">' +
+            colCode +
+            '</th>' +
+            '<th style="border: 1px solid black; padding: 5px;">' +
+            colDate +
+            '</th>' +
+            '<th style="border: 1px solid black; padding: 5px;">' +
+            colStatus +
+            '</th>' +
+            '<th style="border: 1px solid black; padding: 5px;">' +
+            colBasis +
+            '</th>' +
             '</tr>' +
             '</thead>' +
             '<tbody>' +
@@ -4235,7 +4314,9 @@
             '</tbody>' +
             '</table>' +
             '<div class="stamp">JUS COGENS VALIDATED<br>VOID AB INITIO</div>' +
-            '<p style="margin-top: 50px;">__________________________<br>A©tor Maceret Alexei</p>' +
+            '<p style="margin-top: 50px;">__________________________<br>' +
+            signature +
+            '</p>' +
             '<scr' +
             'ipt>window.print();</scr' +
             'ipt>' +
@@ -4345,6 +4426,7 @@
       };
 
       function setLang(lang) {
+        currentLang = lang;
         localStorage.setItem('lang', lang);
         document
           .getElementById('btn-ru')
@@ -4378,6 +4460,79 @@
 
         const searchInput = document.getElementById('citizenSearch');
         if (searchInput) searchInput.placeholder = t.searchPlaceholder;
+
+        // Update section titles and labels
+        const jusCogensTitle = document.querySelector('#jusCogensBanner h3');
+        if (jusCogensTitle) jusCogensTitle.textContent = t.jusCogensTitle;
+
+        const jcStatus = document.getElementById('jcStatus');
+        if (jcStatus) jcStatus.textContent = t.protocolReady;
+
+        const jcViolationsLabel = document.querySelector(
+          '#jusCogensBanner span:nth-child(2)',
+        );
+        const jcViolationsSpan = document.querySelector(
+          '#jusCogensBanner div span:nth-child(1)',
+        );
+        if (jcViolationsSpan) {
+          const parts = jcViolationsSpan.innerHTML.split(':');
+          jcViolationsSpan.innerHTML =
+            t.protocolReady.split(':')[0] + ': ' + parts[1].split(':').pop();
+        }
+
+        const echrTitle = document.querySelector('#echrBanner h3');
+        if (echrTitle) echrTitle.textContent = t.echrTitle;
+
+        const udhrTitle = document.querySelector('#udhrBanner h3');
+        if (udhrTitle) udhrTitle.textContent = t.udhrTitle;
+
+        const romeTitle = document.querySelector('#romeBanner h3');
+        if (romeTitle) romeTitle.textContent = t.romeTitle;
+
+        const viennaTitle = document.querySelector('#viennaBanner h3');
+        if (viennaTitle) viennaTitle.textContent = t.viennaTitle;
+
+        const quotesTitle = document.querySelector('h3');
+        if (quotesTitle && quotesTitle.textContent.includes('ЦИТАТЫ')) {
+          quotesTitle.textContent = t.quotes;
+        }
+
+        // Update Vienna Filter and Print Act buttons
+        const voidFilterBtns = document.querySelectorAll(
+          'button[onclick="applyViennaFilter()"]',
+        );
+        voidFilterBtns.forEach((btn) => (btn.textContent = t.voidFilter));
+
+        const printActBtns = document.querySelectorAll(
+          'button[onclick="printActOfNullity()"]',
+        );
+        printActBtns.forEach((btn) => (btn.textContent = t.printAct));
+
+        // Update section headers
+        const evidenceSection = document.querySelector('#timeline-section h2');
+        if (
+          evidenceSection &&
+          evidenceSection.textContent.includes('Хронология')
+        ) {
+          evidenceSection.textContent =
+            lang === 'ru'
+              ? '📜 Хронология событий - Jus Cogens'
+              : '📜 Event Timeline - Jus Cogens';
+        }
+
+        const downloadSection = document.querySelector('div > h3');
+        const downloadSections = document.querySelectorAll('div > h3');
+        downloadSections.forEach((h3) => {
+          if (
+            h3.textContent.includes('Отдел доказательств') ||
+            h3.textContent.includes('Evidence')
+          ) {
+            h3.textContent =
+              lang === 'ru'
+                ? '📥 Отдел доказательств'
+                : '📥 Evidence Department';
+          }
+        });
       }
 
       // Load saved language
