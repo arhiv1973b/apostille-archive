@@ -774,6 +774,135 @@
         display: flex;
         align-items: center;
       }
+
+      /* Scan Animation for Fraud Detection */
+      @keyframes scanLine {
+        0% {
+          top: 0;
+          opacity: 0;
+        }
+        10% {
+          opacity: 1;
+        }
+        90% {
+          opacity: 1;
+        }
+        100% {
+          top: 100%;
+          opacity: 0;
+        }
+      }
+
+      .fraud-scan {
+        position: relative;
+        overflow: hidden;
+      }
+
+      .fraud-scan::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 4px;
+        background: linear-gradient(
+          90deg,
+          transparent,
+          var(--fraud),
+          transparent
+        );
+        box-shadow: 0 0 15px var(--fraud);
+        animation: scanLine 2s ease-in-out infinite;
+      }
+
+      @keyframes pulseFraud {
+        0%,
+        100% {
+          box-shadow: 0 0 5px var(--fraud);
+        }
+        50% {
+          box-shadow:
+            0 0 20px var(--fraud),
+            0 0 30px var(--fraud);
+        }
+      }
+
+      .fraud-pulse {
+        animation: pulseFraud 2s ease-in-out infinite;
+      }
+
+      @keyframes stampIn {
+        0% {
+          transform: scale(2) rotate(-15deg);
+          opacity: 0;
+        }
+        50% {
+          transform: scale(1.1) rotate(-5deg);
+          opacity: 1;
+        }
+        100% {
+          transform: scale(1) rotate(-10deg);
+          opacity: 1;
+        }
+      }
+
+      .void-stamp {
+        position: relative;
+        display: inline-block;
+      }
+
+      .void-stamp::before {
+        content: 'VOID';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(-15deg);
+        font-size: 4em;
+        font-weight: bold;
+        color: var(--fraud);
+        border: 4px solid var(--fraud);
+        padding: 5px 20px;
+        opacity: 0.3;
+        pointer-events: none;
+        animation: stampIn 0.5s ease-out;
+      }
+
+      /* Evidence Card Enhancements */
+      .incident-card {
+        background: linear-gradient(135deg, #1a0033 0%, #2d0a0a 100%);
+        border: 2px solid var(--fraud);
+        padding: 20px;
+        margin: 15px 0;
+        border-radius: 10px;
+        position: relative;
+        overflow: hidden;
+      }
+
+      .incident-card::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 4px;
+        background: linear-gradient(90deg, var(--fraud), transparent);
+      }
+
+      .incident-card.assault {
+        border-color: #ff0000;
+      }
+      .incident-card.cyber {
+        border-color: #00ccff;
+      }
+      .incident-card.torture {
+        border-color: #ff6600;
+      }
+      .incident-card.murder {
+        border-color: #ff0000;
+        background: linear-gradient(135deg, #2d0000 0%, #1a0000 100%);
+      }
+      .incident-card.fraud {
+        border-color: #ffaa00;
+      }
     </style>
   </head>
   <body>
@@ -2125,6 +2254,34 @@
         </div>
       </section>
 
+      <!-- Incident Cards Section -->
+      <section
+        id="incidents-section"
+        style="
+          margin: 40px 0;
+          padding: 25px;
+          background: var(--bg-panel);
+          border: 2px solid var(--fraud);
+          border-radius: 10px;
+        "
+      >
+        <h2 style="color: var(--fraud); margin-bottom: 20px">
+          🚨 КАРТОЧКИ ИНЦИДЕНТОВ
+        </h2>
+        <p style="color: var(--text-dim); margin-bottom: 20px">
+          Кликните на инцидент для просмотра юридической квалификации и
+          доказательств
+        </p>
+        <div
+          id="incident-cards"
+          style="
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 15px;
+          "
+        ></div>
+      </section>
+
       <!-- Download Section -->
       <div style="margin-top: 50px">
         <h3>📥 Отдел доказательств</h3>
@@ -3113,27 +3270,63 @@
       const sabotageEvents = [
         {
           code: 'SABOTAGE-001',
-          date: '15.02.2024',
-          authority: 'Юрий Лупэа',
-          status: 'SABOTAGE',
+          date: '19.02.2026',
+          authority: 'Yuri Lupea (Lupiy Yuri)',
+          status: 'ASSAULT',
           description:
-            'Физическое нападение на A©tor Maceret во время аудита апостилей',
+            'Физическое нападение на A©tor Maceret во время аудита апостилей. Удар в область головы/лица.',
+          legalQualification:
+            'Obstruction of Justice with Violence - Статья 3 ЕКПЧ (пытки/бесчеловечное обращение)',
+          evidence: 'SECURITY_INCIDENT_REPORT.md',
         },
         {
           code: 'SABOTAGE-002',
-          date: '20.02.2024',
+          date: '19.02.2026',
           authority: 'Moldova Government',
           status: 'SABOTAGE',
           description:
-            'Отключение электричества во время официального аудита апостилей',
+            'Отключение электричества (Blackout) точно во время верификации данных реестра апостилей',
+          legalQualification:
+            'Psychological Torture - Препятствование правосудию',
+          evidence: 'SECURITY_INCIDENT_REPORT.md',
         },
         {
           code: 'SABOTAGE-003',
-          date: '25.02.2024',
-          authority: 'Unknown',
+          date: '22.02.2026',
+          authority: 'Unknown (Google Drive)',
           status: 'CYBER',
           description:
-            'Кибервторжение в систему - попытка удаления доказательств',
+            'Кибервторжение - обнаружено 37,127 .DLL и 36,514 .manifest файлов несанкционированного зеркалирования',
+          legalQualification: 'Cyber Intrusion - Computer Fraud',
+          evidence: 'LUPEA_FileType_Stats.csv',
+        },
+        {
+          code: 'CASE-1997',
+          date: '17.07.1997',
+          authority: 'Police Riscany',
+          status: 'TORTURE',
+          description: 'Первая сессия пыток - Полицейский участок Riscany',
+          legalQualification: 'Art. 3 ECHR - Torture',
+          evidence: '7H2Q3790FZEI5',
+        },
+        {
+          code: 'CASE-2002',
+          date: '19.09.2002',
+          authority: 'Moldova Police',
+          status: 'FRAUD',
+          description:
+            'Незаконный обыск квартиры - сфабрикованное дело о наркотиках',
+          legalQualification: 'Art. 6 ECHR - Unfair trial',
+          evidence: '5S2WF92X7X4R8',
+        },
+        {
+          code: 'MURDER-2022',
+          date: '16.03.2022',
+          authority: 'Moldova Authorities',
+          status: 'MURDER',
+          description: 'Убийство Марковой Галины - свидетеля по делу',
+          legalQualification: 'Rome Statute Art. 7 - Crimes against humanity',
+          evidence: 'CO2S9BA3JX6H1',
         },
       ];
 
@@ -3297,27 +3490,88 @@
       function showSabotageDetails(event) {
         const details = document.getElementById('event-details');
         const isCyber = event.status === 'CYBER';
+        const isAssault = event.status === 'ASSAULT';
+        const isTorture = event.status === 'TORTURE';
+        const isMurder = event.status === 'MURDER';
+        const isFraud = event.status === 'FRAUD';
+
+        let statusIcon = '⚠️';
+        let statusLabel = 'САБОТАЖ / ПРЕПЯТСТВОВАНИЕ';
+
+        if (isCyber) {
+          statusIcon = '🌐';
+          statusLabel = 'КИБЕРАТАКА';
+        } else if (isAssault) {
+          statusIcon = '💥';
+          statusLabel = 'ФИЗИЧЕСКОЕ НАПАДЕНИЕ';
+        } else if (isTorture) {
+          statusIcon = '🔥';
+          statusLabel = 'ПЫТКИ';
+        } else if (isMurder) {
+          statusIcon = '💀';
+          statusLabel = 'УБИЙСТВО';
+        } else if (isFraud) {
+          statusIcon = '🎭';
+          statusLabel = 'ФАЛЬСИФИКАЦИЯ';
+        }
+
+        const isEn = currentLang === 'en';
 
         details.className = 'event-card fraud';
         details.innerHTML =
-          "<h3 style='color: #ff0000;'>⚠️ САБОТАЖ / ПРЕПЯТСТВОВАНИЕ</h3>" +
-          '<p><strong>Код:</strong> ' +
+          '<h3 style="color: #ff0000;">' +
+          statusIcon +
+          ' ' +
+          statusLabel +
+          '</h3>' +
+          '<p><strong>' +
+          (isEn ? 'Code:' : 'Код:') +
+          '</strong> ' +
           event.code +
           '</p>' +
-          '<p><strong>Дата:</strong> ' +
+          '<p><strong>' +
+          (isEn ? 'Date:' : 'Дата:') +
+          '</strong> ' +
           event.date +
           '</p>' +
-          '<p><strong>Виновник:</strong> ' +
+          '<p><strong>' +
+          (isEn ? 'Perpetrator:' : 'Виновник:') +
+          '</strong> ' +
           event.authority +
           '</p>' +
-          '<p><strong>Тип:</strong> ' +
-          (isCyber ? '🌐 Кибератака' : '🔴 Физическое/Энергетическое') +
-          '</p>' +
-          '<p><strong>Описание:</strong> ' +
+          '<p><strong>' +
+          (isEn ? 'Description:' : 'Описание:') +
+          '</strong> ' +
           event.description +
           '</p>' +
-          "<p style='margin-top: 10px; padding: 10px; background: #ffebee; border-left: 4px solid #ff0000;'>" +
-          'Это препятствование правосудию согласно ст. 7 Римского статута (преступления против человечности) и ст. 3 ЕКПЧ (пытки/бесчеловечное обращение).</p>';
+          '<p><strong>' +
+          (isEn ? 'Legal Qualification:' : 'Правовая квалификация:') +
+          '</strong></p>' +
+          '<p style="color: #ff3366; font-style: italic;">' +
+          (event.legalQualification ||
+            (isEn ? 'Obstruction of Justice' : 'Препятствование правосудию')) +
+          '</p>' +
+          (event.evidence
+            ? '<p><strong>' +
+              (isEn ? 'Evidence:' : 'Доказательство:') +
+              '</strong> <a href="Downloads/' +
+              event.evidence +
+              '" target="_blank" class="btn" style="margin-left: 10px;">📄 ' +
+              event.evidence +
+              '</a></p>'
+            : '') +
+          '<div style="margin-top: 15px; padding: 15px; background: linear-gradient(135deg, #1a0033 0%, #0a1628 100%); border: 2px solid #ff3366; border-radius: 8px;">' +
+          '<h4 style="color: #ff3366; margin: 0 0 10px 0;">' +
+          (isEn
+            ? '⚖️ INTERNATIONAL LAW STATUS'
+            : '⚖️ СТАТУС МЕЖДУНАРОДНОГО ПРАВА') +
+          '</h4>' +
+          '<p style="font-size: 12px;">' +
+          (isEn
+            ? 'This constitutes obstruction of justice, crimes against humanity (Rome Statute Art. 7), and violation of ECHR Art. 3 (torture/inhuman treatment).'
+            : 'Это препятствование правосудию, преступления против человечности (Римский статут, ст. 7), и нарушение ст. 3 ЕКПЧ (пытки/бесчеловечное обращение).') +
+          '</p>' +
+          '</div>';
       }
 
       function playTimeline() {
@@ -3851,7 +4105,97 @@
         populateEvidenceTable();
         loadGithubFiles();
         renderTimeline();
+        renderIncidentCards();
       };
+
+      // Render Incident Cards
+      function renderIncidentCards() {
+        var container = document.getElementById('incident-cards');
+        if (!container || typeof sabotageEvents === 'undefined') return;
+
+        var isEn = currentLang === 'en';
+        var html = '';
+
+        sabotageEvents.forEach(function (event) {
+          var cardClass = 'incident-card';
+          var icon = '⚠️';
+
+          if (event.status === 'ASSAULT') {
+            cardClass += ' assault';
+            icon = '💥';
+          } else if (event.status === 'CYBER') {
+            cardClass += ' cyber';
+            icon = '🌐';
+          } else if (event.status === 'TORTURE') {
+            cardClass += ' torture';
+            icon = '🔥';
+          } else if (event.status === 'MURDER') {
+            cardClass += ' murder';
+            icon = '💀';
+          } else if (event.status === 'FRAUD') {
+            cardClass += ' fraud';
+            icon = '🎭';
+          }
+
+          var statusLabel = event.status;
+          if (isEn) {
+            if (event.status === 'ASSAULT') statusLabel = 'ASSAULT';
+            else if (event.status === 'CYBER') statusLabel = 'CYBER ATTACK';
+            else if (event.status === 'TORTURE') statusLabel = 'TORTURE';
+            else if (event.status === 'MURDER') statusLabel = 'MURDER';
+            else if (event.status === 'FRAUD') statusLabel = 'FORGERY';
+          }
+
+          html +=
+            '<div class="' +
+            cardClass +
+            ' fraud-pulse" onclick="showIncidentCard(\'' +
+            event.code +
+            '\')" style="cursor: pointer;">';
+          html +=
+            '<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">';
+          html += '<span style="font-size: 24px;">' + icon + '</span>';
+          html +=
+            '<span style="background: var(--fraud); color: white; padding: 3px 10px; border-radius: 10px; font-size: 11px;">' +
+            statusLabel +
+            '</span>';
+          html += '</div>';
+          html +=
+            '<h4 style="color: var(--text); margin: 0 0 10px 0;">' +
+            event.code +
+            '</h4>';
+          html +=
+            '<p style="color: var(--text-dim); font-size: 12px; margin: 0 0 10px 0;">' +
+            event.date +
+            '</p>';
+          html +=
+            '<p style="color: var(--text); font-size: 13px;">' +
+            event.description.substring(0, 80) +
+            '...</p>';
+          html +=
+            '<div style="margin-top: 15px; padding-top: 10px; border-top: 1px solid var(--border);">';
+          html +=
+            '<span style="color: var(--fraud); font-size: 12px;">' +
+            (isEn ? 'Click for details →' : 'Кликните для деталей →') +
+            '</span>';
+          html += '</div>';
+          html += '</div>';
+        });
+
+        container.innerHTML = html;
+      }
+
+      function showIncidentCard(code) {
+        var event = sabotageEvents.find(function (e) {
+          return e.code === code;
+        });
+        if (event) {
+          showSabotageDetails(event);
+          document
+            .getElementById('event-details')
+            .scrollIntoView({ behavior: 'smooth' });
+        }
+      }
 
       function updateTime() {
         var now = new Date();
