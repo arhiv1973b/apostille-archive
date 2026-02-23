@@ -53,13 +53,13 @@ All primary strategic targets (Global, Diplomatic, and Local) have been formally
 
 - **PRIOR NOTIFICATION (THURSDAY):** 2026-02-19/20
 - **CONTENT:** Private correspondence to contacts regarding electricity cutoff during Apostille registration preparation
-- **KEY FINDING:** 11% of apostilles discovered as unsigned but issued as "legally" certified
+- **KEY FINDING:** 14% of apostilles discovered as unsigned but issued as "legally" certified
 - **RELEVANCE:** Key apostilles related to torture and discrimination cases were falsified
 - **STATUS:** Previously reported via private channels before public GitHub deployment
 
 - **UPDATE:** 2026-02-22 02:00 EET
 - **STATUS:** PRESS ALERT DEPLOYED
-- **CONTENT:** Physical assault (Yuri Lupea), Power sabotage (11% falsified apostilles), Cyber intrusion documented
+- **CONTENT:** Physical assault (Yuri Lupea), Power sabotage (14% falsified apostilles), Cyber intrusion documented
 - **CHANNEL:** GitHub repository update (Public link)
 - **ALL PREVIOUS RECIPIENTS NOTIFIED VIA REPOSITORY LINK**
 
