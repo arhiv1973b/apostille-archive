@@ -2950,22 +2950,61 @@
       // Copy Analysis JSON to Clipboard
       function copyAnalysisJSON() {
         const jsonStr = JSON.stringify(FRAUD_ANALYSIS_DATA, null, 2);
-        navigator.clipboard
-          .writeText(jsonStr)
-          .then(function () {
-            const statusEl = document.getElementById('jsonCopyStatus');
-            statusEl.style.display = 'block';
-            statusEl.textContent =
-              currentLang === 'en'
-                ? '✓ Copied to clipboard!'
-                : '✓ Скопировано в буфер обмена!';
-            setTimeout(function () {
-              statusEl.style.display = 'none';
-            }, 3000);
-          })
-          .catch(function (err) {
-            alert('Error copying: ' + err);
-          });
+
+        // Check if clipboard API is available
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard
+            .writeText(jsonStr)
+            .then(function () {
+              showCopyStatus(true);
+            })
+            .catch(function (err) {
+              fallbackCopy(jsonStr);
+            });
+        } else {
+          // Fallback for older browsers or file:// protocol
+          fallbackCopy(jsonStr);
+        }
+      }
+
+      function fallbackCopy(text) {
+        // Create temporary textarea for fallback copy
+        const textarea = document.createElement('textarea');
+        textarea.value = text;
+        textarea.style.position = 'fixed';
+        textarea.style.left = '-9999px';
+        document.body.appendChild(textarea);
+        textarea.select();
+        try {
+          document.execCommand('copy');
+          showCopyStatus(true);
+        } catch (err) {
+          showCopyStatus(false);
+          // Show JSON in alert as last resort
+          alert(
+            'Clipboard not available. JSON:\n\n' +
+              text.substring(0, 500) +
+              '...',
+          );
+        }
+        document.body.removeChild(textarea);
+      }
+
+      function showCopyStatus(success) {
+        const statusEl = document.getElementById('jsonCopyStatus');
+        if (statusEl) {
+          statusEl.style.display = 'block';
+          statusEl.textContent = success
+            ? currentLang === 'en'
+              ? '✓ Copied to clipboard!'
+              : '✓ Скопировано в буфер обмена!'
+            : currentLang === 'en'
+              ? '✗ Copy failed'
+              : '✗ Ошибка копирования';
+          setTimeout(function () {
+            statusEl.style.display = 'none';
+          }, 3000);
+        }
       }
 
       // Global variables
