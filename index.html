@@ -2043,6 +2043,128 @@
           Красные узлы - нарушения. Зелёные - верифицировано. Линии - связи
           между нарушениями.
         </p>
+
+        <!-- Correlation Matrix Section -->
+        <div
+          style="
+            margin-top: 30px;
+            padding: 20px;
+            background: var(--bg-dark);
+            border: 2px solid var(--fraud);
+            border-radius: 10px;
+          "
+        >
+          <h4 style="color: var(--fraud); margin-bottom: 15px">
+            🔗 МАТРИЦА КОРРЕЛЯЦИИ (Correlation Matrix)
+          </h4>
+
+          <div style="display: grid; gap: 15px">
+            <!-- Correlation 1: Assault + Fraud -->
+            <div class="incident-card assault" style="margin: 0">
+              <div style="display: flex; justify-content: space-between">
+                <span style="color: var(--fraud); font-weight: bold"
+                  >INC-2026-02-19-ASSAULT</span
+                >
+                <span
+                  style="
+                    background: var(--fraud);
+                    color: white;
+                    padding: 2px 8px;
+                    border-radius: 5px;
+                    font-size: 11px;
+                  "
+                  >ASSAULT + FRAUD</span
+                >
+              </div>
+              <p style="font-size: 12px; margin: 10px 0">
+                <strong>Target:</strong> A©tor Maceret Alexei |
+                <strong>Perpetrator:</strong> Yuri Lupea
+              </p>
+              <p style="font-size: 12px">
+                <strong>State Interest:</strong> Уничтожение юридического следа
+                системной коррупции (скрыть 14% брака)
+              </p>
+              <p style="font-size: 12px; color: var(--primary)">
+                <strong>Common Goal:</strong> Лишение жертвы правосубъектности
+                через физическое и юридическое насилие
+              </p>
+              <div
+                style="
+                  margin-top: 10px;
+                  padding: 8px;
+                  background: var(--bg-panel);
+                  border-radius: 5px;
+                "
+              >
+                <strong style="color: #ff3366">🎯 CONVERGENCE:</strong>
+                <span style="font-size: 11px"
+                  >Apostille_Series_X_13 → Physical Elimination</span
+                >
+              </div>
+            </div>
+
+            <!-- Correlation 2: Cyber Attack -->
+            <div class="incident-card cyber" style="margin: 0">
+              <div style="display: flex; justify-content: space-between">
+                <span style="color: #00ccff; font-weight: bold"
+                  >INC-2026-02-22-CYBER</span
+                >
+                <span
+                  style="
+                    background: #00ccff;
+                    color: black;
+                    padding: 2px 8px;
+                    border-radius: 5px;
+                    font-size: 11px;
+                  "
+                  >CYBER + SABOTAGE</span
+                >
+              </div>
+              <p style="font-size: 12px; margin: 10px 0">
+                <strong>Files Injected:</strong> 37,127 .DLL + 36,514 .manifest
+              </p>
+              <p style="font-size: 12px">
+                <strong>Objective:</strong> Саботаж integrity_check.py для
+                невозможности верификации 13 поддельных апостилей
+              </p>
+              <div
+                style="
+                  margin-top: 10px;
+                  padding: 8px;
+                  background: var(--bg-panel);
+                  border-radius: 5px;
+                "
+              >
+                <strong style="color: #00ccff">🎯 JUS COGENS VIOLATION:</strong>
+                <span style="font-size: 11px"
+                  >ECHR Art. 6 (Obstruction of Justice), Art. 13 (Right to
+                  Effective Remedy)</span
+                >
+              </div>
+            </div>
+
+            <!-- Expert Notes -->
+            <div
+              style="
+                padding: 15px;
+                background: linear-gradient(135deg, #1a0033 0%, #0a1628 100%);
+                border: 2px solid #aa66ff;
+                border-radius: 8px;
+              "
+            >
+              <h5 style="color: #aa66ff; margin: 0 0 10px 0">
+                📋 EXPERT NOTES
+              </h5>
+              <p style="font-size: 11px; color: var(--text); margin: 0">
+                <strong
+                  >Интересы государства и третьих лиц совпали в точке
+                  'Neutralization of Evidence'</strong
+                >. Использование поддельных документов является инструментом
+                пытки (Art. 3 ECHR), создающим правовой вакуум вокруг жертвы.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
 
       <!-- Files/AI/Cloud Panel -->
@@ -2500,6 +2622,94 @@
               target="_blank"
               style="display: inline-block"
               >🌐 Минюст РМ</a
+            >
+          </div>
+
+          <!-- Security Incident Report -->
+          <div
+            class="evidence-card"
+            style="
+              padding: 20px;
+              background: linear-gradient(135deg, #2d0a0a 0%, #1a0a0a 100%);
+              border: 2px solid var(--fraud);
+            "
+          >
+            <h4 style="color: var(--fraud); margin-bottom: 10px">
+              🚨 ОТЧЁТ БЕЗОПАСНОСТИ
+            </h4>
+            <p
+              style="
+                color: var(--text-dim);
+                font-size: 12px;
+                margin-bottom: 15px;
+              "
+            >
+              Нападение, саботаж, кибервторжение
+            </p>
+            <a
+              href="Downloads/SECURITY_INCIDENT_REPORT.md"
+              class="btn btn-fraud"
+              target="_blank"
+              style="display: inline-block"
+              >📄 Открыть</a
+            >
+          </div>
+
+          <!-- Diplomatic Brief -->
+          <div
+            class="evidence-card"
+            style="
+              padding: 20px;
+              background: var(--bg-panel);
+              border: 2px solid #00ccff;
+            "
+          >
+            <h4 style="color: #00ccff; margin-bottom: 10px">
+              🌍 ДИПЛОМАТИЧЕСКАЯ НОТА
+            </h4>
+            <p
+              style="
+                color: var(--text-dim);
+                font-size: 12px;
+                margin-bottom: 15px;
+              "
+            >
+              Международный инцидент - Brief
+            </p>
+            <a
+              href="Downloads/FINAL_DIPLOMATIC_BRIEF.md"
+              class="btn"
+              target="_blank"
+              style="display: inline-block"
+              >📖 Открыть</a
+            >
+          </div>
+
+          <!-- ECHR Submission -->
+          <div
+            class="evidence-card"
+            style="
+              padding: 20px;
+              background: var(--bg-panel);
+              border: 2px solid #aa66ff;
+            "
+          >
+            <h4 style="color: #aa66ff; margin-bottom: 10px">⚖️ ECHR ЖАЛОБА</h4>
+            <p
+              style="
+                color: var(--text-dim);
+                font-size: 12px;
+                margin-bottom: 15px;
+              "
+            >
+              Подача в Европейский суд
+            </p>
+            <a
+              href="Downloads/ECHR_SUBMISSION.md"
+              class="btn"
+              target="_blank"
+              style="display: inline-block"
+              >📖 Открыть</a
             >
           </div>
         </div>
