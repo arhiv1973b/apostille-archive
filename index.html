@@ -5,18 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>A©tor Maceret: Jus Cogens Neuro-Protocol Portal</title>
 
-    <!-- PDF.js for document viewing -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+    <!-- Fallback: If external scripts fail, page still works -->
     <script>
-      pdfjsLib.GlobalWorkerOptions.workerSrc =
-        'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+      // Initialize placeholder objects in case external scripts fail
+      window.pdfjsLib = window.pdfjsLib || {
+        GlobalWorkerOptions: {},
+        getDocument: function () {
+          return { promise: Promise.resolve({ numPages: 0 }) };
+        },
+      };
+      window.Tesseract = window.Tesseract || {
+        recognize: function () {
+          return Promise.resolve({ data: { text: '' } });
+        },
+      };
+    </script>
+
+    <!-- PDF.js for document viewing -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"
+      onerror="console.warn('PDF.js failed to load')"
+    ></script>
+    <script>
+      if (typeof pdfjsLib !== 'undefined') {
+        pdfjsLib.GlobalWorkerOptions.workerSrc =
+          'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+      }
     </script>
 
     <!-- Tesseract.js for OCR/language recognition -->
-    <script src="https://cdn.jsdelivr.net/npm/tesseract.js@5/dist/tesseract.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/tesseract.js/5.0.0/tesseract.min.js"
+      onerror="console.warn('Tesseract.js failed to load')"
+    ></script>
 
     <!-- GitHub API -->
-    <script src="https://unpkg.com/@github/api"></script>
+    <script
+      src="https://unpkg.com/@github/api"
+      onerror="console.warn('GitHub API failed to load')"
+    ></script>
 
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&family=Space+Grotesk:wght@400;600;700&display=swap');
