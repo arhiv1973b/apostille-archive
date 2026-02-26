@@ -6,7 +6,7 @@
     "total_apostilles": 90,
     "unclear_signatures": 13,
     "root_case": "1997-CI-0608",
-    "total_violations": 16
+    "total_violations": 18
   },
   "apostille_mapping": [
     {
@@ -175,6 +175,34 @@
       ],
       "description": "Определение о передаче дела судье T. Stambul для 'объединения дел' - процессуальный пинг-понг без решения по существу.",
       "case_number": "2024-08-05"
+    },
+    {
+      "id": "ICC-ECHR-2026",
+      "date": "25.02.2026",
+      "type": "ICC/ECHR Application (Signed)",
+      "status": "SUBMITTED",
+      "echr_articles": [
+        "art3",
+        "art6",
+        "art13",
+        "art17"
+      ],
+      "description": "Заявление в МУС и ЕКПЧ о системных нарушениях. Ссылка на отравленный корень 1997 и каскадный эффект.",
+      "file": "МУС и ЕКПЧ.signed.pdf"
+    },
+    {
+      "id": "MAI-ULTIMATUM-2026",
+      "date": "25.02.2026",
+      "type": "MAI Expungement Ultimatum (Signed)",
+      "status": "SUBMITTED",
+      "echr_articles": [
+        "art3",
+        "art6",
+        "art8",
+        "art13"
+      ],
+      "description": "Ультиматум МВД РМ о немедленном удалении записей из базы данных. Требование expungement на основе jus cogens.",
+      "file": "MAI Ultimatum - Cere .signed.pdf"
     }
   ],
   "echr_articles": {
@@ -197,6 +225,11 @@
       "name": "Right to Respect for Private and Family Life",
       "violations_count": 1,
       "description": "Everyone has the right to respect for his private and family life"
+    },
+    "art17": {
+      "name": "Rome Statute - Complementarity",
+      "violations_count": 1,
+      "description": "International Criminal Court jurisdiction activation"
     }
   },
   "algorithm": {
