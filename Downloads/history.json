@@ -1,0 +1,158 @@
+{
+  "case_info": {
+    "case_id": "CASE-MACHERET-1997-2026",
+    "victim": "Maceret Alexei",
+    "period": "1997-2026",
+    "total_apostilles": 90,
+    "unclear_signatures": 13
+  },
+  "apostille_mapping": [
+    {
+      "id": "DLTP7B8ZHWGQ7",
+      "date": "08.07.2022",
+      "echr_articles": [
+        "art3",
+        "art6",
+        "art13"
+      ],
+      "violation": "torture_no_investigation"
+    },
+    {
+      "id": "CG0T6Y1TBUEL7",
+      "date": "12.07.2022",
+      "echr_articles": [
+        "art3",
+        "art6"
+      ],
+      "violation": "unclear_authenticity"
+    },
+    {
+      "id": "DFVMD2FQLW5N3",
+      "date": "14.12.2022",
+      "echr_articles": [
+        "art3",
+        "art6",
+        "art13"
+      ],
+      "violation": "no_rehabilitation"
+    },
+    {
+      "id": "IMTQ930Z8U4N7",
+      "date": "05.10.2022",
+      "echr_articles": [
+        "art3",
+        "art6"
+      ],
+      "violation": "unclear_authenticity"
+    },
+    {
+      "id": "HQ7X9W62GUJL9",
+      "date": "20.04.2022",
+      "echr_articles": [
+        "art3",
+        "art6",
+        "art13"
+      ],
+      "violation": "justice_simulation"
+    },
+    {
+      "id": "BS7XCZF1EUJG3",
+      "date": "15.07.2022",
+      "echr_articles": [
+        "art3",
+        "art6"
+      ],
+      "violation": "unclear_authenticity"
+    },
+    {
+      "id": "403WF02QGRCI1",
+      "date": "30.01.2023",
+      "echr_articles": [
+        "art3",
+        "art6",
+        "art13"
+      ],
+      "violation": "systemic_impunity"
+    },
+    {
+      "id": "DQ1N892ZFXDI3",
+      "date": "13.03.2023",
+      "echr_articles": [
+        "art3",
+        "art6"
+      ],
+      "violation": "unclear_authenticity"
+    },
+    {
+      "id": "6R2V5Z4XBZBH8",
+      "date": "20.07.2022",
+      "echr_articles": [
+        "art3",
+        "art6",
+        "art13"
+      ],
+      "violation": "no_appeal"
+    },
+    {
+      "id": "IT1PD8E29S5F5",
+      "date": "30.01.2023",
+      "echr_articles": [
+        "art3",
+        "art6"
+      ],
+      "violation": "unclear_authenticity"
+    },
+    {
+      "id": "4J20E98WFY7J2",
+      "date": "03.10.2022",
+      "echr_articles": [
+        "art3",
+        "art6",
+        "art13"
+      ],
+      "violation": "justice_simulation"
+    },
+    {
+      "id": "6OZUD89VBUEJ3",
+      "date": "01.11.2022",
+      "echr_articles": [
+        "art3",
+        "art6"
+      ],
+      "violation": "unclear_authenticity"
+    },
+    {
+      "id": "IHW093CZ8U8R7",
+      "date": "03.08.2022",
+      "echr_articles": [
+        "art3",
+        "art6",
+        "art13"
+      ],
+      "violation": "no_investigation"
+    }
+  ],
+  "echr_articles": {
+    "art3": {
+      "name": "Prohibition of Torture",
+      "violations_count": 13,
+      "description": "No one shall be subjected to torture or to inhuman or degrading treatment or punishment"
+    },
+    "art6": {
+      "name": "Right to a Fair Trial",
+      "violations_count": 13,
+      "description": "In the determination of his civil rights and obligations... everyone is entitled to a fair and public hearing"
+    },
+    "art13": {
+      "name": "Right to an Effective Remedy",
+      "violations_count": 7,
+      "description": "Everyone whose rights and freedoms as set forth in this Convention are violated shall have an effective remedy"
+    }
+  },
+  "algorithm": {
+    "root_case": "1-568/98",
+    "formula": "∀x ∈ CaseChain : Torture(A) ∧ ¬Rehab(A) → Invalid(x)",
+    "doctrine": "poisoned_root_doctrine",
+    "cicd_analogy": "continuous_justice_integration"
+  }
+}
