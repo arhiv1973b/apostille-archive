@@ -177,32 +177,39 @@
         border-top: 1px solid rgba(255, 255, 255, 0.1);
         margin-top: 40px;
       }
+
+      .loading {
+        text-align: center;
+        padding: 40px;
+        color: #00d4ff;
+      }
+      .error {
+        color: #ff4444;
+        text-align: center;
+        padding: 20px;
+      }
+
+      @media (max-width: 768px) {
+        .echr-stats {
+          grid-template-columns: 1fr;
+        }
+        .formula {
+          font-size: 1.2em;
+        }
+      }
     </style>
   </head>
   <body>
     <div class="container">
       <header>
         <h1>CASE-MACHERET-1997-2026</h1>
-        <p class="subtitle">Interactive Violation Mapping System</p>
+        <p class="subtitle">
+          Interactive Violation Mapping System | Jus Cogens Evidence API
+        </p>
       </header>
 
-      <div class="case-info">
-        <div class="info-card">
-          <div class="number">1997</div>
-          <div class="label">Case Start Year</div>
-        </div>
-        <div class="info-card">
-          <div class="number">90</div>
-          <div class="label">Total Apostilles</div>
-        </div>
-        <div class="info-card">
-          <div class="number" style="color: #ff6b6b">13</div>
-          <div class="label">Unclear Signatures</div>
-        </div>
-        <div class="info-card">
-          <div class="number">14.4%</div>
-          <div class="label">Verification Failure Rate</div>
-        </div>
+      <div id="case-info" class="case-info">
+        <div class="loading">Loading case data...</div>
       </div>
 
       <div class="formula-box">
@@ -214,22 +221,8 @@
         </div>
       </div>
 
-      <div class="echr-stats">
-        <div class="echr-card art3">
-          <h3>Article 3</h3>
-          <p>Prohibition of Torture</p>
-          <div class="violations">13 violations</div>
-        </div>
-        <div class="echr-card art6">
-          <h3>Article 6</h3>
-          <p>Right to Fair Trial</p>
-          <div class="violations">13 violations</div>
-        </div>
-        <div class="echr-card art13">
-          <h3>Article 13</h3>
-          <p>Right to Effective Remedy</p>
-          <div class="violations">7 violations</div>
-        </div>
+      <div id="echr-stats" class="echr-stats">
+        <div class="loading">Loading ECHR data...</div>
       </div>
 
       <h2 style="margin-bottom: 20px">
@@ -251,96 +244,20 @@
       <footer>
         <p>CASE-MACHERET-1997-2026 | Evidence Archive</p>
         <p>Mathematical Justice: When Law Becomes Algorithm</p>
+        <p style="margin-top: 10px; font-size: 0.8em; color: #444">
+          Data Source:
+          <a href="history.json" style="color: #00d4ff">history.json</a> |
+          Commit: <span id="commit-hash">Loading...</span>
+        </p>
       </footer>
     </div>
 
     <script>
-      const data = {
-        apostille_mapping: [
-          {
-            id: 'DLTP7B8ZHWGQ7',
-            date: '08.07.2022',
-            echr_articles: ['art3', 'art6', 'art13'],
-            violation: 'torture_no_investigation',
-          },
-          {
-            id: 'CG0T6Y1TBUEL7',
-            date: '12.07.2022',
-            echr_articles: ['art3', 'art6'],
-            violation: 'unclear_authenticity',
-          },
-          {
-            id: 'DFVMD2FQLW5N3',
-            date: '14.12.2022',
-            echr_articles: ['art3', 'art6', 'art13'],
-            violation: 'no_rehabilitation',
-          },
-          {
-            id: 'IMTQ930Z8U4N7',
-            date: '05.10.2022',
-            echr_articles: ['art3', 'art6'],
-            violation: 'unclear_authenticity',
-          },
-          {
-            id: 'HQ7X9W62GUJL9',
-            date: '20.04.2022',
-            echr_articles: ['art3', 'art6', 'art13'],
-            violation: 'justice_simulation',
-          },
-          {
-            id: 'BS7XCZF1EUJG3',
-            date: '15.07.2022',
-            echr_articles: ['art3', 'art6'],
-            violation: 'unclear_authenticity',
-          },
-          {
-            id: '403WF02QGRCI1',
-            date: '30.01.2023',
-            echr_articles: ['art3', 'art6', 'art13'],
-            violation: 'systemic_impunity',
-          },
-          {
-            id: 'DQ1N892ZFXDI3',
-            date: '13.03.2023',
-            echr_articles: ['art3', 'art6'],
-            violation: 'unclear_authenticity',
-          },
-          {
-            id: '6R2V5Z4XBZBH8',
-            date: '20.07.2022',
-            echr_articles: ['art3', 'art6', 'art13'],
-            violation: 'no_appeal',
-          },
-          {
-            id: 'IT1PD8E29S5F5',
-            date: '30.01.2023',
-            echr_articles: ['art3', 'art6'],
-            violation: 'unclear_authenticity',
-          },
-          {
-            id: '4J20E98WFY7J2',
-            date: '03.10.2022',
-            echr_articles: ['art3', 'art6', 'art13'],
-            violation: 'justice_simulation',
-          },
-          {
-            id: '6OZUD89VBUEJ3',
-            date: '01.11.2022',
-            echr_articles: ['art3', 'art6'],
-            violation: 'unclear_authenticity',
-          },
-          {
-            W093CZ8U8R7id: 'IH',
-            date: '03.08.2022',
-            echr_articles: ['art3', 'art6', 'art13'],
-            violation: 'no_investigation',
-          },
-        ],
-      };
+      const DATA_URL = 'history.json';
 
       const violationLabels = {
         torture_no_investigation: 'Torture - No Investigation',
-        unclear_authenticity: 'Unclear Signature',
+        unclear_authenticity: 'Unclear Signature ⚠️',
         no_rehabilitation: 'No Rehabilitation',
         justice_simulation: 'Justice Simulation',
         systemic_impunity: 'Systemic Impunity',
@@ -348,22 +265,90 @@
         no_investigation: 'No Investigation',
       };
 
-      const tbody = document.getElementById('table-body');
-      data.apostille_mapping.forEach((item, index) => {
-        const row = document.createElement('tr');
-        const tags = item.echr_articles
-          .map((a) => `<span class="tag tag-${a}">${a.toUpperCase()}</span>`)
-          .join('');
+      async function loadData() {
+        try {
+          const response = await fetch(DATA_URL);
+          if (!response.ok) throw new Error('Failed to load history.json');
 
-        row.innerHTML = `
-                <td>${index + 1}</td>
-                <td class="unclear-sig">${item.id}</td>
-                <td>${item.date}</td>
-                <td>${tags}</td>
-                <td>${violationLabels[item.violation]}</td>
+          const data = await response.json();
+          renderCaseInfo(data);
+          renderECHRStats(data);
+          renderApostilleTable(data);
+
+          document.getElementById('commit-hash').textContent =
+            '0aa52ec — Dynamic Loading Active';
+        } catch (error) {
+          console.error('Error loading data:', error);
+          document.getElementById('case-info').innerHTML =
+            `<div class="error">Error loading data: ${error.message}</div>`;
+        }
+      }
+
+      function renderCaseInfo(data) {
+        const info = data.case_info;
+        document.getElementById('case-info').innerHTML = `
+                <div class="info-card">
+                    <div class="number">${info.period.split('-')[0]}</div>
+                    <div class="label">Case Start Year</div>
+                </div>
+                <div class="info-card">
+                    <div class="number">${info.total_apostilles}</div>
+                    <div class="label">Total Apostilles</div>
+                </div>
+                <div class="info-card">
+                    <div class="number" style="color: #ff6b6b;">${info.unclear_signatures}</div>
+                    <div class="label">Unclear Signatures</div>
+                </div>
+                <div class="info-card">
+                    <div class="number">${((info.unclear_signatures / info.total_apostilles) * 100).toFixed(1)}%</div>
+                    <div class="label">Verification Failure Rate</div>
+                </div>
             `;
-        tbody.appendChild(row);
-      });
+      }
+
+      function renderECHRStats(data) {
+        const articles = data.echr_articles;
+        document.getElementById('echr-stats').innerHTML = `
+                <div class="echr-card art3">
+                    <h3>Article 3</h3>
+                    <p>${articles.art3.name}</p>
+                    <div class="violations">${articles.art3.violations_count} violations</div>
+                </div>
+                <div class="echr-card art6">
+                    <h3>Article 6</h3>
+                    <p>${articles.art6.name}</p>
+                    <div class="violations">${articles.art6.violations_count} violations</div>
+                </div>
+                <div class="echr-card art13">
+                    <h3>Article 13</h3>
+                    <p>${articles.art13.name}</p>
+                    <div class="violations">${articles.art13.violations_count} violations</div>
+                </div>
+            `;
+      }
+
+      function renderApostilleTable(data) {
+        const tbody = document.getElementById('table-body');
+        tbody.innerHTML = '';
+
+        data.apostille_mapping.forEach((item, index) => {
+          const row = document.createElement('tr');
+          const tags = item.echr_articles
+            .map((a) => `<span class="tag tag-${a}">${a.toUpperCase()}</span>`)
+            .join('');
+
+          row.innerHTML = `
+                    <td>${index + 1}</td>
+                    <td class="unclear-sig">${item.id}</td>
+                    <td>${item.date}</td>
+                    <td>${tags}</td>
+                    <td>${violationLabels[item.violation]}</td>
+                `;
+          tbody.appendChild(row);
+        });
+      }
+
+      loadData();
     </script>
   </body>
 </html>
