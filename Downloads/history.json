@@ -4,7 +4,9 @@
     "victim": "Maceret Alexei",
     "period": "1997-2026",
     "total_apostilles": 90,
-    "unclear_signatures": 13
+    "unclear_signatures": 13,
+    "root_case": "1997-CI-0608",
+    "total_violations": 16
   },
   "apostille_mapping": [
     {
@@ -130,23 +132,71 @@
         "art13"
       ],
       "violation": "no_investigation"
+    },
+    {
+      "id": "1997-CI-0608",
+      "date": "06.08.1997",
+      "authority": "Judecătoria sect. Centru (C.P. Ciachir)",
+      "type": "Administrative Substitution (ROOT_POISON)",
+      "status": "ROOT",
+      "echr_articles": [
+        "art3",
+        "art6"
+      ],
+      "description": "Подмена уголовного преступления (пытки) на административное хулиганство (ст.164 CCA) для легализации первичного насилия.",
+      "case_number": "1997-CI-0608"
+    },
+    {
+      "id": "CAZIER-2023-MAI",
+      "date": "15.08.2023",
+      "authority": "MAI RM",
+      "type": "Systemic Stigmatization (CASCADING_EFFECT)",
+      "status": "DEPENDENT",
+      "dependency": "1997-CI-0608",
+      "echr_articles": [
+        "art8",
+        "art13",
+        "art3"
+      ],
+      "description": "Справка о судимости - сохранение данных о судимостях 2002/2003 и 2014/2016 без реабилитации. Каскадный эффект отравленного корня 1997.",
+      "case_number": "CAZIER-2023-MAI"
+    },
+    {
+      "id": "2024-GRIGORASH-VIORELIA",
+      "date": "05.08.2024",
+      "authority": "Judecătoria Chișinău (Viorelia Grigorash)",
+      "type": "Procedural Simulation (CASCADING_EFFECT)",
+      "status": "DEPENDENT",
+      "dependency": "1997-CI-0608",
+      "echr_articles": [
+        "art3",
+        "art6",
+        "art13"
+      ],
+      "description": "Определение о передаче дела судье T. Stambul для 'объединения дел' - процессуальный пинг-понг без решения по существу.",
+      "case_number": "2024-08-05"
     }
   ],
   "echr_articles": {
     "art3": {
       "name": "Prohibition of Torture",
-      "violations_count": 13,
+      "violations_count": 16,
       "description": "No one shall be subjected to torture or to inhuman or degrading treatment or punishment"
     },
     "art6": {
       "name": "Right to a Fair Trial",
-      "violations_count": 13,
+      "violations_count": 16,
       "description": "In the determination of his civil rights and obligations... everyone is entitled to a fair and public hearing"
     },
     "art13": {
       "name": "Right to an Effective Remedy",
-      "violations_count": 7,
+      "violations_count": 9,
       "description": "Everyone whose rights and freedoms as set forth in this Convention are violated shall have an effective remedy"
+    },
+    "art8": {
+      "name": "Right to Respect for Private and Family Life",
+      "violations_count": 1,
+      "description": "Everyone has the right to respect for his private and family life"
     }
   },
   "algorithm": {
