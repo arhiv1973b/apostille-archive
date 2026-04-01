@@ -6,7 +6,7 @@
 ## 🇷🇴 ROMÂNĂ: NOTIFICARE OFICIALĂ
 Prin prezentul document, se fixează starea probelor digitale la data de 21.03.2026. Orice modificare ulterioară va fi înregistrată în blockchain-
 ul Git. Aceste dovezi vizează încălcarea normelor Jus Cogens și furtul de identitate (Identity Theft) comis de actorii sistemici.
-**Destinatari:** Consiliul Superior al Magistraturii (CSM), Ministerul Justiției RM.
+**Destinatari:** Consiliul Superior al Magistraturii (CSM), Ministerul Finanțelor RM.
 
 ## 🇺🇸 ENGLISH: OFFICIAL NOTIFICATION
 This document serves as a technical fixation of digital evidence as of March 21, 2026. All assets are cryptographically hashed to prevent tamperi
