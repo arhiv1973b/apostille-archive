@@ -2,3 +2,5 @@ venv/
 venv/
 *.tar
 *.tar
+artifact.tar
+*.tar
