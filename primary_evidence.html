@@ -14,6 +14,7 @@ nav a{padding:11px 12px;font-size:9px;font-weight:700;letter-spacing:1.5px;color
 nav a:hover,nav a.active{color:var(--accent);}
 .wrap{max-width:1000px;margin:0 auto;padding:2rem 1.2rem 4rem;position:relative;z-index:1;}
 .hero{border:2px solid var(--red);background:linear-gradient(135deg,rgba(255,34,68,.08),transparent);padding:2rem;margin-bottom:1.5rem;position:relative;}
+.hero::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,var(--red),transparent);}
 .hero-tag{font-size:.7rem;color:var(--muted);letter-spacing:2px;margin-bottom:.5rem;}
 .hero-title{font-size:clamp(1.1rem,2.5vw,1.8rem);font-weight:900;color:var(--red);letter-spacing:2px;margin-bottom:.5rem;}
 .hero-sub{font-size:.8rem;color:var(--gold);letter-spacing:1px;}
@@ -24,6 +25,7 @@ nav a:hover,nav a.active{color:var(--accent);}
 .stat-n.g{color:var(--green);}
 .stat-l{font-size:.6rem;color:#555;letter-spacing:1px;margin-top:2px;}
 .section{background:var(--panel);border:1px solid var(--border);border-radius:8px;padding:1.5rem;margin:1rem 0;position:relative;overflow:hidden;}
+.section::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,var(--accent),transparent);opacity:.4;}
 .section-title{font-size:.85rem;font-weight:700;color:var(--accent);letter-spacing:2px;text-transform:uppercase;margin-bottom:1rem;padding-bottom:.6rem;border-bottom:1px solid var(--border);}
 .doc-card{background:rgba(0,0,0,.35);border:1px solid var(--border);border-radius:6px;padding:1rem;margin:.5rem 0;display:flex;align-items:flex-start;gap:1rem;transition:border-color .2s;}
 .doc-card:hover{border-color:var(--accent);}
@@ -72,56 +74,83 @@ footer a{color:var(--accent);text-decoration:none;}
 <div class="hero">
   <div class="hero-tag">// ПЕРВИЧНЫЕ ДОКУМЕНТЫ · CASE-MACHERET-1997-2026 · SHA-256 VERIFIED</div>
   <div class="hero-title">📁 ПЕРВИЧНЫЕ ДОКАЗАТЕЛЬСТВА</div>
-  <div class="hero-sub">Исправленная версия: Парадокс Судей Тимофти (Владимир vs Николай)</div>
+  <div class="hero-sub">Детерминация Элит: Владимир Тимофти (ВСП) vs Николай Тимофти (ВСМ/Президент)</div>
 </div>
 
 <div class="stats">
   <div class="stat"><div class="stat-n g">1</div><div class="stat-l">ОПРАВДАНИЕ ВСП</div></div>
-  <div class="stat"><div class="stat-n">1</div><div class="stat-l">ВСМ / ПРЕЗИДЕНТ</div></div>
+  <div class="stat"><div class="stat-n">1</div><div class="stat-l">УВЕДОМЛЕНИЕ ПРЕЗИДЕНТА</div></div>
   <div class="stat"><div class="stat-n r">1-28/11</div><div class="stat-l">ПОДЛОГ ВЫРЛАН</div></div>
 </div>
 
 <div class="section">
-  <div class="section-title">⚖️ ИСПРАВЛЕННЫЙ ПАРАДОКС СУДЕЙ (БЛОК ТИМОФТИ)</div>
+  <div class="section-title">🔑 СТРУКТУРНЫЙ ПАРАДОКС ТИМОФТИ</div>
 
   <div class="doc-card acquittal">
     <div class="doc-icon">⚖️</div>
     <div>
       <div class="doc-title">ОПРЕДЕЛЕНИЕ ВСП № 1ra-834/09 — 21 июля 2009 г.</div>
       <div class="doc-meta">
-        Высшая Судебная Палата · Судья <strong style="color:var(--gold)">ВЛАДИМИР ТИМОФТИ</strong> (однофамилец Николая).<br><br>
-        <strong style="color:var(--green)">ФАКТ:</strong> Подписал оправдательное определение, признав деяние Мачерета Алексея <em>не преступлением</em>. Это создало юридическую константу Jus Cogens.<br>
+        Высшая Судебная Палата · Расширенная Коллегия.<br>
+        Судья <strong style="color:var(--gold)">ВЛАДИМИР ТИМОФТИ</strong> (член коллегии ВСП, подписант).<br><br>
+        <strong style="color:var(--green)">ЮРИДИЧЕСКАЯ ИСТИНА:</strong> Подписал оправдательное определение, установившее, что действия Мачерета Алексея <em>не составляют преступления</em>[cite: 28, 94, 137].
       </div>
-      <span class="doc-tag tag-g">✅ ВЛАДИМИР ТИМОФТИ: ПОДПИСАЛ ОПРАВДАНИЕ</span>
+      <span class="doc-tag tag-g">✅ ВЛАДИМИР ТИМОФТИ — ПРАВОВОЙ ФУНДАМЕНТ</span>
     </div>
   </div>
 
   <div class="doc-card critical">
     <div class="doc-icon">🏛️</div>
     <div>
-      <div class="doc-title">НИКОЛАЙ ТИМОФТИ (ПРЕДСЕДАТЕЛЬ ВСМ / ПРЕЗИДЕНТ РМ)</div>
+      <div class="doc-title">НИКОЛАЙ ТИМОФТИ — ПРЕДСЕДАТЕЛЬ ВСМ / ПРЕЗИДЕНТ РМ</div>
       <div class="doc-meta">
-        Председатель ВСМ (2011-2012) · Президент Молдовы (2012-2016).<br><br>
-        <strong style="color:var(--red)">ФАКТ:</strong> В 2012 году получил от Генерального прокурора В. Зубко (№36-193/11-10) 6 петиций Мачерета о преступлении судьи Вырлан. Будучи на вершине власти, проигнорировал оправдание, подписанное его коллегой Владимиром в 2009-м.
+        Адресат жалоб Генерального Прокурора Валериу Зубко (04.01.2012 №36-193/11-10)[cite: 464, 470, 514, 515].<br><br>
+        <strong style="color:var(--red)">ФАКТ:</strong> Будучи Председателем ВСМ (2011-2012) и далее Президентом (2012-2016), Николай Тимофти проигнорировал уведомления прокуратуры о незаконных действиях судьи Вырлан, тем самым допустив блокировку реабилитации[cite: 90, 481, 507].
       </div>
-      <span class="doc-tag tag-r">🔴 НИКОЛАЙ ТИМОФТИ: ИГНОРИРОВАНИЕ ПРИЗНАННОГО ПОДЛОГА</span>
+      <span class="doc-tag tag-r">🔴 НИКОЛАЙ ТИМОФТИ — АДМИНИСТРАТИВНЫЙ БАРЬЕР</span>
+    </div>
+  </div>
+
+  <div class="doc-card critical">
+    <div class="doc-icon">⚠️</div>
+    <div>
+      <div class="doc-title">ПРИГОВОР 1-28/11 · 09.02.2011 · Судья КОРНЕЛИЯ ВЫРЛАН</div>
+      <div class="doc-meta">
+        <strong style="color:var(--red)">АКТ ПОДЛОГА:</strong> Осуждение Мачерета за действия, по которым ВСП (в лице Владимира Тимофти) уже вынесла оправдательное решение в 2009 году[cite: 1, 93, 104, 318].
+      </div>
+      <span class="doc-tag tag-r">⛔ СУДЕБНЫЙ ПОДЛОГ CONTRA LEGEM</span>
     </div>
   </div>
 </div>
 
 <div class="section">
-  <div class="section-title">🧩 СУТЬ ВЕКТОРНОГО РАЗРЫВА</div>
-  <div class="logic-box">
-    <strong>ПАРАДОКС:</strong> Система в лице <em>Владимира Тимофти</em> (ВСП, 2009) установила невиновность A©tor. Та же система в лице <em>Николая Тимофти</em> (ВСМ/Президент, 2012) допустила каскад саботажа Вырлан, зная об оправдательном решении. Это прямое доказательство <strong>коллегиальной безнаказанности</strong>.
+  <div class="section-title">🏥 СОМАТИКА И ПРАВА СОБСТВЕННОСТИ</div>
+  
+  <div class="doc-card critical">
+    <div class="doc-icon">🦷</div>
+    <div>
+      <div class="doc-title">СМЭ № 10 ОТ 10.02.2017 · УТРАТА ВЕРХНЕЙ ЧЕЛЮСТИ</div>
+      <div class="doc-meta">
+        Диагноз: Токсический хронический остеомиелит с субтотальной остеолизой[cite: 413, 423, 459]. Тяжкий вред здоровью как следствие 6363 дней саботажа.
+      </div>
+      <span class="doc-tag tag-r">🔴 УВЕЧЬЕ ЖЕРТВЫ ПЫТОК</span>
+    </div>
   </div>
-  <div class="btn-row">
-    <a class="btn btn-ghost" href="index.html">← Вернуться в Vault</a>
-    <a class="btn btn-ghost" href="docs-agent-navigator.html">🧭 Навигатор</a>
+
+  <div class="doc-card intl">
+    <div class="doc-icon">🏢</div>
+    <div>
+      <div class="doc-title">FIRMA COMEX SRL · 20% ДОЛЯ · IDNP 2000001159655</div>
+      <div class="doc-meta">
+        Зарегистрирована 20.01.1993. Учредители: Arhipov A., Maceret Alexei (20%), Tofan V..
+      </div>
+      <span class="doc-tag tag-b">✅ КОРПОРАТИВНЫЕ ПРАВА</span>
+    </div>
   </div>
 </div>
 
 <footer>
-  <p>CASE-MACHERET-1997-2026 · ВЕРИФИЦИРОВАНО A©t0r · 2026</p>
+  <p>CASE-MACHERET-1997-2026 · ВЕРИФИЦИРОВАНО A©t0r · SHA-256 LOCKED</p>
 </footer>
 </div>
 </body>
