@@ -11,41 +11,34 @@
 body{background:var(--bg);color:var(--text);font-family:var(--font-body);font-size:15px;line-height:1.7;overflow-x:hidden;}
 body::before{content:'';position:fixed;inset:0;z-index:999;pointer-events:none;background:repeating-linear-gradient(0deg,transparent,transparent 2px,rgba(255,34,68,.01) 2px,rgba(255,34,68,.01) 4px);}
 body::after{content:'';position:fixed;inset:0;z-index:0;pointer-events:none;background-image:linear-gradient(rgba(0,198,255,.025) 1px,transparent 1px),linear-gradient(90deg,rgba(0,198,255,.025) 1px,transparent 1px);background-size:44px 44px;}
-
 .sitenav{position:sticky;top:0;z-index:100;background:rgba(2,8,13,.97);border-bottom:1px solid var(--border2);backdrop-filter:blur(12px);display:flex;align-items:center;padding:0 16px;overflow-x:auto;gap:0;}
 .sitenav a{padding:12px 13px;font-family:var(--font-head);font-size:10px;font-weight:700;letter-spacing:1.5px;color:var(--muted);text-decoration:none;border-bottom:3px solid transparent;white-space:nowrap;transition:color .2s,border-color .2s;}
 .sitenav a:hover{color:var(--accent);}
 .sitenav a.active{color:var(--red);border-bottom-color:var(--red);}
 .nav-sep{color:var(--border2);font-size:11px;padding:0 2px;flex-shrink:0;}
 .nav-badge{margin-left:auto;font-family:var(--font-mono);font-size:9px;color:var(--muted);letter-spacing:1px;padding-left:12px;white-space:nowrap;flex-shrink:0;}
-
 .wrap{max-width:960px;margin:0 auto;padding:24px 20px 60px;position:relative;z-index:1;}
 .crumb{font-family:var(--font-mono);font-size:11px;color:var(--muted);letter-spacing:1px;margin-bottom:18px;display:flex;align-items:center;gap:6px;flex-wrap:wrap;}
 .crumb a{color:var(--accent);text-decoration:none;}
-
 .hero{border:2px solid var(--red);background:linear-gradient(135deg,rgba(255,34,68,.09),rgba(0,0,0,.02));padding:28px 34px;margin-bottom:18px;position:relative;clip-path:polygon(0 0,calc(100% - 22px) 0,100% 22px,100% 100%,0 100%);overflow:hidden;}
 .hero::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,transparent,var(--red),transparent);}
 .hero-eye{font-family:var(--font-mono);font-size:10px;color:var(--muted);letter-spacing:2px;margin-bottom:8px;}
 .hero-title{font-family:var(--font-head);font-size:clamp(16px,3vw,24px);font-weight:900;color:var(--red);letter-spacing:2px;text-shadow:0 0 20px rgba(255,34,68,.5);margin-bottom:6px;}
 .hero-sub{font-family:var(--font-mono);font-size:11px;color:var(--gold);letter-spacing:2px;margin-bottom:12px;}
 .hero-meta{display:flex;flex-wrap:wrap;gap:7px;}
-
 .tag{display:inline-block;font-family:var(--font-mono);font-size:10px;padding:3px 9px;letter-spacing:1px;font-weight:700;}
 .tg-r{background:rgba(255,34,68,.13);border:1px solid rgba(255,34,68,.38);color:var(--red);}
 .tg-b{background:rgba(0,198,255,.1);border:1px solid rgba(0,198,255,.28);color:var(--accent);}
 .tg-y{background:rgba(240,192,64,.1);border:1px solid rgba(240,192,64,.28);color:var(--gold);}
 .tg-p{background:rgba(170,68,255,.1);border:1px solid rgba(170,68,255,.28);color:var(--purple);}
-
 .panel{border:1px solid var(--border);background:var(--panel);margin-bottom:14px;position:relative;overflow:hidden;}
 .panel-r{border-color:rgba(255,34,68,.3);}
 .panel::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,var(--red),transparent);opacity:.4;}
 .panel-hd{padding:11px 18px;background:rgba(255,34,68,.05);border-bottom:1px solid var(--border);font-family:var(--font-head);font-size:11px;font-weight:700;color:var(--red);letter-spacing:2px;text-transform:uppercase;}
 .panel-bd{padding:16px 18px;}
-
 .fact-block{background:rgba(255,34,68,.05);border:1px solid rgba(255,34,68,.2);border-left:4px solid var(--red);padding:14px 18px;margin:10px 0;font-family:var(--font-mono);font-size:12px;color:var(--muted);line-height:1.7;}
 .fact-block strong{color:var(--text);}
 .fact-block em{color:var(--gold);font-style:normal;font-weight:700;}
-
 .cascade{display:flex;flex-direction:column;gap:0;margin:12px 0;}
 .cas{background:var(--panel);border:1px solid var(--border);border-top:none;padding:13px 16px 13px 50px;position:relative;}
 .cas:first-child{border-top:1px solid var(--border);}
@@ -54,18 +47,15 @@ body::after{content:'';position:fixed;inset:0;z-index:0;pointer-events:none;back
 .cas-title{font-weight:700;color:var(--text);font-size:14px;}
 .cas-body{font-family:var(--font-mono);font-size:11px;color:var(--muted);margin-top:4px;line-height:1.5;}
 .cas-body strong{color:var(--text);}
-
 .art-table{width:100%;border-collapse:collapse;font-family:var(--font-mono);font-size:11px;margin:10px 0;}
 .art-table th{text-align:left;padding:8px 12px;background:rgba(255,34,68,.06);border:1px solid var(--border);color:var(--red);letter-spacing:1.5px;font-size:10px;text-transform:uppercase;}
 .art-table td{padding:8px 12px;border:1px solid var(--border);color:var(--text);vertical-align:top;line-height:1.5;}
 .art-table tr:hover td{background:rgba(255,34,68,.02);}
 .art-table .ac{color:var(--gold);font-weight:700;white-space:nowrap;}
 .art-table .as{text-align:center;}
-
 .lang-row{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0;}
 .lang-item{display:inline-flex;align-items:center;gap:7px;padding:9px 16px;border:1px solid var(--border);background:rgba(0,198,255,.03);text-decoration:none;color:var(--text);font-family:var(--font-mono);font-size:12px;letter-spacing:1px;transition:border-color .15s,background .15s,color .15s;}
 .lang-item:hover{border-color:var(--accent);background:rgba(0,198,255,.08);color:var(--accent);}
-
 .btn-row{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px;}
 .btn{display:inline-flex;align-items:center;gap:6px;padding:10px 18px;font-family:var(--font-body);font-size:12px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;text-decoration:none;border:none;cursor:pointer;transition:all .18s;position:relative;overflow:hidden;white-space:nowrap;}
 .btn::after{content:'';position:absolute;top:50%;left:-60%;width:40%;height:100%;background:rgba(255,255,255,.08);transform:translateY(-50%) skewX(-20deg);transition:left .3s;}
@@ -76,10 +66,15 @@ body::after{content:'';position:fixed;inset:0;z-index:0;pointer-events:none;back
 .btn-purple:hover{transform:translateY(-1px);}
 .btn-blue{background:linear-gradient(135deg,#005588,#00c6ff);color:#000;clip-path:polygon(0 0,calc(100% - 8px) 0,100% 8px,100% 100%,0 100%);}
 .btn-blue:hover{transform:translateY(-1px);}
+.btn-gold{background:linear-gradient(135deg,#7a5500,#f0c040);color:#000;clip-path:polygon(0 0,calc(100% - 8px) 0,100% 8px,100% 100%,0 100%);}
+.btn-gold:hover{transform:translateY(-1px);}
 .btn-ghost{background:transparent;color:var(--accent);border:1px solid rgba(0,198,255,.3);}
 .btn-ghost:hover{background:rgba(0,198,255,.08);transform:translateY(-1px);}
 .btn-sm{padding:7px 13px;font-size:11px;}
-
+.void-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px;margin:14px 0;}
+.void-stat{background:rgba(255,34,68,.06);border:1px solid rgba(255,34,68,.2);padding:12px 16px;text-align:center;}
+.void-num{font-family:var(--font-head);font-size:1.6rem;font-weight:900;color:var(--red);}
+.void-lbl{font-family:var(--font-mono);font-size:10px;color:var(--muted);letter-spacing:1px;margin-top:3px;}
 .div{height:1px;background:linear-gradient(90deg,transparent,var(--border2),transparent);margin:20px 0;}
 .footer{margin-top:36px;padding:14px;border-top:1px solid var(--border);display:flex;flex-wrap:wrap;gap:8px;justify-content:space-between;align-items:center;font-family:var(--font-mono);font-size:10px;color:var(--muted);letter-spacing:1px;}
 .footer a{color:var(--accent);text-decoration:none;}
@@ -87,11 +82,14 @@ body::after{content:'';position:fixed;inset:0;z-index:0;pointer-events:none;back
 </style>
 </head>
 <body>
-
 <nav class="sitenav">
   <a href="index.html">⌂ VAULT</a>
   <span class="nav-sep">|</span>
-  <a href="jus-cogens-proof-macheret.html">📜 JUS COGENS</a>
+  <a href="jus-cogens.html">⚡ JUS COGENS</a>
+  <span class="nav-sep">|</span>
+  <a href="erga-omnes.html">🌍 ERGA OMNES</a>
+  <span class="nav-sep">|</span>
+  <a href="jus-cogens-proof-macheret.html">📜 ДОКАЗАТЕЛЬСТВА</a>
   <span class="nav-sep">|</span>
   <a href="liability-nodes.html">📉 LIABILITY</a>
   <span class="nav-sep">|</span>
@@ -103,12 +101,11 @@ body::after{content:'';position:fixed;inset:0;z-index:0;pointer-events:none;back
   <span class="nav-sep">·</span>
   <a href="FORGERY_DECONSTRUCTION_FR.html">FR</a>
   <span class="nav-sep">|</span>
-  <a href="apostille-legal-case-optimized.html">💎 VAULT 4.2</a>
-  <span class="nav-badge">CASE-MACHERET-1997–2026</span>
+  <a href="apostille_registry.html">📋 РЕЕСТР 97</a>
+  <div class="nav-badge">CASE-MACHERET-1997–2026</div>
 </nav>
 
 <div class="wrap">
-
 <div class="crumb">
   <a href="index.html">⌂ EVIDENCE VAULT</a> ›
   <a href="NANTOI_NOTICE.html">НАНТОЙ NOTICE</a> ›
@@ -128,13 +125,22 @@ body::after{content:'';position:fixed;inset:0;z-index:0;pointer-events:none;back
   </div>
 </div>
 
+<!-- МАТЕМАТИКА ПОДЛОГА -->
+<div class="void-stats">
+  <div class="void-stat"><div class="void-num">13</div><div class="void-lbl">АПОСТИЛЕЙ VOID</div></div>
+  <div class="void-stat"><div class="void-num">14.4%</div><div class="void-lbl">ПРОЦЕНТ БРАКА</div></div>
+  <div class="void-stat"><div class="void-num">97</div><div class="void-lbl">ВСЕГО В РЕЕСТРЕ</div></div>
+  <div class="void-stat"><div class="void-num">6363</div><div class="void-lbl">ДНЕЙ САБОТАЖА</div></div>
+</div>
+
 <div class="panel panel-r">
   <div class="panel-hd">📌 1. МЕХАНИКА «МАСКИ» — УСТАНОВЛЕННЫЕ ФАКТЫ</div>
   <div class="panel-bd">
     <div class="fact-block">
       <strong>ФАКТ:</strong> Использование личности Маркова И.М. для легализации документов после его фактического устранения/смерти.<br><br>
       <strong>ДОКАЗАТЕЛЬСТВО:</strong> Несовпадение графологических характеристик подписей — <em>Вектор 3</em>. Подписи от имени Маркова И.М. в материалах гражданских дел (включая захват имущества на ул. Мирон Костин) являются продуктом умышленного подлога, совершённого его дочерью — <em>Людмилой Нантой</em>.<br><br>
-      <strong>ДАТА СОБЫТИЯ:</strong> <em>15.03.2022</em> — точка окончательного захвата активов.
+      <strong>ДАТА СОБЫТИЯ:</strong> <em>15.03.2022</em> — точка окончательного захвата активов.<br><br>
+      <strong>СВЯЗЬ С РЕЕСТРОМ:</strong> 13 из 97 апостилей подписаны «semnatura indescifrabila» — архитектура анонимного террора. Ключевые: <em>HQ7X9W62GUJL9</em> (ПУ-15), <em>BS7XCZF1EUJG3</em> (СИЗО-13), <em>CG0T6Y1TBUEL7</em>, <em>DFVMD2FQLW5N3</em>.
     </div>
   </div>
 </div>
@@ -158,6 +164,11 @@ body::after{content:'';position:fixed;inset:0;z-index:0;pointer-events:none;back
         <div class="cas-title">8158 суток процессуального вакуума — питательная среда</div>
         <div class="cas-body">Без нарушения Jus Cogens (сокрытие пыток 1998) → нет вакуума → нет подлога. <strong>Криминальный каскад доказан как единая цепь.</strong></div>
       </div>
+      <div class="cas" data-n="4">
+        <div class="cas-lbl">ЦИФРОВОЙ СЛЕД</div>
+        <div class="cas-title">MACERET → MASERET — стирание личности в госреестрах (2026)</div>
+        <div class="cas-body">После смерти Г. Марковой (ключевой свидетель) — искажение фамилии в базе данных инвалидности. Цель: блокировка наследственных прав (Apt.64, M.Costin 13/3) и угроза <strong>COMEX SRL (20% доля).</strong></div>
+      </div>
     </div>
   </div>
 </div>
@@ -171,11 +182,26 @@ body::after{content:'';position:fixed;inset:0;z-index:0;pointer-events:none;back
         <tr><td class="ac">Ст. 361 УК РМ</td><td>УК Республики Молдова</td><td>Изготовление и использование поддельных документов</td><td class="as"><span class="tag tg-r">ТЯЖКОЕ</span></td></tr>
         <tr><td class="ac">Ст. 190 УК РМ</td><td>УК Республики Молдова</td><td>Мошенничество в особо крупных размерах</td><td class="as"><span class="tag tg-r">ТЯЖКОЕ</span></td></tr>
         <tr><td class="ac">Identity Theft</td><td>Международное право</td><td>Хищение личности для совершения мошенничества</td><td class="as"><span class="tag tg-r">ТЯЖКОЕ</span></td></tr>
+        <tr><td class="ac">Гаагская конв. Ст.3</td><td>Международное право</td><td>14.4% VOID апостилей (13/97 · indescifrabila)</td><td class="as"><span class="tag tg-y">BREACH</span></td></tr>
         <tr><td class="ac">Криминальный каскад</td><td>Jus Cogens / ILC</td><td>Прямое продолжение сокрытия пыток 1998 года</td><td class="as"><span class="tag tg-y">СВЯЗЬ</span></td></tr>
+        <tr><td class="ac">Erga Omnes</td><td>Венская конв. / ILC</td><td>Обязательство 129 государств — расследовать</td><td class="as"><span class="tag tg-b">АКТИВНО</span></td></tr>
       </tbody>
     </table>
     <div class="fact-block" style="border-color:rgba(240,192,64,.2);background:rgba(240,192,64,.04);">
-      <strong>🏁 ТРЕБОВАНИЕ:</strong> Немедленное возбуждение уголовного дела в отношении <em>Нантой Л.</em> и <em>Нантой О.</em> по факту мошенничества, подлога и незаконного захвата собственности инвалида I группы.
+      <strong>🏁 ТРЕБОВАНИЕ:</strong> Немедленное возбуждение уголовного дела в отношении <em>Нантой Л.</em> и <em>Нантой О.</em> по факту мошенничества, подлога и незаконного захвата собственности инвалида I группы. Реституция: <em>€500,000</em>.
+    </div>
+  </div>
+</div>
+
+<div class="panel">
+  <div class="panel-hd">📋 4. РЕЕСТР 97 АПОСТИЛЕЙ — ССЫЛКИ НА ВЕРИФИКАЦИЮ</div>
+  <div class="panel-bd">
+    <div class="fact-block">
+      <strong>Полный реестр</strong> всех 97 апостилей с кодами верификации и статусами VOID/OK доступен на отдельной странице. Каждая запись содержит прямую ссылку на портал <em>apostil.gov.md</em> для верификации подлинности.
+    </div>
+    <div class="btn-row">
+      <a class="btn btn-gold" href="apostille_registry.html">📋 ОТКРЫТЬ РЕЕСТР 97 АПОСТИЛЕЙ →</a>
+      <a class="btn btn-ghost btn-sm" href="https://apostil.gov.md" target="_blank">🔗 apostil.gov.md</a>
     </div>
   </div>
 </div>
@@ -190,7 +216,7 @@ body::after{content:'';position:fixed;inset:0;z-index:0;pointer-events:none;back
     </div>
     <div class="btn-row">
       <a class="btn btn-red" href="https://www.interpol.int/en/Who-we-are/Contact-INTERPOL" target="_blank">🔵 ПЕРЕДАТЬ В INTERPOL</a>
-      <a class="btn btn-blue btn-sm" href="https://https://www.ohchr.org/en/contact-us" target="_blank">🌍 UN OHCHR</a>
+      <a class="btn btn-blue btn-sm" href="https://www.ohchr.org/en/contact-us" target="_blank">🌍 UN OHCHR</a>
       <a class="btn btn-purple btn-sm" href="https://www.icc-cpi.int/get-involved/Pages/communications-and-referrals.aspx" target="_blank">⚖ МУС / ICC</a>
       <button class="btn btn-ghost btn-sm" onclick="window.print()">🖨 РАСПЕЧАТАТЬ</button>
     </div>
@@ -199,16 +225,18 @@ body::after{content:'';position:fixed;inset:0;z-index:0;pointer-events:none;back
 
 <div class="div"></div>
 <div class="btn-row">
+  <a class="btn btn-ghost btn-sm" href="apostille_registry.html">📋 РЕЕСТР 97</a>
   <a class="btn btn-ghost btn-sm" href="NANTOI_NOTICE.html">🚨 НАНТОЙ NOTICE</a>
   <a class="btn btn-ghost btn-sm" href="liability-nodes.html">📉 LIABILITY NODES</a>
-  <a class="btn btn-ghost btn-sm" href="jus-cogens-proof-macheret.html">📜 JUS COGENS</a>
+  <a class="btn btn-ghost btn-sm" href="jus-cogens.html">⚡ JUS COGENS</a>
+  <a class="btn btn-ghost btn-sm" href="erga-omnes.html">🌍 ERGA OMNES</a>
   <a class="btn btn-ghost btn-sm" href="index.html">⌂ ГЛАВНАЯ</a>
 </div>
 
 <div class="footer">
   <span>АКТ ДЕКОНСТРУКЦИИ ПОДЛОГА · CASE-MACHERET-1997–2026</span>
-  <span><a href="https://legal.un.org/ilc/guide/1_14.shtml" target="_blank">ILC JUS COGENS</a> · <a href="https://arhiv1973b.github.io/apostille-archive-english/" target="_blank">90 APOSTILLES</a></span>
-  <span>🔒 INTERPOL READY · 2026</span>
+  <span><a href="https://legal.un.org/ilc/guide/1_14.shtml" target="_blank">ILC JUS COGENS</a> · <a href="apostille_registry.html">97 АПОСТИЛЕЙ</a></span>
+  <span>🔒 INTERPOL READY · SHA-256 · 2026</span>
 </div>
 </div>
 </body>

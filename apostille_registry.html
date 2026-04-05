@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Реестр апостилей — 97 записей · CASE-MACHERET-1997-2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Rajdhani:wght@400;600;700&family=Orbitron:wght@700;900&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#02080d;--panel:#05131e;--border:#0d3050;--border2:#0e4068;--accent:#00c6ff;--red:#ff2244;--gold:#f0c040;--green:#00ff88;--purple:#aa44ff;--text:#c0dff0;--muted:#3a6a8a;--font-mono:'Share Tech Mono',monospace;--font-head:'Orbitron',sans-serif;--font-body:'Rajdhani',sans-serif;}
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box;}
+body{background:var(--bg);color:var(--text);font-family:var(--font-body);font-size:15px;line-height:1.7;overflow-x:hidden;}
+body::after{content:'';position:fixed;inset:0;z-index:0;pointer-events:none;background-image:linear-gradient(rgba(0,198,255,.02) 1px,transparent 1px),linear-gradient(90deg,rgba(0,198,255,.02) 1px,transparent 1px);background-size:44px 44px;}
+.sitenav{position:sticky;top:0;z-index:100;background:rgba(2,8,13,.97);border-bottom:1px solid var(--border2);backdrop-filter:blur(12px);display:flex;align-items:center;padding:0 16px;overflow-x:auto;gap:0;}
+.sitenav a{padding:12px 13px;font-family:var(--font-head);font-size:10px;font-weight:700;letter-spacing:1.5px;color:var(--muted);text-decoration:none;border-bottom:3px solid transparent;white-space:nowrap;transition:color .2s,border-color .2s;}
+.sitenav a:hover{color:var(--accent);}
+.sitenav a.active{color:var(--gold);border-bottom-color:var(--gold);}
+.nav-badge{margin-left:auto;font-family:var(--font-mono);font-size:9px;color:var(--muted);letter-spacing:1px;padding-left:12px;white-space:nowrap;flex-shrink:0;}
+.wrap{max-width:1100px;margin:0 auto;padding:24px 20px 60px;position:relative;z-index:1;}
+.hero{border:2px solid var(--gold);background:linear-gradient(135deg,rgba(240,192,64,.07),rgba(0,0,0,.02));padding:24px 28px;margin-bottom:18px;position:relative;clip-path:polygon(0 0,calc(100% - 18px) 0,100% 18px,100% 100%,0 100%);}
+.hero::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,var(--gold),transparent);}
+.hero-eye{font-family:var(--font-mono);font-size:10px;color:var(--muted);letter-spacing:2px;margin-bottom:6px;}
+.hero-title{font-family:var(--font-head);font-size:clamp(14px,2.5vw,22px);font-weight:900;color:var(--gold);letter-spacing:2px;margin-bottom:6px;}
+.hero-sub{font-family:var(--font-mono);font-size:11px;color:var(--accent);letter-spacing:1px;margin-bottom:10px;}
+.stats-row{display:flex;flex-wrap:wrap;gap:10px;margin:14px 0;}
+.stat-pill{background:rgba(0,198,255,.07);border:1px solid rgba(0,198,255,.2);padding:6px 14px;font-family:var(--font-mono);font-size:11px;color:var(--accent);}
+.stat-pill span{color:var(--gold);font-weight:bold;}
+.void-pill{background:rgba(255,34,68,.1);border-color:rgba(255,34,68,.3);color:#ff6688;}
+.void-pill span{color:var(--red);}
+.search-bar{width:100%;padding:10px 14px;background:var(--panel);border:1px solid var(--border2);color:var(--accent);font-family:var(--font-mono);font-size:12px;letter-spacing:1px;margin-bottom:14px;outline:none;}
+.search-bar:focus{border-color:var(--gold);}
+.filter-row{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px;}
+.filter-btn{padding:6px 14px;font-family:var(--font-mono);font-size:10px;letter-spacing:1px;border:1px solid var(--border2);background:transparent;color:var(--muted);cursor:pointer;transition:all .2s;}
+.filter-btn.active,.filter-btn:hover{border-color:var(--accent);color:var(--accent);background:rgba(0,198,255,.06);}
+.filter-btn.void-filter.active,.filter-btn.void-filter:hover{border-color:var(--red);color:var(--red);background:rgba(255,34,68,.06);}
+table{width:100%;border-collapse:collapse;font-family:var(--font-mono);font-size:11px;}
+thead th{padding:9px 10px;background:rgba(0,198,255,.06);border:1px solid var(--border);color:var(--accent);letter-spacing:1.5px;font-size:10px;text-transform:uppercase;white-space:nowrap;}
+tbody td{padding:8px 10px;border:1px solid var(--border);color:var(--text);vertical-align:middle;}
+tbody tr:hover td{background:rgba(0,198,255,.03);}
+tbody tr.void-row td{background:rgba(255,34,68,.04);}
+tbody tr.void-row:hover td{background:rgba(255,34,68,.07);}
+.code{color:var(--gold);font-weight:700;font-size:10.5px;letter-spacing:0.5px;}
+.sec-code{color:var(--muted);font-size:9.5px;}
+.case-ref{color:var(--accent);font-size:10px;}
+.signer{color:var(--text);font-size:10.5px;}
+.signer.void{color:var(--red);font-style:italic;}
+.date-cell{color:var(--muted);font-size:10px;white-space:nowrap;}
+.void-badge{display:inline-block;background:rgba(255,34,68,.15);border:1px solid rgba(255,34,68,.4);color:var(--red);padding:2px 7px;font-size:9px;letter-spacing:1px;}
+.ok-badge{display:inline-block;background:rgba(0,255,136,.1);border:1px solid rgba(0,255,136,.3);color:var(--green);padding:2px 7px;font-size:9px;letter-spacing:1px;}
+.dl-btn{display:inline-flex;align-items:center;gap:5px;padding:5px 10px;background:linear-gradient(135deg,rgba(0,100,160,.6),rgba(0,198,255,.3));border:1px solid rgba(0,198,255,.4);color:var(--accent);font-family:var(--font-mono);font-size:10px;text-decoration:none;letter-spacing:0.5px;transition:all .2s;cursor:pointer;}
+.dl-btn:hover{background:linear-gradient(135deg,rgba(0,150,200,.7),rgba(0,220,255,.4));color:#fff;}
+.dl-btn.void-dl{background:linear-gradient(135deg,rgba(120,0,30,.5),rgba(255,34,68,.2));border-color:rgba(255,34,68,.4);color:var(--red);}
+.dl-btn.void-dl:hover{background:linear-gradient(135deg,rgba(160,0,40,.6),rgba(255,60,80,.3));color:#fff;}
+.num-cell{color:var(--muted);font-size:10px;text-align:center;}
+.footer{margin-top:36px;padding:14px;border-top:1px solid var(--border);display:flex;flex-wrap:wrap;gap:8px;justify-content:space-between;align-items:center;font-family:var(--font-mono);font-size:10px;color:var(--muted);letter-spacing:1px;}
+.footer a{color:var(--accent);text-decoration:none;}
+.page-count{font-family:var(--font-mono);font-size:10px;color:var(--muted);margin:8px 0;text-align:right;}
+@media(max-width:768px){table{font-size:10px;}tbody td,thead th{padding:6px 6px;}.dl-btn{padding:4px 7px;font-size:9px;}}
+</style>
+</head>
+<body>
+<nav class="sitenav">
+  <a href="index.html">⌂ VAULT</a>
+  <a href="jus-cogens.html">⚡ JUS COGENS</a>
+  <a href="erga-omnes.html">🌍 ERGA OMNES</a>
+  <a href="FORGERY_DECONSTRUCTION_ACT.html">🔍 АКТ ПОДЛОГА</a>
+  <a href="jus-cogens-proof-macheret.html">📜 ДОКАЗАТЕЛЬСТВА</a>
+  <a href="apostille_registry.html" class="active">📋 РЕЕСТР 97</a>
+  <a href="sitemap.html">📍 КАРТА</a>
+  <div class="nav-badge">97 АПОСТИЛЕЙ · 14.4% VOID · SHA-256</div>
+</nav>
+
+<div class="wrap">
+
+<div class="hero">
+  <div class="hero-eye">// РЕЕСТР АПОСТИЛЕЙ · CASE-MACHERET-1997-2026 · SHA-256 VERIFIED</div>
+  <div class="hero-title">📋 РЕЕСТР АПОСТИЛЕЙ — 97 ЗАПИСЕЙ</div>
+  <div class="hero-sub">Министерство Юстиции Республики Молдова · Портал верификации: apostil.gov.md</div>
+</div>
+
+<div class="stats-row">
+  <div class="stat-pill">Всего записей: <span>97</span></div>
+  <div class="stat-pill void-pill">VOID (indescifrabila): <span id="void-count">—</span></div>
+  <div class="stat-pill">Верифицированы: <span id="ok-count">—</span></div>
+  <div class="stat-pill void-pill">Процент брака: <span>14.4%</span></div>
+  <div class="stat-pill">SHA-256: <span>LOCKED</span></div>
+</div>
+
+<input class="search-bar" type="text" id="search" placeholder="🔍 Поиск по коду апостиля, подписанту, делу..." oninput="filterTable()">
+
+<div class="filter-row">
+  <button class="filter-btn active" onclick="setFilter('all',this)">ВСЕ (97)</button>
+  <button class="filter-btn void-filter" onclick="setFilter('void',this)">⛔ ТОЛЬКО VOID</button>
+  <button class="filter-btn" onclick="setFilter('ok',this)">✅ ТОЛЬКО OK</button>
+</div>
+
+<div class="page-count" id="row-count">Показано: 97 записей</div>
+
+<div style="overflow-x:auto">
+<table id="registry-table">
+<thead>
+<tr>
+  <th>#</th>
+  <th>КОД АПОСТИЛЯ</th>
+  <th>КОД БЕЗОПАСНОСТИ</th>
+  <th>ДЕЛО</th>
+  <th>ПОДПИСАНТ</th>
+  <th>ДАТА ДОК.</th>
+  <th>ДАТА АП.</th>
+  <th>СТАТУС</th>
+  <th>СКАЧАТЬ / ВЕРИФИЦИРОВАТЬ</th>
+</tr>
+</thead>
+<tbody id="registry-body">
+</tbody>
+</table>
+</div>
+
+<div class="footer">
+  <span>РЕЕСТР АПОСТИЛЕЙ · CASE-MACHERET-1997-2026 · 97 ЗАПИСЕЙ</span>
+  <span><a href="https://apostil.gov.md" target="_blank">apostil.gov.md</a> · <a href="https://legal.un.org/ilc/guide/1_14.shtml" target="_blank">ILC JUS COGENS</a></span>
+  <span>🔒 SHA-256 LOCKED · 2026</span>
+</div>
+</div>
+
+<script>
+// Полный реестр из PDF: apostille_registry_working_5_signed.pdf
+var DATA = [
+  {n:1,  code:"IMWM44AZGX6N6", sec:"2013073817848", case_ref:"000278",       signer:"Топорец Ирина",                    date_doc:"04.01.2021", date_ap:"18.01.2021", void:false},
+  {n:2,  code:"BOUS9XAQDTFH2", sec:"2013073851064", case_ref:"07-6/3-41",    signer:"Мирон Алёна (И.О. вице-президента суда)", date_doc:"11.02.2021", date_ap:"24.02.2021", void:false},
+  {n:3,  code:"CQ0VC27VGTCK6", sec:"2013073880545", case_ref:"21-021527",    signer:"Гонза Наталья",                    date_doc:"24.03.2021", date_ap:"29.03.2021", void:false},
+  {n:4,  code:"DR4Y1584JW9F4", sec:"2013073886585", case_ref:"1-649/2003",   signer:"Мирон Алёна (И.О. вице-президента)", date_doc:"12.11.2003", date_ap:"05.04.2021", void:false},
+  {n:5,  code:"7H2Q3790FZEI5", sec:"2013073926618", case_ref:"1-568/98",     signer:"Мирон Алёна (И.О. вице-президента)", date_doc:"13.10.1998", date_ap:"18.05.2021", void:false},
+  {n:6,  code:"5GTUD58SJQ5N6", sec:"2013073928629", case_ref:"1ra-834/09",   signer:"Гузун Корнелиу",                   date_doc:"21.07.2009", date_ap:"19.05.2021", void:false},
+  {n:7,  code:"9OVS71FRKM4S3", sec:"2013073942632", case_ref:"784",          signer:"Стела Пынзару",                    date_doc:"14.05.2021", date_ap:"02.06.2021", void:false},
+  {n:8,  code:"7G6YCW5R9NCP4", sec:"2013073967178", case_ref:"318",          signer:"Тома Надежда",                     date_doc:"17.05.2021", date_ap:"25.06.2021", void:false},
+  {n:9,  code:"9T3M953ZBUHO4", sec:"2013073967857", case_ref:"29244",        signer:"Гузун Корнелиу",                   date_doc:"03.12.2018", date_ap:"25.06.2021", void:false},
+  {n:10, code:"4O2V205Z9TCG2", sec:"2013073973599", case_ref:"7-17/13",      signer:"Галбен Анатолий",                  date_doc:"24.05.2013", date_ap:"02.07.2021", void:false},
+  {n:11, code:"3R3T11BQ6TJI1", sec:"2013073973599", case_ref:"1-989/06",     signer:"Гузун Корнелиу",                   date_doc:"08.11.2006", date_ap:"02.07.2021", void:false},
+  {n:12, code:"8I2N14CVELIQ5", sec:"2013073980269", case_ref:"12582",        signer:"Гузун Корнелиу",                   date_doc:"30.06.2021", date_ap:"08.07.2021", void:false},
+  {n:14, code:"HS5N558YBNEK3", sec:"2013074004858", case_ref:"12-25/487",    signer:"Георгий Николаеску",               date_doc:"25.07.2021", date_ap:"26.07.2021", void:false},
+  {n:15, code:"COUQ976XEZCH7", sec:"2013074010279", case_ref:"267",          signer:"Волентир Андрей",                  date_doc:"30.12.2020", date_ap:"30.07.2021", void:false},
+  {n:16, code:"DLUX84ASKYII6", sec:"2013074013836", case_ref:"04-07/1191",   signer:"Пушкуца Сергей",                   date_doc:"31.12.2020", date_ap:"03.08.2021", void:false},
+  {n:17, code:"7FYS428VLM4F4", sec:"2013074021602", case_ref:"10-747/19",    signer:"Мунтяну Дорин",                    date_doc:"28.06.2019", date_ap:"09.08.2021", void:false},
+  {n:18, code:"FN5P1X6ZIP6R3", sec:"2013074048357", case_ref:"10r1009/19",   signer:"Мелинтяну Юрий",                   date_doc:"27.11.2019", date_ap:"24.08.2021", void:false},
+  {n:19, code:"3HWVD912FN7H4", sec:"2013074053054", case_ref:"92/21",        signer:"Фельдман Ян",                      date_doc:"14.06.2021", date_ap:"26.08.2021", void:false},
+  {n:20, code:"BO2TCZ6WHSFG4", sec:"2013074052736", case_ref:"20.06.2555",   signer:"Куров Игорь",                      date_doc:"25.08.2021", date_ap:"26.08.2021", void:false},
+  {n:21, code:"5G2T615VCPFG1", sec:"2013073969189", case_ref:"4-35/1-1271",  signer:"Иордан Юрий",                      date_doc:"28.06.2021", date_ap:"28.06.2021", void:false},
+  {n:22, code:"IG4Q770QDXGH7", sec:"2013074184369", case_ref:"723",          signer:"Тома Надежда",                     date_doc:"02.12.2021", date_ap:"22.12.2021", void:false},
+  {n:23, code:"EJ3U9703FPFS4", sec:"2013074155734", case_ref:"671",          signer:"Тома Надежда",                     date_doc:"08.11.2021", date_ap:"18.11.2021", void:false},
+  {n:24, code:"CTTO324Z8MDO7", sec:"2013074147166", case_ref:"2-5486",       signer:"Василий Стахурский",               date_doc:"08.11.2021", date_ap:"10.11.2021", void:false},
+  {n:25, code:"9J3V97AV8T4M8", sec:"2013074147166", case_ref:"2-5487",       signer:"Василий Стахурский",               date_doc:"08.11.2021", date_ap:"10.11.2021", void:false},
+  {n:26, code:"6QTV0Z4VIS7I1", sec:"2013074130885", case_ref:"207/21",       signer:"Фельдман Ян",                      date_doc:"18.10.2021", date_ap:"27.10.2021", void:false},
+  {n:27, code:"FRWX11FTJU5F9", sec:"2013074190032", case_ref:"7322",         signer:"Потинга Вячеслав",                  date_doc:"03.11.2020", date_ap:"29.12.2021", void:false},
+  {n:28, code:"CFYN438ZLLFN2", sec:"2013074127359", case_ref:"1a-432/21",    signer:"Иордан Юрий",                      date_doc:"24.06.2021", date_ap:"25.10.2021", void:false},
+  {n:29, code:"CK5O133ZKLJE8", sec:"2013074127359", case_ref:"1-42/09",      signer:"Иордан Юрий",                      date_doc:"03.02.2009", date_ap:"25.10.2021", void:false},
+  {n:30, code:"5S2WF92X7X4R8", sec:"2013074079955", case_ref:"1-272/03",     signer:"Мирон Алёна (И.О. вице-президента)", date_doc:"21.02.2003", date_ap:"16.09.2021", void:false},
+  {n:31, code:"DOYO489SCL5K2", sec:"2013074137051", case_ref:"4гн-7/2019",   signer:"Катана Анжелла (Вице-президент и.о.)", date_doc:"02.11.2021", date_ap:"02.11.2021", void:false},
+  {n:32, code:"6R3U2Y63JZ6M3", sec:"2013073928629", case_ref:"1a-42/09",     signer:"Гузун Корнелиу",                   date_doc:"03.02.2009", date_ap:"19.05.2021", void:false},
+  {n:33, code:"3S6V078ZELJK9", sec:"2013073928629", case_ref:"1-157/08",     signer:"Гузун Корнелиу",                   date_doc:"19.03.2008", date_ap:"19.05.2021", void:false},
+  {n:34, code:"CH3OF03S9Q7F9", sec:"2013074286896", case_ref:"—",            signer:"Чуботару Лорина",                  date_doc:"22.03.2022", date_ap:"22.03.2022", void:false},
+  {n:35, code:"5OTZ38FVFN8R2", sec:"2013074190032", case_ref:"—",            signer:"Иордан Юрий",                      date_doc:"29.12.2021", date_ap:"29.12.2021", void:false},
+  {n:36, code:"DLTP7B8ZHWGQ7", sec:"2013074484667", case_ref:"1-989/06",     signer:"semnatura indescifrabila",          date_doc:"08.07.2022", date_ap:"08.07.2022", void:true},
+  {n:37, code:"7R0W7XAY9OFH2", sec:"2013074469061", case_ref:"—",            signer:"Сакенко Валентина",                date_doc:"04.07.2022", date_ap:"04.07.2022", void:false},
+  {n:38, code:"BO1SF0EV8U6P7", sec:"2013073999025", case_ref:"—",            signer:"Параска Василий",                  date_doc:"21.07.2021", date_ap:"21.07.2021", void:false},
+  {n:39, code:"3RX0DXD1DOFL2", sec:"2013074538582", case_ref:"—",            signer:"Фалка Виталие",                    date_doc:"03.08.2022", date_ap:"03.08.2022", void:false},
+  {n:40, code:"DQWVCZCRGYBP4", sec:"2013074013836", case_ref:"—",            signer:"Стамбол Тудор",                    date_doc:"03.08.2021", date_ap:"03.08.2021", void:false},
+  {n:41, code:"CG0T6Y1TBUEL7", sec:"2013074491511", case_ref:"—",            signer:"semnatura indescifrabila",          date_doc:"12.07.2022", date_ap:"12.07.2022", void:true},
+  {n:42, code:"GGTUEBEZGYGH7", sec:"2013074155734", case_ref:"—",            signer:"Диакону Юрие",                     date_doc:"18.11.2021", date_ap:"18.11.2021", void:false},
+  {n:43, code:"3QWY79726SDN4", sec:"2013073987916", case_ref:"—",            signer:"Иордан Юрий",                      date_doc:"14.07.2021", date_ap:"14.07.2021", void:false},
+  {n:44, code:"FJXU588SHPDP2", sec:"2013074127359", case_ref:"1-989",        signer:"Иордан Юрий",                      date_doc:"25.10.2021", date_ap:"25.10.2021", void:false},
+  {n:45, code:"5L7N238Z7QHH5", sec:"2013074147166", case_ref:"—",            signer:"Георгий Николаеску",               date_doc:"10.11.2021", date_ap:"10.11.2021", void:false},
+  {n:46, code:"IPTZ514SCO6R9", sec:"2013074007644", case_ref:"—",            signer:"Гузун Корнелиу",                   date_doc:"28.07.2021", date_ap:"28.07.2021", void:false},
+  {n:47, code:"7G6OCX9YIR8K7", sec:"2013074013836", case_ref:"—",            signer:"Иваничихина Татьяна",              date_doc:"03.08.2021", date_ap:"03.08.2021", void:false},
+  {n:48, code:"CI6P9821GWFR5", sec:"2013074232763", case_ref:"1-28/11",      signer:"Котрута Екатерина",                date_doc:"07.02.2022", date_ap:"07.02.2022", void:false},
+  {n:49, code:"HFUO1X3XGUDF7", sec:"2013074538582", case_ref:"—",            signer:"Фалка Виталие",                    date_doc:"03.08.2022", date_ap:"03.08.2022", void:false},
+  {n:50, code:"GS5T609ZFL4E3", sec:"2013074077739", case_ref:"—",            signer:"Куров Игорь",                      date_doc:"15.09.2021", date_ap:"15.09.2021", void:false},
+  {n:51, code:"5J1O95ARLQJN5", sec:"2013073986643", case_ref:"—",            signer:"Гырбу Сильвия",                    date_doc:"13.07.2021", date_ap:"13.07.2021", void:false},
+  {n:52, code:"6LTO0B9ZBV7N3", sec:"2013073987916", case_ref:"—",            signer:"Туркану Раду",                     date_doc:"14.07.2021", date_ap:"14.07.2021", void:false},
+  {n:53, code:"DJ6Z0130LM7H2", sec:"2013074130649", case_ref:"—",            signer:"Тома Надежда",                     date_doc:"27.10.2021", date_ap:"27.10.2021", void:false},
+  {n:54, code:"6H0S225X9UFN2", sec:"2013074914782", case_ref:"—",            signer:"Чокан Диана",                      date_doc:"07.02.2023", date_ap:"07.02.2023", void:false},
+  {n:55, code:"FPWSB4ARCR9L3", sec:"2013074232763", case_ref:"—",            signer:"Котрута Екатерина",                date_doc:"07.02.2022", date_ap:"07.02.2022", void:false},
+  {n:56, code:"FL2VB340JYEG5", sec:"2013073998714", case_ref:"1-568/98",     signer:"Мирон Алёна",                      date_doc:"21.07.2021", date_ap:"21.07.2021", void:false},
+  {n:58, code:"CT5X1Y51KUDM1", sec:"2013074286896", case_ref:"—",            signer:"Димитриу Сергей",                  date_doc:"22.03.2022", date_ap:"22.03.2022", void:false},
+  {n:59, code:"GO5V1W1R7XCF7", sec:"2013074127359", case_ref:"—",            signer:"Иордан Юрий",                      date_doc:"25.10.2021", date_ap:"25.10.2021", void:false},
+  {n:60, code:"IJ1S0403JYEH8", sec:"2013073967857", case_ref:"—",            signer:"Кожокарь Елена",                   date_doc:"25.06.2021", date_ap:"25.06.2021", void:false},
+  {n:61, code:"8Q0V733ZLQFO7", sec:"2013073978518", case_ref:"—",            signer:"Иордан Юрий",                      date_doc:"07.07.2021", date_ap:"07.07.2021", void:false},
+  {n:62, code:"CO2S9BA3JX6H1", sec:"2013074301759", case_ref:"—",            signer:"Трандафилова Мария",               date_doc:"01.04.2022", date_ap:"01.04.2022", void:false},
+  {n:64, code:"5PWVD5A28PBS8", sec:"2013073917111", case_ref:"—",            signer:"Николау Наталья",                  date_doc:"07.05.2021", date_ap:"07.05.2021", void:false},
+  {n:65, code:"8OUQ636YBZGI7", sec:"2013073978518", case_ref:"—",            signer:"Иордан Юрий",                      date_doc:"07.07.2021", date_ap:"07.07.2021", void:false},
+  {n:67, code:"6S1Q564XIRJJ8", sec:"2013074809675", case_ref:"—",            signer:"Черней Наталья",                   date_doc:"14.12.2022", date_ap:"14.12.2022", void:false},
+  {n:68, code:"DFVMD2FQLW5N3", sec:"2013074809675", case_ref:"—",            signer:"semnatura indescifrabila",          date_doc:"14.12.2022", date_ap:"14.12.2022", void:true},
+  {n:69, code:"IMTQ930Z8U4N7", sec:"2013074678387", case_ref:"—",            signer:"semnatura indescifrabila",          date_doc:"05.10.2022", date_ap:"05.10.2022", void:true},
+  {n:70, code:"HQ7X9W62GUJL9", sec:"2013074330087", case_ref:"ПУ-15 (Морозан)", signer:"semnatura indescifrabila",      date_doc:"20.04.2022", date_ap:"20.04.2022", void:true},
+  {n:71, code:"BS7XCZF1EUJG3", sec:"2013074500114", case_ref:"СИЗО-13 (1.53м²)", signer:"semnatura indescifrabila",    date_doc:"15.07.2022", date_ap:"15.07.2022", void:true},
+  {n:72, code:"EJ2077249VEH8", sec:"2013074821707", case_ref:"—",            signer:"Горинчой Стелян",                  date_doc:"21.12.2022", date_ap:"21.12.2022", void:false},
+  {n:73, code:"EL3X827SBY4J0", sec:"2013074914782", case_ref:"—",            signer:"Александру Дони",                  date_doc:"07.02.2023", date_ap:"07.02.2023", void:false},
+  {n:75, code:"6J4V25F3DNGJ8", sec:"2013075043849", case_ref:"—",            signer:"Касиади Мария",                    date_doc:"18.04.2023", date_ap:"18.04.2023", void:false},
+  {n:76, code:"HI4O379ZEPGN2", sec:"2013074469061", case_ref:"—",            signer:"Кобзак Елена",                     date_doc:"04.07.2022", date_ap:"04.07.2022", void:false},
+  {n:77, code:"4O3WF02QGRCI1", sec:"2013074897031", case_ref:"—",            signer:"semnatura indescifrabila",          date_doc:"30.01.2023", date_ap:"30.01.2023", void:true},
+  {n:78, code:"IQVY40CXISHM2", sec:"2013075043962", case_ref:"—",            signer:"Лунгу Ливия",                      date_doc:"18.04.2023", date_ap:"18.04.2023", void:false},
+  {n:79, code:"DQ1N892ZFXDI3", sec:"2013074979347", case_ref:"—",            signer:"semnatura indescifrabila",          date_doc:"13.03.2023", date_ap:"13.03.2023", void:true},
+  {n:80, code:"3SUU150WIRBO8", sec:"2013075137333", case_ref:"—",            signer:"Лунгу Ливия",                      date_doc:"03.07.2023", date_ap:"03.07.2023", void:false},
+  {n:81, code:"DIV07B9RCV8P4", sec:"2013075137333", case_ref:"—",            signer:"Гилецки Татьяна",                  date_doc:"03.07.2023", date_ap:"03.07.2023", void:false},
+  {n:82, code:"8I6O30ASHY6M6", sec:"2013073998714", case_ref:"1-649/2003",   signer:"Мирон Алёна",                      date_doc:"21.07.2021", date_ap:"21.07.2021", void:false},
+  {n:83, code:"DI6RDB72JYDL1", sec:"2013074139147", case_ref:"—",            signer:"Волох Мариана",                    date_doc:"03.11.2021", date_ap:"03.11.2021", void:false},
+  {n:84, code:"HS0W3X5SGO6O3", sec:"2013074683466", case_ref:"—",            signer:"Горинчой Стелян",                  date_doc:"07.10.2022", date_ap:"07.10.2022", void:false},
+  {n:85, code:"6R2V5Z4XBZBH8", sec:"2013074509902", case_ref:"—",            signer:"semnatura indescifrabila",          date_doc:"20.07.2022", date_ap:"20.07.2022", void:true},
+  {n:86, code:"IT1PD8E29S5F5", sec:"2013074897031", case_ref:"—",            signer:"semnatura indescifrabila",          date_doc:"30.01.2023", date_ap:"30.01.2023", void:true},
+  {n:87, code:"EQ6RD50ZGP8M0", sec:"2013073967178", case_ref:"—",            signer:"Дагута Сергиу",                    date_doc:"25.06.2021", date_ap:"25.06.2021", void:false},
+  {n:88, code:"CQ5PF42YCMDO5", sec:"2013073913601", case_ref:"—",            signer:"Николау Наталья",                  date_doc:"05.05.2021", date_ap:"05.05.2021", void:false},
+  {n:90, code:"4J20E98WFY7J2", sec:"2013074672491", case_ref:"—",            signer:"semnatura indescifrabila",          date_doc:"03.10.2022", date_ap:"03.10.2022", void:true},
+  {n:92, code:"8OUW0ZDQJZGQ2", sec:"2013074009846", case_ref:"—",            signer:"Яворски Андрей",                   date_doc:"29.07.2021", date_ap:"29.07.2021", void:false},
+  {n:93, code:"6OZUD89VBUEJ3", sec:"2013074732485", case_ref:"—",            signer:"semnatura indescifrabila",          date_doc:"01.11.2022", date_ap:"01.11.2022", void:true},
+  {n:94, code:"DOUM4B2ZHL7J7", sec:"2013075043849", case_ref:"—",            signer:"Лунгу Ливия",                      date_doc:"18.04.2023", date_ap:"18.04.2023", void:false},
+  {n:95, code:"9L5ZBB6SHU9K5", sec:"2013074469061", case_ref:"—",            signer:"Бутнару Лилиан",                   date_doc:"04.07.2022", date_ap:"04.07.2022", void:false},
+  {n:96, code:"IHW093CZ8U8R7", sec:"2013074538582", case_ref:"—",            signer:"semnatura indescifrabila",          date_doc:"03.08.2022", date_ap:"03.08.2022", void:true},
+  {n:97, code:"EOYXD0FZ7Y8P2", sec:"2013074031106", case_ref:"—",            signer:"Виноградов Михаил",                date_doc:"13.08.2021", date_ap:"13.08.2021", void:false}
+];
+
+var currentFilter = 'all';
+
+function verifyURL(code, sec) {
+  return 'https://apostil.gov.md/?code=' + code + '&security=' + sec;
+}
+
+function renderTable(data) {
+  var tbody = document.getElementById('registry-body');
+  tbody.innerHTML = '';
+  var voidCount = 0, okCount = 0;
+  data.forEach(function(r) {
+    if (r.void) voidCount++; else okCount++;
+    var tr = document.createElement('tr');
+    if (r.void) tr.classList.add('void-row');
+    tr.setAttribute('data-void', r.void ? '1' : '0');
+    tr.setAttribute('data-search', (r.code + ' ' + r.sec + ' ' + r.case_ref + ' ' + r.signer + ' ' + r.date_ap).toLowerCase());
+    tr.innerHTML =
+      '<td class="num-cell">' + r.n + '</td>' +
+      '<td class="code">' + r.code + '</td>' +
+      '<td class="sec-code">' + r.sec + '</td>' +
+      '<td class="case-ref">' + (r.case_ref || '—') + '</td>' +
+      '<td class="signer' + (r.void ? ' void' : '') + '">' + r.signer + '</td>' +
+      '<td class="date-cell">' + r.date_doc + '</td>' +
+      '<td class="date-cell">' + r.date_ap + '</td>' +
+      '<td style="text-align:center">' + (r.void
+        ? '<span class="void-badge">⛔ VOID</span>'
+        : '<span class="ok-badge">✅ OK</span>') + '</td>' +
+      '<td>' +
+        '<a class="dl-btn' + (r.void ? ' void-dl' : '') + '" href="' + verifyURL(r.code, r.sec) + '" target="_blank" title="Верифицировать апостиль ' + r.code + '">🔗 ВЕРИФИЦИРОВАТЬ</a>' +
+      '</td>';
+    tbody.appendChild(tr);
+  });
+  document.getElementById('void-count').textContent = voidCount;
+  document.getElementById('ok-count').textContent = okCount;
+  document.getElementById('row-count').textContent = 'Показано: ' + data.length + ' записей';
+}
+
+function setFilter(f, btn) {
+  currentFilter = f;
+  document.querySelectorAll('.filter-btn').forEach(function(b) { b.classList.remove('active'); });
+  btn.classList.add('active');
+  filterTable();
+}
+
+function filterTable() {
+  var q = document.getElementById('search').value.toLowerCase();
+  var filtered = DATA.filter(function(r) {
+    var matchSearch = q === '' || (r.code + ' ' + r.sec + ' ' + r.case_ref + ' ' + r.signer + ' ' + r.date_ap).toLowerCase().includes(q);
+    var matchFilter = currentFilter === 'all' || (currentFilter === 'void' && r.void) || (currentFilter === 'ok' && !r.void);
+    return matchSearch && matchFilter;
+  });
+  renderTable(filtered);
+}
+
+// Первоначальный рендер
+renderTable(DATA);
+</script>
+</body>
+</html>
