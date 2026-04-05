@@ -22,7 +22,7 @@ function renderApostilleTable() {
     tableBody.innerHTML = apostilleData.map(item => `
         <tr>
             <td>${item.id}</td>
-            <td class="code-cell" style="font-family: monospace; color: #00ff41;">${item.code}</td>
+            <td style="font-family: monospace; color: #00ff41;">${item.code}</td>
             <td>${item.dateIssue}</td>
             <td>${item.dateApostille}</td>
             <td>${item.series}</td>
@@ -30,7 +30,8 @@ function renderApostilleTable() {
             <td>${item.position}</td>
             <td>${item.department}</td>
             <td><a href="https://github.com/arhiv1973b/apostille-legal-case/blob/main/docs/${item.code}.pdf" target="_blank">Скачать</a></td>
-        </tr>`).join('');
+        </tr>
+    `).join('');
 }
 
 document.addEventListener('DOMContentLoaded', renderApostilleTable);
