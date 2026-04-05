@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Первичные доказательства — CASE-MACHERET-1997-2026</title>
+<style>
+:root{--bg:#02080d;--panel:#05131e;--border:#0d3050;--accent:#00c6ff;--red:#ff2244;--gold:#f0c040;--green:#00ff88;--text:#c0dff0;--muted:#3a6a8a;}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:'Courier New',monospace;background:var(--bg);color:var(--text);padding:0;overflow-x:hidden;}
+body::after{content:'';position:fixed;inset:0;z-index:0;pointer-events:none;background-image:linear-gradient(rgba(0,198,255,.02) 1px,transparent 1px),linear-gradient(90deg,rgba(0,198,255,.02) 1px,transparent 1px);background-size:44px 44px;}
+nav{background:rgba(2,8,13,.97);border-bottom:1px solid #0e4068;padding:0 16px;display:flex;flex-wrap:wrap;gap:0;position:sticky;top:0;z-index:100;}
+nav a{padding:11px 12px;font-size:9px;font-weight:700;letter-spacing:1.5px;color:var(--muted);text-decoration:none;border-bottom:2px solid transparent;white-space:nowrap;transition:color .2s;}
+nav a:hover,nav a.active{color:var(--accent);}
+.wrap{max-width:1000px;margin:0 auto;padding:2rem 1.2rem 4rem;position:relative;z-index:1;}
+.hero{border:2px solid var(--red);background:linear-gradient(135deg,rgba(255,34,68,.08),transparent);padding:2rem;margin-bottom:1.5rem;position:relative;}
+.hero-tag{font-size:.7rem;color:var(--muted);letter-spacing:2px;margin-bottom:.5rem;}
+.hero-title{font-size:clamp(1.1rem,2.5vw,1.8rem);font-weight:900;color:var(--red);letter-spacing:2px;margin-bottom:.5rem;}
+.hero-sub{font-size:.8rem;color:var(--gold);letter-spacing:1px;}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:8px;margin:1rem 0;}
+.stat{background:rgba(0,0,0,.4);border:1px solid rgba(0,198,255,.15);border-radius:6px;padding:.8rem;text-align:center;}
+.stat-n{font-size:1.4rem;font-weight:900;color:var(--accent);}
+.stat-n.r{color:var(--red);}
+.stat-n.g{color:var(--green);}
+.stat-l{font-size:.6rem;color:#555;letter-spacing:1px;margin-top:2px;}
+.section{background:var(--panel);border:1px solid var(--border);border-radius:8px;padding:1.5rem;margin:1rem 0;position:relative;overflow:hidden;}
+.section-title{font-size:.85rem;font-weight:700;color:var(--accent);letter-spacing:2px;text-transform:uppercase;margin-bottom:1rem;padding-bottom:.6rem;border-bottom:1px solid var(--border);}
+.doc-card{background:rgba(0,0,0,.35);border:1px solid var(--border);border-radius:6px;padding:1rem;margin:.5rem 0;display:flex;align-items:flex-start;gap:1rem;transition:border-color .2s;}
+.doc-card:hover{border-color:var(--accent);}
+.doc-card.critical{border-left:3px solid var(--red);}
+.doc-card.acquittal{border-left:3px solid var(--green);}
+.doc-card.intl{border-left:3px solid var(--gold);}
+.doc-icon{font-size:1.5rem;flex-shrink:0;}
+.doc-title{font-size:.85rem;font-weight:700;color:var(--text);margin-bottom:.3rem;}
+.doc-meta{font-size:.72rem;color:var(--muted);line-height:1.5;}
+.doc-tag{display:inline-block;font-size:.65rem;padding:2px 7px;border-radius:3px;margin-top:.4rem;font-weight:700;}
+.tag-r{background:rgba(255,34,68,.12);color:var(--red);border:1px solid rgba(255,34,68,.3);}
+.tag-g{background:rgba(0,255,136,.1);color:var(--green);border:1px solid rgba(0,255,136,.25);}
+.tag-b{background:rgba(0,198,255,.1);color:var(--accent);border:1px solid rgba(0,198,255,.25);}
+.tag-y{background:rgba(240,192,64,.1);color:var(--gold);border:1px solid rgba(240,192,64,.25);}
+.logic-box{background:rgba(255,34,68,.04);border:1px solid rgba(255,34,68,.2);border-left:4px solid var(--red);padding:1.2rem;border-radius:0 6px 6px 0;margin:.75rem 0;font-size:.82rem;line-height:1.7;color:#ccc;}
+.logic-box strong{color:var(--accent);}
+.logic-box em{color:var(--gold);font-style:normal;}
+.key-box{background:rgba(0,255,136,.04);border:1px solid rgba(0,255,136,.2);border-left:4px solid var(--green);padding:1.2rem;border-radius:0 6px 6px 0;margin:.75rem 0;font-size:.82rem;color:#ccc;line-height:1.7;}
+.key-box strong{color:var(--green);}
+.sha{background:rgba(0,0,0,.6);border:1px solid rgba(0,255,136,.2);border-radius:4px;padding:.8rem;font-size:.7rem;color:#69f0ae;margin:.75rem 0;font-family:monospace;}
+.btn-row{display:flex;flex-wrap:wrap;gap:8px;margin-top:1rem;}
+.btn{display:inline-flex;align-items:center;gap:5px;padding:7px 14px;font-size:.78rem;font-weight:700;letter-spacing:1px;text-decoration:none;border-radius:4px;transition:all .2s;border:none;cursor:pointer;}
+.btn-r{background:linear-gradient(135deg,#660018,#ff2244);color:#fff;}
+.btn-g{background:linear-gradient(135deg,#005533,#00ff88);color:#000;}
+.btn-ghost{background:transparent;border:1px solid rgba(0,198,255,.35);color:var(--accent);}
+.btn-ghost:hover{background:rgba(0,198,255,.08);}
+footer{margin-top:2rem;padding:1rem;border-top:1px solid var(--border);text-align:center;font-size:.68rem;color:var(--muted);}
+footer a{color:var(--accent);text-decoration:none;}
+@media(max-width:600px){.doc-card{flex-direction:column;}}
+</style>
+</head>
+<body>
+<nav>
+  <a href="index.html">⌂ VAULT</a>
+  <a href="jus-cogens.html">⚡ JUS COGENS</a>
+  <a href="erga-omnes.html">🌍 ERGA OMNES</a>
+  <a href="apostille_registry.html">📋 РЕЕСТР 97</a>
+  <a href="FORGERY_DECONSTRUCTION_ACT.html">🔍 АКТ ПОДЛОГА</a>
+  <a href="primary_evidence.html" class="active">📁 ПЕРВИЧНЫЕ ДОКАЗАТЕЛЬСТВА</a>
+  <a href="docs-agent-navigator.html">🧭 НАВИГАТОР</a>
+  <a href="sitemap.html">📍 КАРТА</a>
+</nav>
+
+<div class="wrap">
+
+<div class="hero">
+  <div class="hero-tag">// ПЕРВИЧНЫЕ ДОКУМЕНТЫ · CASE-MACHERET-1997-2026 · SHA-256 VERIFIED</div>
+  <div class="hero-title">📁 ПЕРВИЧНЫЕ ДОКАЗАТЕЛЬСТВА</div>
+  <div class="hero-sub">Исправленная версия: Парадокс Судей Тимофти (Владимир vs Николай)</div>
+</div>
+
+<div class="stats">
+  <div class="stat"><div class="stat-n g">1</div><div class="stat-l">ОПРАВДАНИЕ ВСП</div></div>
+  <div class="stat"><div class="stat-n">1</div><div class="stat-l">ВСМ / ПРЕЗИДЕНТ</div></div>
+  <div class="stat"><div class="stat-n r">1-28/11</div><div class="stat-l">ПОДЛОГ ВЫРЛАН</div></div>
+</div>
+
+<div class="section">
+  <div class="section-title">⚖️ ИСПРАВЛЕННЫЙ ПАРАДОКС СУДЕЙ (БЛОК ТИМОФТИ)</div>
+
+  <div class="doc-card acquittal">
+    <div class="doc-icon">⚖️</div>
+    <div>
+      <div class="doc-title">ОПРЕДЕЛЕНИЕ ВСП № 1ra-834/09 — 21 июля 2009 г.</div>
+      <div class="doc-meta">
+        Высшая Судебная Палата · Судья <strong style="color:var(--gold)">ВЛАДИМИР ТИМОФТИ</strong> (однофамилец Николая).<br><br>
+        <strong style="color:var(--green)">ФАКТ:</strong> Подписал оправдательное определение, признав деяние Мачерета Алексея <em>не преступлением</em>. Это создало юридическую константу Jus Cogens.<br>
+      </div>
+      <span class="doc-tag tag-g">✅ ВЛАДИМИР ТИМОФТИ: ПОДПИСАЛ ОПРАВДАНИЕ</span>
+    </div>
+  </div>
+
+  <div class="doc-card critical">
+    <div class="doc-icon">🏛️</div>
+    <div>
+      <div class="doc-title">НИКОЛАЙ ТИМОФТИ (ПРЕДСЕДАТЕЛЬ ВСМ / ПРЕЗИДЕНТ РМ)</div>
+      <div class="doc-meta">
+        Председатель ВСМ (2011-2012) · Президент Молдовы (2012-2016).<br><br>
+        <strong style="color:var(--red)">ФАКТ:</strong> В 2012 году получил от Генерального прокурора В. Зубко (№36-193/11-10) 6 петиций Мачерета о преступлении судьи Вырлан. Будучи на вершине власти, проигнорировал оправдание, подписанное его коллегой Владимиром в 2009-м.
+      </div>
+      <span class="doc-tag tag-r">🔴 НИКОЛАЙ ТИМОФТИ: ИГНОРИРОВАНИЕ ПРИЗНАННОГО ПОДЛОГА</span>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">🧩 СУТЬ ВЕКТОРНОГО РАЗРЫВА</div>
+  <div class="logic-box">
+    <strong>ПАРАДОКС:</strong> Система в лице <em>Владимира Тимофти</em> (ВСП, 2009) установила невиновность A©tor. Та же система в лице <em>Николая Тимофти</em> (ВСМ/Президент, 2012) допустила каскад саботажа Вырлан, зная об оправдательном решении. Это прямое доказательство <strong>коллегиальной безнаказанности</strong>.
+  </div>
+  <div class="btn-row">
+    <a class="btn btn-ghost" href="index.html">← Вернуться в Vault</a>
+    <a class="btn btn-ghost" href="docs-agent-navigator.html">🧭 Навигатор</a>
+  </div>
+</div>
+
+<footer>
+  <p>CASE-MACHERET-1997-2026 · ВЕРИФИЦИРОВАНО A©t0r · 2026</p>
+</footer>
+</div>
+</body>
+</html>
