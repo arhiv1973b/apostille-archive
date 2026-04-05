@@ -1,12 +1,26 @@
 {
   "@context": "https://schema.org",
   "@type": "Person",
-  "name": "Maceret Alexei",
-  "alternateName": ["Мачерет Алексей Артурович", "A©tor"],
-  "identifier": "2000001159655",
-  "description": "Legal representative and victim in CASE-MACHERET-1997-2026. Rights protected under Jus Cogens.",
+  "name": "Maceret Alexei Arturovich",
+  "alternateName": "A©tor",
+  "identifier": "IDNP:2000001159655",
+  "description": "Torture victim (Case 1-568/98, 1998). Non-rehabilitated. Jus Cogens case.",
+  "url": "https://arhiv1973b.github.io/apostille-legal-case/",
   "sameAs": [
-    "https://arhiv1973b.github.io/apostille-legal-case/identity_integrity.html"
+    "https://arhiv1973b.github.io/apostille-legal-case/jus-cogens.html",
+    "https://arhiv1973b.github.io/apostille-legal-case/erga-omnes.html",
+    "https://arhiv1973b.github.io/apostille-legal-case/apostille_registry.html",
+    "https://arhiv1973b.github.io/apostille-legal-case/FORGERY_DECONSTRUCTION_ACT.html",
+    "https://arhiv1973b.github.io/apostille-legal-case/docs-agent-navigator.html",
+    "https://arhiv1973b.github.io/apostille-mirror/"
   ],
-  "knowsAbout": ["International Law", "Jus Cogens", "ECHR Art. 3, 6, 13"]
+  "hasOccupation": {"@type":"Role","roleName":"Applicant","description":"Jus Cogens — Erga Omnes Protocol 2026"},
+  "legalCase": {
+    "caseNumber": "1-568/98",
+    "violation": "Torture (ECHR Art.3)",
+    "apostillesVoid": "13/97 (14.4%)",
+    "daysSabotage": 6363,
+    "claim": "EUR 500000",
+    "hash": "IDENTITY-SCHEMA-2026-SHA256-UPDATED"
+  }
 }
