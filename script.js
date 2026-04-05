@@ -9,8 +9,9 @@ const apostilleData = [
     { id: "2", code: "BOUS9XAQDTFH2", case: "2013073851064", dateIssue: "11.02.2021", dateApostille: "24.02.2021", series: "07-6/3-41", signedBy: "Мирон Алёна", position: "И.О. Вицепрезидента суда", department: "Судебная власть" },
     { id: "3", code: "CQ0VC27VGTCK6", case: "2013073880545", dateIssue: "24.03.2021", dateApostille: "29.03.2021", series: "21-021527", signedBy: "Гонза Наталья", position: "Подписант", department: "Минюст" },
     { id: "4", code: "DR4Y1584JW9F4", case: "2013073886585", dateIssue: "12.11.2003", dateApostille: "05.04.2021", series: "1-649/2003", signedBy: "Мирон Алёна", position: "И.Ο. вицепрезидента", department: "Судебная власть" },
-    { id: "5", code: "7H2Q3790FZEI5", case: "1-568/98", dateIssue: "13.10.1998", dateApostille: "18.05.2021", series: "2013073926618", signedBy: "Мирон Алёна", position: "И.О. Вицепрезидента", department: "Судебная власть" },
+    { id: "5", code: "7H2Q3790FZEI5", case: "2013073926618", dateIssue: "13.10.1998", dateApostille: "18.05.2021", series: "1-568/98", signedBy: "Мирон Алёна", position: "И.О. Вицепрезидента", department: "Судебная власть" },
     { id: "6", code: "5GTUD58SJQ5N6", case: "2013073928629", dateIssue: "21.07.2009", dateApostille: "19.05.2021", series: "1ra-834/09", signedBy: "Гузун Корнелиу", position: "Подписант", department: "Судебная власть" },
+    { id: "19", code: "3HWVD912FN7H4", case: "2013074053054", dateIssue: "14.06.2021", dateApostille: "26.08.2021", series: "92/21", signedBy: "Фельдман Ян", position: "Председатель совета", department: "Совет по равенству" },
     { id: "97", code: "EOYXD0FZ7Y8P2", case: "2013074031106", dateIssue: "13.08.2021", dateApostille: "13.08.2021", series: "N/A", signedBy: "Vinogradov Mihail", position: "Подписант", department: "Минюст" }
 ];
 
@@ -28,9 +29,8 @@ function renderApostilleTable() {
             <td>${item.signedBy}</td>
             <td>${item.position}</td>
             <td>${item.department}</td>
-            <td><a href="https://github.com/arhiv1973b/apostille-legal-case/blob/main/docs/${item.code}.pdf" target="_blank" class="download-link">Скачать</a></td>
-        </tr>
-    `).join('');
+            <td><a href="https://github.com/arhiv1973b/apostille-legal-case/blob/main/docs/${item.code}.pdf" target="_blank">Скачать</a></td>
+        </tr>`).join('');
 }
 
 document.addEventListener('DOMContentLoaded', renderApostilleTable);

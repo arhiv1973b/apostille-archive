@@ -23,28 +23,16 @@
                     <th>Архив</th>
                 </tr>
             </thead>
-            <tbody>
-                </tbody>
+            <tbody></tbody>
         </table>
     </div>
-
     <script src="script.js"></script>
     <script>
-    /**
-     * CASE-MACHERET Evidence Tracking System v2.2
-     * Мониторинг обращений к узлам архива
-     */
     document.addEventListener('click', function(event) {
         const target = event.target.closest('a');
         if (target) {
-            const timestamp = new Date().toLocaleString();
-            const linkHref = target.getAttribute('href');
-            const linkText = target.innerText.trim() || "Unknown Node";
-            const browserInfo = navigator.userAgent; 
-            const pseudoHash = Math.random().toString(16).substring(2, 10).toUpperCase();
-
-            const logEntry = `[${timestamp}] ACCESS_GRANTED [ID:${pseudoHash}]\nNode: ${linkText}\nPath: ${linkHref}\nAgent: ${browserInfo}\n-----------------------------------------------`;
-            console.log('%c' + logEntry, 'color: #00ff41; background: #0a0a0a; font-family: monospace; padding: 5px;');
+            const log = `[${new Date().toLocaleString()}] NODE_ACCESS: ${target.innerText.trim()} | Agent: ${navigator.userAgent}`;
+            console.log('%c' + log, 'color: #00ff41; background: #000; font-family: monospace;');
         }
     });
     </script>
