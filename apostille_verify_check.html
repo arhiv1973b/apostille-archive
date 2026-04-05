@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Верификация апостилей — apostil.gov.md</title>
+<style>
+body{font-family:monospace;background:#050508;color:#e0e0e0;padding:2rem;max-width:900px;margin:0 auto;}
+h1{color:#00ff88;border-bottom:2px solid #00ff88;padding-bottom:10px;margin-bottom:1.5rem;}
+.info{background:rgba(0,255,136,0.05);border:1px solid rgba(0,255,136,0.2);padding:1rem;border-radius:6px;margin-bottom:1.5rem;font-size:0.85rem;color:#aaa;}
+.info strong{color:#00ff88;}
+input{width:100%;padding:10px;background:#0a0a12;border:1px solid #1a1a2e;color:#00ff88;font-family:monospace;font-size:0.9rem;border-radius:4px;outline:none;margin-bottom:10px;}
+input:focus{border-color:#00ff88;}
+.btn{background:none;border:1px solid #00ff88;color:#00ff88;padding:8px 20px;cursor:pointer;font-family:monospace;border-radius:4px;font-size:0.88rem;}
+.btn:hover{background:rgba(0,255,136,0.1);}
+.result{margin-top:1.5rem;padding:1rem;border-radius:6px;font-size:0.85rem;display:none;}
+.result.ok{background:rgba(0,255,136,0.08);border:1px solid rgba(0,255,136,0.3);color:#00ff88;}
+.result.err{background:rgba(255,34,68,0.08);border:1px solid rgba(255,34,68,0.3);color:#ff6688;}
+table{width:100%;border-collapse:collapse;margin-top:1.5rem;font-size:0.8rem;}
+th{background:rgba(0,255,136,0.08);color:#00ff88;padding:8px;border:1px solid #1a1a2e;text-align:left;}
+td{padding:7px 8px;border:1px solid #1a1a2e;}
+td.void{color:#ff6688;}
+td.ok{color:#00ff88;}
+a{color:#00ccff;text-decoration:none;}
+a:hover{text-decoration:underline;}
+.nav{margin-bottom:1.5rem;}
+.nav a{color:#00ff88;border:1px solid #00ff88;padding:5px 12px;border-radius:4px;margin-right:8px;font-size:0.8rem;}
+</style>
+</head>
+<body>
+<div class="nav">
+  <a href="index.html">← Главная</a>
+  <a href="apostille_registry.html">📋 Реестр 97</a>
+  <a href="docs-agent-navigator.html">🧭 Навигатор</a>
+</div>
+<h1>🔗 Верификация апостилей — apostil.gov.md</h1>
+<div class="info">
+  <strong>Как использовать:</strong> Введите код апостиля и код безопасности → нажмите «Верифицировать».<br>
+  Портал: <a href="https://apostil.gov.md" target="_blank">apostil.gov.md</a> | 
+  Всего в реестре: <strong>97</strong> апостилей | VOID: <strong>13</strong> (14.4%)
+</div>
+
+<input id="code" type="text" placeholder="Код апостиля (напр. BS7XCZF1EUJG3)">
+<input id="sec" type="text" placeholder="Код безопасности (напр. 2013074500114)">
+<button class="btn" onclick="verify()">🔍 ВЕРИФИЦИРОВАТЬ</button>
+<button class="btn" style="margin-left:8px;border-color:#00ccff;color:#00ccff" onclick="openRegistry()">📋 РЕЕСТР 97</button>
+
+<div class="result" id="result"></div>
+
+<h2 style="color:#f0c040;margin-top:2rem;font-size:0.9rem">⛔ КЛЮЧЕВЫЕ VOID АПОСТИЛИ (indescifrabila)</h2>
+<table>
+<thead><tr><th>Код апостиля</th><th>Дата</th><th>Дело / Контекст</th><th>Статус</th><th>Верифицировать</th></tr></thead>
+<tbody>
+<tr><td>HQ7X9W62GUJL9</td><td>20.04.2022</td><td>ПУ-15 (Морозан)</td><td class="void">⛔ VOID</td><td><a href="https://apostil.gov.md/?code=HQ7X9W62GUJL9&security=2013074330087" target="_blank">↗ Проверить</a></td></tr>
+<tr><td>BS7XCZF1EUJG3</td><td>15.07.2022</td><td>СИЗО-13 (1.53м²)</td><td class="void">⛔ VOID</td><td><a href="https://apostil.gov.md/?code=BS7XCZF1EUJG3&security=2013074500114" target="_blank">↗ Проверить</a></td></tr>
+<tr><td>CG0T6Y1TBUEL7</td><td>12.07.2022</td><td>indescifrabila</td><td class="void">⛔ VOID</td><td><a href="https://apostil.gov.md/?code=CG0T6Y1TBUEL7&security=2013074491511" target="_blank">↗ Проверить</a></td></tr>
+<tr><td>DFVMD2FQLW5N3</td><td>14.12.2022</td><td>indescifrabila</td><td class="void">⛔ VOID</td><td><a href="https://apostil.gov.md/?code=DFVMD2FQLW5N3&security=2013074809675" target="_blank">↗ Проверить</a></td></tr>
+<tr><td>DLTP7B8ZHWGQ7</td><td>08.07.2022</td><td>1-989/06</td><td class="void">⛔ VOID</td><td><a href="https://apostil.gov.md/?code=DLTP7B8ZHWGQ7&security=2013074484667" target="_blank">↗ Проверить</a></td></tr>
+<tr><td>IMTQ930Z8U4N7</td><td>05.10.2022</td><td>indescifrabila</td><td class="void">⛔ VOID</td><td><a href="https://apostil.gov.md/?code=IMTQ930Z8U4N7&security=2013074678387" target="_blank">↗ Проверить</a></td></tr>
+<tr><td>4O3WF02QGRCI1</td><td>30.01.2023</td><td>indescifrabila</td><td class="void">⛔ VOID</td><td><a href="https://apostil.gov.md/?code=4O3WF02QGRCI1&security=2013074897031" target="_blank">↗ Проверить</a></td></tr>
+<tr><td>DQ1N892ZFXDI3</td><td>13.03.2023</td><td>indescifrabila</td><td class="void">⛔ VOID</td><td><a href="https://apostil.gov.md/?code=DQ1N892ZFXDI3&security=2013074979347" target="_blank">↗ Проверить</a></td></tr>
+<tr><td>6R2V5Z4XBZBH8</td><td>20.07.2022</td><td>indescifrabila</td><td class="void">⛔ VOID</td><td><a href="https://apostil.gov.md/?code=6R2V5Z4XBZBH8&security=2013074509902" target="_blank">↗ Проверить</a></td></tr>
+<tr><td>IT1PD8E29S5F5</td><td>30.01.2023</td><td>indescifrabila</td><td class="void">⛔ VOID</td><td><a href="https://apostil.gov.md/?code=IT1PD8E29S5F5&security=2013074897031" target="_blank">↗ Проверить</a></td></tr>
+<tr><td>4J20E98WFY7J2</td><td>03.10.2022</td><td>indescifrabila</td><td class="void">⛔ VOID</td><td><a href="https://apostil.gov.md/?code=4J20E98WFY7J2&security=2013074672491" target="_blank">↗ Проверить</a></td></tr>
+<tr><td>6OZUD89VBUEJ3</td><td>01.11.2022</td><td>indescifrabila</td><td class="void">⛔ VOID</td><td><a href="https://apostil.gov.md/?code=6OZUD89VBUEJ3&security=2013074732485" target="_blank">↗ Проверить</a></td></tr>
+<tr><td>IHW093CZ8U8R7</td><td>03.08.2022</td><td>indescifrabila</td><td class="void">⛔ VOID</td><td><a href="https://apostil.gov.md/?code=IHW093CZ8U8R7&security=2013074538582" target="_blank">↗ Проверить</a></td></tr>
+</tbody>
+</table>
+
+<script>
+function verify(){
+  var code=document.getElementById('code').value.trim();
+  var sec=document.getElementById('sec').value.trim();
+  var r=document.getElementById('result');
+  if(!code||!sec){r.style.display='block';r.className='result err';r.textContent='⚠ Введите оба поля';return;}
+  var url='https://apostil.gov.md/?code='+encodeURIComponent(code)+'&security='+encodeURIComponent(sec);
+  r.style.display='block';r.className='result ok';
+  r.innerHTML='✅ Ссылка сформирована:<br><a href="'+url+'" target="_blank" style="color:#00ccff">'+url+'</a><br><br><button onclick="window.open(\''+url+'\',\'_blank\')" style="background:none;border:1px solid #00ccff;color:#00ccff;padding:6px 16px;cursor:pointer;font-family:monospace;border-radius:4px">↗ Открыть портал</button>';
+}
+function openRegistry(){window.location.href='apostille_registry.html';}
+document.getElementById('code').addEventListener('keydown',function(e){if(e.key==='Enter')verify();});
+</script>
+</body>
+</html>
