@@ -1,0 +1,20 @@
+    <h1>📟 A©TOR NAVIGATOR: CASE-MACHERET-1997-2026</h1>
+    <p class="meta">Evidence Vault Agent | Status: <span id="api-status">CHECKING...</span> | Integrity: SHA-256 [622 Nodes]</p>
+
+    <script>
+        async function checkApi() {
+            const statusEl = document.getElementById('api-status');
+            try {
+                const response = await fetch('http://localhost:8080/status');
+                if (response.ok) {
+                    statusEl.innerText = 'API ONLINE | VERIFIED';
+                    statusEl.style.color = '#00ff41';
+                    statusEl.style.textShadow = '0 0 10px #00ff41';
+                }
+            } catch (e) {
+                statusEl.innerText = 'OFFLINE (VAULT LOCKED)';
+                statusEl.style.color = '#ff0055';
+            }
+        }
+        checkApi();
+    </script>
