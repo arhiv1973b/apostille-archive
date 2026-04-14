@@ -1,71 +1,255 @@
 <!DOCTYPE html>
-<html lang='ru'>
+<html lang="ru">
 <head>
-    <meta charset='UTF-8'>
-    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-    <title>⚖️ A©tor Navigator v3 — Evidence Vault</title>
-    <style>
-        :root{--dark:#0a0e17;--panel:#151d2b;--border:rgba(69,123,157,0.25);--text:#c8d6e5;--muted:#6b7a93;--accent:#4fc3f7;--ok:#2a9d8f;--void:#e63946;--warn:#e9c46a;--gold:#f0c040;--glow:rgba(79,195,247,0.15);}
-        *{box-sizing:border-box;margin:0;padding:0;}
-        body{font-family:'Courier New',monospace;background:var(--dark);color:var(--text);min-height:100vh;overflow-x:hidden;display:flex;}
-        #sidebar{width:280px;flex-shrink:0;border-right:1px solid var(--border);padding:1.5rem;background:var(--panel);overflow-y:auto;z-index:10;height:100vh;}
-        #content{flex:1;padding:2rem;position:relative;overflow-y:auto;background:radial-gradient(circle at center, #151d2b 0%, #0a0e17 100%);}
-        .nav-item{display:flex;align-items:center;gap:10px;padding:12px;color:var(--text);text-decoration:none;font-size:0.8rem;border-left:3px solid transparent;transition:0.2s;margin-bottom:8px;background:rgba(255,255,255,0.02);}
-        .nav-item:hover, .nav-item.active{background:var(--glow);border-left-color:var(--accent);color:var(--accent);}
-        h1{font-size:1.6rem;color:var(--accent);text-shadow:0 0 20px rgba(79,195,247,0.4);margin-bottom:1.5rem;border-bottom:1px solid var(--border);padding-bottom:1rem;}
-        .node-card{background:var(--panel);border:1px solid var(--border);padding:1.5rem;margin-bottom:1.5rem;border-radius:4px;position:relative;transition:0.3s;}
-        .node-card:hover{border-color:var(--accent);box-shadow:0 0 15px var(--glow);}
-        .badge{font-size:0.65rem;padding:3px 8px;border:1px solid var(--ok);color:var(--ok);border-radius:2px;font-weight:700;text-transform:uppercase;}
-        .badge.critical{border-color:var(--void);color:var(--void);}
-        #tunnel-bg{position:fixed;inset:0;pointer-events:none;opacity:0.1;}
-        .status-box{margin-top:2rem;padding:1rem;border:1px dashed var(--muted);font-size:0.7rem;color:var(--gold);}
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>A©tor Navigator v3 — Evidence Vault CASE-MACHERET-1997-2026</title>
+<style>
+:root{--dark:#0a0e17;--panel:#151d2b;--border:rgba(69,123,157,0.25);--text:#c8d6e5;--muted:#6b7a93;--accent:#4fc3f7;--ok:#2a9d8f;--void:#e63946;--warn:#e9c46a;--gold:#f0c040;--glow:rgba(79,195,247,0.15);}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:'Courier New',monospace;background:var(--dark);color:var(--text);min-height:100vh;}
+body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(rgba(69,123,157,0.04)1px,transparent 1px),linear-gradient(90deg,rgba(69,123,157,0.04)1px,transparent 1px);background-size:32px 32px;pointer-events:none;}
+#tov{position:fixed;inset:0;z-index:9999;pointer-events:none;opacity:0;transition:opacity .3s;}#tov.on{pointer-events:all;opacity:1;}
+#tc{position:absolute;inset:0;width:100%;height:100%;}
+#tl{position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);z-index:10000;font-size:.78rem;color:var(--accent);letter-spacing:.15em;font-weight:700;opacity:0;text-shadow:0 0 20px var(--accent);pointer-events:none;transition:opacity .2s;}#tl.on{opacity:1;}
+#hd{position:sticky;top:0;z-index:100;background:rgba(10,14,23,.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);padding:.55rem 1.1rem;display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;}
+#hd h1{font-size:.88rem;font-weight:700;color:var(--accent);text-shadow:0 0 18px rgba(79,195,247,.4);}
+.bdg{font-size:.6rem;padding:2px 6px;border-radius:2px;border:1px solid;font-weight:700;}
+.bok{color:var(--ok);border-color:var(--ok);}.bvd{color:var(--void);border-color:var(--void);}.brw{color:var(--warn);border-color:var(--warn);}
+#si{margin-left:auto;background:var(--panel);border:1px solid var(--border);color:var(--text);padding:4px 9px;border-radius:2px;font-family:inherit;font-size:.74rem;width:180px;outline:none;}
+#si:focus{border-color:var(--accent);}
+#lay{display:flex;min-height:calc(100vh - 44px);}
+#sb{width:255px;flex-shrink:0;border-right:1px solid var(--border);padding:.6rem 0;position:sticky;top:44px;height:calc(100vh - 44px);overflow-y:auto;scrollbar-width:thin;scrollbar-color:var(--border) transparent;}
+.sgt{font-size:.59rem;letter-spacing:.12em;font-weight:700;color:var(--muted);padding:.3rem 1rem .15rem;text-transform:uppercase;}
+.ni{display:flex;align-items:center;gap:5px;padding:3px 1rem 3px 1.2rem;cursor:pointer;font-size:.71rem;color:var(--text);border-left:2px solid transparent;transition:all .1s;text-decoration:none;}
+.ni:hover,.ni.on{background:var(--glow);color:var(--accent);border-left-color:var(--accent);}
+.dot{width:5px;height:5px;border-radius:50%;flex-shrink:0;}
+.dok{background:var(--ok);}.dvd{background:var(--void);}.drw{background:var(--warn);}
+.ns{margin-left:auto;font-size:.56rem;opacity:.55;}
+#ct{flex:1;padding:1.4rem;max-width:880px;}
+#pc{background:var(--panel);border:1px solid var(--border);border-radius:4px;padding:1.4rem;min-height:380px;transition:opacity .2s;}
+#pc.ld{opacity:.3;}
+.pm{display:flex;align-items:center;gap:6px;flex-wrap:wrap;margin-bottom:.9rem;padding-bottom:.75rem;border-bottom:1px solid var(--border);}
+.pp{font-size:.64rem;color:var(--muted);}
+.mb{font-size:.66rem;padding:2px 7px;border:1px solid var(--border);border-radius:2px;cursor:pointer;color:var(--muted);background:transparent;font-family:inherit;transition:all .1s;text-decoration:none;display:inline-block;}
+.mb:hover{border-color:var(--accent);color:var(--accent);}
+#mo h1{font-size:1.15rem;color:var(--accent);margin-bottom:.75rem;padding-bottom:.35rem;border-bottom:1px solid var(--border);}
+#mo h2{font-size:.92rem;color:var(--ok);margin:1.1rem 0 .45rem;}
+#mo h3{font-size:.82rem;color:var(--warn);margin:.75rem 0 .35rem;}
+#mo p{font-size:.82rem;line-height:1.75;margin-bottom:.7rem;}
+#mo strong{color:var(--accent);}
+#mo ul,#mo ol{padding-left:1.1rem;margin-bottom:.7rem;}
+#mo li{font-size:.8rem;line-height:1.68;}
+#mo table{width:100%;border-collapse:collapse;font-size:.73rem;margin:.9rem 0;}
+#mo th{background:rgba(69,123,157,.17);color:var(--accent);padding:5px 9px;text-align:left;border:1px solid var(--border);}
+#mo td{padding:4px 9px;border:1px solid var(--border);}
+#mo code{background:rgba(79,195,247,.08);color:var(--accent);padding:1px 4px;border-radius:2px;font-size:.77rem;}
+#mo pre{background:rgba(0,0,0,.4);border:1px solid var(--border);padding:.85rem;border-radius:4px;overflow-x:auto;font-size:.73rem;margin:.7rem 0;}
+#mo a{color:var(--accent);}
+#mo blockquote{border-left:3px solid var(--accent);padding:.45rem .9rem;background:rgba(79,195,247,.04);margin:.7rem 0;font-size:.8rem;color:var(--muted);}
+#mo hr{border:none;border-top:1px solid var(--border);margin:1.1rem 0;}
+.igrd{display:grid;grid-template-columns:repeat(auto-fill,minmax(195px,1fr));gap:6px;margin-top:.8rem;}
+.ic{background:var(--dark);border:1px solid var(--border);border-radius:4px;padding:.75rem;cursor:pointer;transition:all .14s;position:relative;overflow:hidden;}
+.ic::before{content:'';position:absolute;top:0;left:0;width:3px;height:100%;}
+.ic.ok::before{background:var(--ok);}.ic.raw::before{background:var(--warn);}.ic.void::before{background:var(--void);}
+.ic:hover{transform:translateY(-2px);border-color:var(--accent);}
+.ict{font-size:.74rem;font-weight:700;color:var(--accent);margin-bottom:2px;}
+.icp{font-size:.59rem;color:var(--muted);word-break:break-all;}
+.ics{position:absolute;top:5px;right:5px;font-size:.55rem;font-weight:700;}
+.ic.ok .ics{color:var(--ok);}.ic.raw .ics{color:var(--warn);}.ic.void .ics{color:var(--void);}
+.sbar{display:flex;gap:1.1rem;flex-wrap:wrap;font-size:.73rem;color:var(--muted);margin-bottom:1.1rem;}
+.si strong{color:var(--text);}
+.tb{background:rgba(240,192,64,.05);border:1px solid rgba(240,192,64,.2);border-left:3px solid var(--gold);padding:.85rem 1rem;margin:.65rem 0;border-radius:0 4px 4px 0;}
+.tb h4{color:var(--gold);font-size:.74rem;margin-bottom:.35rem;}
+.tb ul{padding-left:1rem;}.tb li{font-size:.7rem;color:var(--muted);line-height:1.6;}.tb li strong{color:var(--text);}
+@media(max-width:680px){#sb{display:none;}#ct{padding:.9rem;}}
+</style>
 </head>
 <body>
-<canvas id='tunnel-bg'></canvas>
-<nav id='sidebar'>
-    <div style='font-size:0.7rem;color:var(--muted);letter-spacing:2px;margin-bottom:2rem;font-weight:bold;'>CASE-MACHERET-1997-2026</div>
-    <a class='nav-item active' href='index.html'>🏠 ГЛАВНАЯ ПАНЕЛЬ</a>
-    <a class='nav-item' href='primary_evidence.html'>📁 ПЕРВИЧНЫЕ УЛИКИ</a>
-    <a class='nav-item' href='jus-cogens.html'>⚖️ JUS COGENS PORTAL</a>
-    <a class='nav-item' href='apostille_registry.html'>📜 РЕЕСТР 97 АПОСТИЛЕЙ</a>
-    <a class='nav-item' href='timeline.html'>⏳ ХРОНОЛОГИЯ САБОТАЖА</a>
-    <div class='status-box'>SYSTEM: ONLINE<br>NODES: 7648 VERIFIED<br>INTEGRITY: SHA-256<br>AGENT: A©tor-AI-V3</div>
-</nav>
-<main id='content'>
-    <h1>⚖️ EVIDENCE VAULT — ЦИФРОВОЙ ГАРНИЗОН</h1>
-    <div class='node-card'>
-        <div style='display:flex;justify-content:space-between;align-items:center;'>
-            <span class='badge'>Jus Cogens Enforcement</span>
-            <span style='font-size:0.7rem;color:var(--muted);'>TS: 09.04.2026</span>
-        </div>
-        <h2 style='margin:1rem 0;font-size:1.2rem;'>Узел ПУ-15 и СИЗО-13: Верификация завершена</h2>
-        <p style='font-size:0.9rem;line-height:1.6;color:var(--muted);'>
-            Обнаружен паттерн сокрытия подписей (Морозан, Саракуца). Статус <span style='color:var(--void)'>"indescifrabila"</span> в реестрах 2022 года признан актом преднамеренного разрыва цепи правосудия.
-        </p>
-    </div>
-    <div class='node-card'>
-        <span class='badge critical'>Sabotage Alert</span>
-        <h2 style='margin:1rem 0;font-size:1.2rem;'>Каскад Холбана-Стамбола (Декабрь 2025)</h2>
-        <p style='font-size:0.9rem;line-height:1.6;color:var(--muted);'>Анализ 1184 инцидентов саботажа. Математическое доказательство невозможности принятия решений с такой скоростью. Внедрен протокол Deadlock.</p>
-    </div>
-    <div id='live-audit' style='font-family:monospace;font-size:0.75rem;color:var(--ok);background:rgba(0,0,0,0.3);padding:1rem;border:1px solid var(--ok);'>> INITIALIZING GLOBAL MIRROR SYNC...<br>> HASHING 7648 NODES... DONE.<br>> DEPLOYING TO GITHUB PAGES... ACTIVE.</div>
-</main>
+<div id="tov"><canvas id="tc"></canvas></div>
+<div id="tl">NAVIGATING EVIDENCE VAULT...</div>
+<div id="hd">
+  <h1>&#x2696;&#xFE0F; A&#x00A9;TOR NAVIGATOR v3</h1>
+  <span class="bdg bok" id="hok">-- LIVE</span>
+  <span class="bdg bvd" id="hvd">-- VOID</span>
+  <span class="bdg brw" id="hrw">-- RAW</span>
+  <input id="si" type="text" placeholder="Search documents...">
+</div>
+<div id="lay">
+<nav id="sb"></nav>
+<main id="ct"><div id="pc"><div class="pm"><span class="pp" id="pp">/</span><a id="rb" class="mb" href="#" target="_blank">RAW</a><a id="lb" class="mb" href="#" target="_blank">LIVE</a><button class="mb" onclick="cpy()">COPY</button></div><div id="mo"></div></div></main>
+</div>
 <script>
-    const canvas = document.getElementById('tunnel-bg');
-    const ctx = canvas.getContext('2d');
-    canvas.width = window.innerWidth; canvas.height = window.innerHeight;
-    const particles = [];
-    for(let i=0; i<100; i++) particles.push({x: Math.random()*canvas.width, y: Math.random()*canvas.height, r: Math.random()*2, d: Math.random()*0.5});
-    function draw() {
-        ctx.clearRect(0,0,canvas.width,canvas.height); ctx.fillStyle = '#4fc3f7';
-        particles.forEach(p => {
-            ctx.beginPath(); ctx.arc(p.x, p.y, p.r, 0, Math.PI*2); ctx.fill();
-            p.y -= p.d; if(p.y < 0) p.y = canvas.height;
-        });
-        requestAnimationFrame(draw);
-    }
-    draw();
+var R='https://raw.githubusercontent.com/arhiv1973b/apostille-legal-case/master/';
+var S='https://arhiv1973b.github.io/apostille-legal-case/';
+var P=[
+{id:'home',t:'Index',p:'',g:'Navigation',s:'ok'},
+{id:'nav',t:'Navigator v3',p:'docs-agent-navigator.html',g:'Navigation',s:'ok'},
+{id:'sitemap',t:'Sitemap',p:'sitemap.html',g:'Navigation',s:'ok'},
+{id:'tasks',t:'Next Session Tasks',p:'NEXT_SESSION_TASKS.md',g:'Navigation',s:'raw'},
+{id:'reg97',t:'Apostille Registry 97',p:'apostille_registry.html',g:'Apostilles',s:'ok',d:'97 apostilles VOID/OK filter'},
+{id:'aver',t:'Verify apostil.gov.md',p:'apostille_verify_check.html',g:'Apostilles',s:'ok'},
+{id:'aidx',t:'Archive Index',p:'apostille-archive/index.html',g:'Apostilles',s:'ok'},
+{id:'aru',t:'Archive RU',p:'apostille_archive_complete.html',g:'Apostilles',s:'ok'},
+{id:'aen',t:'Archive EN',p:'apostille_archive_english.html',g:'Apostilles',s:'ok'},
+{id:'afr',t:'Fraud Report',p:'APOSTILLE_FRAUD_REPORT.md',g:'Apostilles',s:'raw'},
+{id:'avr',t:'Verification Report',p:'APOSTILLE_VERIFICATION_REPORT.md',g:'Apostilles',s:'raw'},
+{id:'pev',t:'Primary Evidence',p:'primary_evidence.html',g:'Evidence',s:'ok',d:'Zubco + Timofti + VSP 1ra-834/09 + CPT'},
+{id:'fru',t:'Forgery Act RU',p:'FORGERY_DECONSTRUCTION_ACT.html',g:'Evidence',s:'ok'},
+{id:'fen',t:'Forgery Deconstruction EN',p:'FORGERY_DECONSTRUCTION_EN.html',g:'Evidence',s:'ok'},
+{id:'ffr',t:'Deconstruction FR',p:'FORGERY_DECONSTRUCTION_FR.html',g:'Evidence',s:'ok'},
+{id:'evd',t:'Evidence Archive 31MB',p:'evidence.html',g:'Evidence',s:'ok'},
+{id:'lpd',t:'Lista Probelor Digitale',p:'LISTA_PROBE_DIGITALE.html',g:'Evidence',s:'ok'},
+{id:'jc',t:'Jus Cogens Portal',p:'jus-cogens.html',g:'Jus Cogens',s:'ok',d:'6363 days 14.4% VOID'},
+{id:'eo',t:'Erga Omnes Protocol',p:'erga-omnes.html',g:'Jus Cogens',s:'ok',d:'129 states notified'},
+{id:'jcp',t:'Jus Cogens Proof',p:'jus-cogens-proof-macheret.html',g:'Jus Cogens',s:'ok'},
+{id:'jch',t:'Jus Cogens Hierarchy',p:'jus_cogens_hierarchy.html',g:'Jus Cogens',s:'ok'},
+{id:'v11',t:'Vector-11',p:'vector-11.html',g:'Jus Cogens',s:'ok'},
+{id:'clru',t:'Claim RU',p:'docs/claim/ru.md',g:'Claim',s:'raw',d:'Cascading rehabilitation 500K EUR'},
+{id:'clen',t:'Claim EN',p:'docs/claim/en.md',g:'Claim',s:'raw'},
+{id:'plead',t:'Final Speech 09.04.2026',p:'docs/court_scripts/pledoarie_finala_0904.md',g:'Claim',s:'raw'},
+{id:'cdsh',t:'Court Dashboard',p:'court_dashboard.html',g:'Claim',s:'ok'},
+{id:'lhub',t:'Legal AI Hub v17',p:'legal_ai_hub_v17_final.html',g:'Claim',s:'ok'},
+{id:'acc',t:'Final Accusation Protocol',p:'FINAL_ACCUSATION_PROTOCOL_2026.md',g:'Claim',s:'raw'},
+{id:'dulch',t:'DULCA V.G. MIA',p:'DULCA_NOTICE.html',g:'Liability',s:'ok',d:'8158 days procedural vacuum'},
+{id:'mury',t:'MURIANU Court',p:'MURIANU_NOTICE.html',g:'Liability',s:'ok'},
+{id:'nant',t:'NANTOI GNS',p:'NANTOI_NOTICE.html',g:'Liability',s:'ok'},
+{id:'liab',t:'All Liability Nodes',p:'liability-nodes.html',g:'Liability',s:'ok'},
+{id:'tl',t:'Timeline 1997-2026',p:'timeline.html',g:'Timeline',s:'ok'},
+{id:'vm',t:'Violations Map',p:'violations-map.html',g:'Timeline',s:'ok'},
+{id:'inv',t:'Investigation',p:'investigation.html',g:'Timeline',s:'ok'},
+{id:'hrc',t:'HRC UN Submission',p:'docs/un/HRC_FULL_SUBMISSION_INTEGRATED.md',g:'International',s:'raw'},
+{id:'unidx',t:'UN Documents',p:'docs/un/index.html',g:'International',s:'ok'},
+{id:'pce',t:'Peace Protocol',p:'docs/international/jus_cogens_peace_protocol.md',g:'International',s:'raw'},
+{id:'echr',t:'ECHR Submission',p:'ECHR_SUBMISSION.md',g:'International',s:'raw'},
+{id:'trts',t:'Treaties Dashboard',p:'treaties-dashboard.html',g:'International',s:'ok'},
+{id:'icc',t:'ICC Bridge',p:'ICC_COMMUNICATION_BRIDGE.html',g:'International',s:'ok'},
+{id:'nato',t:'NATO Audit',p:'NATO_AUDIT_COORDINATION.html',g:'International',s:'ok'},
+{id:'interp',t:'Ultimatum Interpol',p:'ULTIMATUM_INTERPOL_PROTOCOL.html',g:'International',s:'ok'},
+{id:'iint',t:'Identity Integrity',p:'identity_integrity.html',g:'Identity',s:'ok'},
+{id:'cpass',t:'Case Passport',p:'CASE_PASSPORT.html',g:'Identity',s:'ok'},
+{id:'idth',t:'MACERET to MASERET',p:'identity_theft_2026.json',g:'Identity',s:'raw'},
+{id:'qd',t:'Quantum Dashboard',p:'quantum_dashboard.html',g:'Dashboards',s:'ok'},
+{id:'mx',t:'Matrix Inversion V23',p:'matrix_inversion_v23.html',g:'Dashboards',s:'ok'},
+{id:'pk',t:'Press Kit',p:'PRESS_KIT.html',g:'Dashboards',s:'ok'},
+{id:'dcc',t:'Dispatch Control',p:'DISPATCH_CONTROL_CENTER.html',g:'Dashboards',s:'ok'},
+{id:'laud',t:'Legal Audit Agreement',p:'LEGAL_AUDIT_AGREEMENT.html',g:'Dashboards',s:'ok'},
+{id:'ob',t:'Observer Guide',p:'OBSERVER_GUIDE.html',g:'Technical',s:'ok'},
+{id:'sha',t:'SHA-256 Manifest',p:'SHA256SUMS.txt',g:'Technical',s:'raw'},
+{id:'ic',t:'Integrity Certificate',p:'SUMMARY_INTEGRITY_CERTIFICATE.md',g:'Technical',s:'raw'},
+{id:'mcp',t:'MCP Evidence Report',p:'mcp_evidence_report.md',g:'Technical',s:'raw'},
+];
+var cv=document.getElementById('tc'),cx=cv.getContext('2d'),ta=null,tact=false;
+function tunnel(cb){
+  if(tact){cb&&cb();return;}tact=true;
+  var ov=document.getElementById('tov'),lb=document.getElementById('tl');
+  ov.classList.add('on');lb.classList.add('on');
+  cv.width=window.innerWidth;cv.height=window.innerHeight;
+  var W=cv.width,H=cv.height,cX=W/2,cY=H/2,t=0;
+  function fr(){
+    cx.clearRect(0,0,W,H);cx.fillStyle='rgba(10,14,23,.88)';cx.fillRect(0,0,W,H);
+    for(var i=0;i<16;i++){var p=((i/16)+(t*.04))%1,r=Math.pow(p,1.5)*Math.min(W,H)*.8,a=(1-p)*.6;
+      cx.beginPath();
+      for(var s=0;s<=6;s++){var ag=(s/6)*Math.PI*2-Math.PI/6+(t*.005);s===0?cx.moveTo(cX+r*Math.cos(ag),cY+r*Math.sin(ag)):cx.lineTo(cX+r*Math.cos(ag),cY+r*Math.sin(ag));}
+      cx.strokeStyle='rgba(79,195,247,'+a+')';cx.lineWidth=.5+(1-p);cx.stroke();}
+    t++;ta=requestAnimationFrame(fr);}
+  fr();
+  setTimeout(function(){tact=false;cancelAnimationFrame(ta);ov.classList.remove('on');lb.classList.remove('on');cx.clearRect(0,0,W,H);cb&&cb();},580);
+}
+function md(s){
+  return '<p>'+s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
+    .replace(/```[\w]*\n([\s\S]*?)```/g,'<pre><code>$1</code></pre>').replace(/`([^`]+)`/g,'<code>$1</code>')
+    .replace(/^### (.+)$/gm,'<h3>$1</h3>').replace(/^## (.+)$/gm,'<h2>$1</h2>').replace(/^# (.+)$/gm,'<h1>$1</h1>')
+    .replace(/^---+$/gm,'<hr>').replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>').replace(/\*(.+?)\*/g,'<em>$1</em>')
+    .replace(/\[([^\]]+)\]\(([^)]+)\)/g,'<a href="$2" target="_blank">$1</a>')
+    .replace(/^[-*] (.+)$/gm,'<li>$1</li>').replace(/^> (.+)$/gm,'<blockquote>$1</blockquote>')
+    .replace(/\n\n/g,'</p><p>')+'</p>';
+}
+var cur=null;
+function go(id){
+  var p=P.find(function(x){return x.id===id;});if(!p)return;
+  tunnel(function(){rp(p);});
+  document.querySelectorAll('.ni').forEach(function(el){el.classList.toggle('on',el.dataset.id===id);});
+  location.hash=id;
+}
+function rp(pg){
+  cur=pg;
+  var pc=document.getElementById('pc'),mo=document.getElementById('mo');
+  document.getElementById('pp').textContent='/'+pg.p;
+  document.getElementById('rb').href=R+pg.p;
+  document.getElementById('lb').href=S+pg.p;
+  pc.classList.add('ld');
+  if(pg.id==='home'){rh();pc.classList.remove('ld');return;}
+  if(pg.s==='ok'){
+    mo.innerHTML='<div style="text-align:center;padding:2.5rem 0">'
+      +'<div style="font-size:1.8rem">&#x26A1;</div>'
+      +'<div style="color:var(--ok);font-weight:700;margin:.5rem 0;letter-spacing:1px;font-size:.85rem">LIVE HTML PAGE</div>'
+      +'<div style="color:var(--muted);font-size:.7rem;margin-bottom:1.1rem;font-family:monospace">'+(pg.p||'index.html')+'</div>'
+      +'<div style="display:flex;gap:7px;justify-content:center;flex-wrap:wrap">'
+      +'<a href="'+S+pg.p+'" target="_blank" class="mb" style="color:var(--ok);border-color:var(--ok);font-size:.78rem;padding:6px 14px">OPEN</a>'
+      +'<a href="'+R+pg.p+'" target="_blank" class="mb" style="font-size:.78rem;padding:6px 14px">RAW</a>'
+      +'</div>'+(pg.d?'<p style="margin-top:1rem;color:var(--muted);font-size:.7rem;max-width:340px;margin-left:auto;margin-right:auto;line-height:1.55">'+pg.d+'</p>':'')+'</div>';
+    pc.classList.remove('ld');return;
+  }
+  fetch(R+pg.p).then(function(r){if(!r.ok)throw 0;return r.text();})
+  .then(function(tx){var e=pg.p.split('.').pop();mo.innerHTML=e==='md'?md(tx):'<pre style="white-space:pre-wrap;font-size:.71rem">'+tx.replace(/&/g,'&amp;').replace(/</g,'&lt;')+'</pre>';pc.classList.remove('ld');})
+  .catch(function(){mo.innerHTML='<div style="text-align:center;padding:2rem"><div style="color:var(--void);font-weight:700;margin-bottom:.5rem">FILE NOT FOUND</div><div style="color:var(--muted);font-size:.7rem;margin-bottom:.9rem">'+pg.p+'</div><div style="display:flex;gap:7px;justify-content:center"><a href="'+R+pg.p+'" target="_blank" class="mb" style="border-color:var(--warn);color:var(--warn)">RAW</a><a href="'+S+pg.p+'" target="_blank" class="mb">LIVE</a></div></div>';pc.classList.remove('ld');});
+}
+function rh(){
+  var mo=document.getElementById('mo'),G={};
+  P.forEach(function(p){if(!G[p.g])G[p.g]=[];G[p.g].push(p);});
+  var oc=P.filter(function(p){return p.s==='ok';}).length;
+  var rc=P.filter(function(p){return p.s==='raw';}).length;
+  var h='<h1>A&#x00A9;tor Evidence Vault Navigator v3</h1>'
+    +'<p style="color:var(--muted);font-size:.77rem;margin-bottom:.9rem">CASE-MACHERET-1997-2026 SHA-256 '+P.length+' documents indexed</p>'
+    +'<div class="sbar"><div class="si"><strong style="color:var(--ok)">'+oc+'</strong> Live</div><div class="si"><strong style="color:var(--warn)">'+rc+'</strong> Raw</div><div class="si"><strong>'+P.length+'</strong> Total</div></div>'
+    +'<div class="tb"><h4>NEXT SESSION TASKS</h4><ul>'
+    +'<li><strong>P1:</strong> Verify 97 apostil.gov.md links</li>'
+    +'<li><strong>P2:</strong> Sync apostille-mirror repo</li>'
+    +'<li><strong>P3:</strong> Recalculate SHA256SUMS.txt</li>'
+    +'<li><strong>P4:</strong> Fix /mnt/c/A/ LFS split oversized files</li>'
+    +'</ul></div>';
+  Object.entries(G).forEach(function(e){
+    h+='<h2 style="font-size:.7rem;color:var(--muted);letter-spacing:.1em;text-transform:uppercase;margin:1.1rem 0 .55rem">'+e[0]+'</h2><div class="igrd">';
+    e[1].forEach(function(p){
+      var sl={ok:'LIVE',raw:'RAW',void:'404'}[p.s];
+      h+='<div class="ic '+p.s+'" onclick="go(\''+p.id+'\')">'
+        +'<div class="ics">'+sl+'</div><div class="ict">'+p.t+'</div>'
+        +'<div class="icp">'+(p.p||'/')+'</div>'
+        +(p.d?'<div style="font-size:.58rem;color:var(--muted);margin-top:3px;line-height:1.35">'+p.d+'</div>':'')+'</div>';
+    });
+    h+='</div>';
+  });
+  mo.innerHTML=h;
+}
+function bsb(){
+  var sb=document.getElementById('sb'),G={};
+  P.forEach(function(p){if(!G[p.g])G[p.g]=[];G[p.g].push(p);});
+  var h='';
+  Object.entries(G).forEach(function(e){
+    h+='<div><div class="sgt">'+e[0]+' ('+e[1].length+')</div>';
+    e[1].forEach(function(p){
+      var dc={ok:'dok',raw:'drw',void:'dvd'}[p.s],sl={ok:'v',raw:'>',void:'!'}[p.s];
+      h+='<a class="ni" data-id="'+p.id+'" onclick="go(\''+p.id+'\')" href="javascript:void(0)">'
+        +'<span class="dot '+dc+'"></span>'
+        +'<span style="flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">'+p.t+'</span>'
+        +'<span class="ns">'+sl+'</span></a>';
+    });h+='</div>';
+  });
+  sb.innerHTML=h;
+  document.getElementById('hok').textContent=P.filter(function(p){return p.s==='ok';}).length+' LIVE';
+  document.getElementById('hvd').textContent=P.filter(function(p){return p.s==='void';}).length+' VOID';
+  document.getElementById('hrw').textContent=P.filter(function(p){return p.s==='raw';}).length+' RAW';
+}
+document.getElementById('si').addEventListener('input',function(){
+  var q=this.value.toLowerCase();
+  document.querySelectorAll('.ni').forEach(function(el){el.style.display=(!q||el.textContent.toLowerCase().includes(q))?'':'none';});
+});
+function cpy(){if(!cur)return;navigator.clipboard.writeText(S+cur.p).then(function(){var b=document.querySelector('[onclick="cpy()"]');b.textContent='OK';setTimeout(function(){b.textContent='COPY';},1100);});}
+function hsh(){var h=location.hash.slice(1);var p=P.find(function(x){return x.id===h||x.p===h;});p?go(p.id):go('home');}
+window.addEventListener('hashchange',hsh);
+bsb();
+if(location.hash)hsh();else go('home');
 </script>
-</body></html>
-<--log-file=mirror.log A©tor Build: Thu Apr  9 11:31:46 PM EEST 2026 -->
+</body>
+</html>
