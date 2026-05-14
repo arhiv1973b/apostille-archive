@@ -10,20 +10,24 @@ $BSTR = [System.Runtime.InteropServices.Marshal]::SecureStringToBSTR($SecureTrig
 $TriggerWord = [System.Runtime.InteropServices.Marshal]::PtrToStringAuto($BSTR)
 if ($TriggerWord -cne "База Данных") { Write-Host "[ DENIED ]" -ForegroundColor Red; return }
 
-Import-Module EvidenceVault -Force
+# 1. Прямая загрузка ядра EvidenceVault
+$ModuleFile = "$HOME\Documents\PowerShell\Modules\EvidenceVault\EvidenceVault.psm1"
+if (Test-Path $ModuleFile) { Import-Module $ModuleFile -Force } else {
+    Write-Host "[!] Ошибка: Ядро не найдено в $ModuleFile" -ForegroundColor Red; return
+}
 
-# 1. Запуск конвейера TI-ULA
-Write-Host "[*] Синхронизация с облачным хранилищем..." -ForegroundColor Yellow
+# 2. Конвейер TI-ULA (Облако + Резолвинг)
+Write-Host "[*] Синхронизация бинарного потока..." -ForegroundColor Yellow
 Update-EvidenceRegistry
 Sync-EvidenceVault
 Resolve-CloudLinks
 
-# 2. Извлечение хэша
+# 3. Извлечение хэша
 $TargetFile = Join-Path $RepoPath $FileName
-if (-not (Test-Path $TargetFile)) { Write-Host "[ ERROR ] Файл не найден!" -ForegroundColor Red; return }
+if (-not (Test-Path $TargetFile)) { Write-Host "[ ERROR ] Файл $FileName не найден!" -ForegroundColor Red; return }
 $sha = (Get-FileHash -Path $TargetFile -Algorithm SHA256).Hash.ToUpper()
 
-# 3. Формирование Markdown
+# 4. Формирование Markdown по вашему эталону
 $MdFileName = "$($FileName -replace '\.pdf$','').md"
 $Markdown = @"
 ---
@@ -52,16 +56,24 @@ Get-CloudFileByHash "$sha"
 ` ``
 
 ---
+
+### 🚀 Использование
+1. Установите модуль EvidenceVault.
+2. Запустите скрипт одной строкой:
+```powershell
+.\Publish-EvidenceNode.ps1 -FileName "$FileName"
+` ``
+
+---
 **Semnat:** **A©tor Maceret Alexei ©**
 "@
 $Markdown = $Markdown -replace '` ``', '```'
 
-# 4. Сохранение и Пуш в GitHub
+# 5. Деплой в GitHub (Все ветки)
 Set-Content -Path (Join-Path $RepoPath $MdFileName) -Value $Markdown -Encoding UTF8
-Write-Host "[ OK ] Манифест создан: $MdFileName" -ForegroundColor Green
-
 git add .
-git commit -m "[A©t0r ©] SIGNED: New Evidence Node $sha"
-git push origin master # Используйте 'main', если ветка переименована
+git commit -m "[A©t0r ©] SIGNED: New Evidence Node $sha" -q
+$CurrentBranch = git branch --show-current
+git push origin `$CurrentBranch
 
-Write-Host "`n[ SUCCESS ] УЗЕЛ ЗАФИКСИРОВАН В ERGA OMNES!" -ForegroundColor Cyan
+Write-Host "`n[ SUCCESS ] УЗЕЛ $sha ЗАФИКСИРОВАН И ОПУБЛИКОВАН!" -ForegroundColor Cyan

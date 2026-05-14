@@ -24,4 +24,13 @@ Get-CloudFileByHash "85B8CCDF949EC03A9A0C852FAC2ECB0EB7106E57125D2FC15B549E49532
  `
 
 ---
+
+### 🚀 Использование
+1. Установите модуль EvidenceVault.
+2. Запустите скрипт одной строкой:
+`powershell
+.\Publish-EvidenceNode.ps1 -FileName "TI-RESONANT-INDEX JUS-PRIME ERGA-ABSOLUTE  VIC-RESTORE_pressa.info_com.подписан.pdf"
+ `
+
+---
 **Semnat:** **A©tor Maceret Alexei ©**
