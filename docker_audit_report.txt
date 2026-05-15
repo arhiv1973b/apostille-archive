@@ -1,0 +1,5 @@
+[ 15.05.2026 18:48:31 ] Обнаружена версия: Docker version 29.1.3, build 29.1.3-0ubuntu3~24.04.2
+[ 15.05.2026 18:56:15 ] Обнаружена версия: Docker version 29.1.3, build 29.1.3-0ubuntu3~24.04.2
+[ 15.05.2026 18:59:45 ] Обнаружена версия: Docker version 29.1.3, build 29.1.3-0ubuntu3~24.04.2
+[ 15.05.2026 19:13:04 ] SHA256: 238dc3551259ab3fa3e618c2c095c699df7ecf38292295e93e74ce7c0bf51844  /etc/docker/daemon.json
+[ 15.05.2026 19:16:03 ] STATUS: System.Object[]
