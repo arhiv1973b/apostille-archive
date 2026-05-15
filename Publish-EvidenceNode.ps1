@@ -1,33 +1,45 @@
 ﻿param(
     [Parameter(Mandatory=$true)]
-    [string]$FileName,
-    [string]$RepoPath = "C:\Evidence"
+    [string]$TargetFile # Теперь передаем ПОЛНЫЙ путь, например: "H:\Загрузки\Документ.pdf"
 )
 
-# 0. Авторизация (Локальный ключ A©t0r)
+$RepoPath = "C:\Evidence"
+
+# 0. Авторизация A©t0r
 $SecureTrigger = Read-Host -Prompt "Введите секретное слово для подписи" -AsSecureString
 $BSTR = [System.Runtime.InteropServices.Marshal]::SecureStringToBSTR($SecureTrigger)
 $TriggerWord = [System.Runtime.InteropServices.Marshal]::PtrToStringAuto($BSTR)
 if ($TriggerWord -cne "База Данных") { Write-Host "[ DENIED ]" -ForegroundColor Red; return }
 
-# 1. Прямая загрузка ядра EvidenceVault
-$ModuleFile = "$HOME\Documents\PowerShell\Modules\EvidenceVault\EvidenceVault.psm1"
-if (Test-Path $ModuleFile) { Import-Module $ModuleFile -Force } else {
-    Write-Host "[!] Ошибка: Ядро не найдено в $ModuleFile" -ForegroundColor Red; return
+if (-not (Test-Path $TargetFile)) { Write-Host "[ ERROR ] Файл не найден: $TargetFile" -ForegroundColor Red; return }
+
+# 1. Извлечение хэша НАПРЯМУЮ из источника (БЕЗ копирования на диск C)
+$sha = (Get-FileHash -Path $TargetFile -Algorithm SHA256).Hash.ToUpper()
+$FileName = Split-Path $TargetFile -Leaf
+Write-Host "[*] Хэш вычислен (Zero-Copy): $sha" -ForegroundColor DarkGray
+
+# 2. Прямая выгрузка в облако через WSL
+Write-Host "[*] Прямая выгрузка бинарного потока в EvidenceVault..." -ForegroundColor Yellow
+$wslPath = ($TargetFile -replace '^([A-Za-z]):', '/mnt/$1' -replace '\\', '/').Substring(0,6).ToLowerInvariant() + ($TargetFile -replace '^([A-Za-z]):', '/mnt/$1' -replace '\\', '/').Substring(6)
+wsl rclone copyto "$wslPath" "gdrive:EvidenceVault/$FileName" --progress
+
+# 3. Точечная запись в реестр (эмуляция Update+Resolve)
+$RegPath = "C:\Evidence\hash_registry.json"
+$registry = Get-Content $RegPath -Raw | ConvertFrom-Json
+
+Write-Host "[*] Запрос ID из облака..." -ForegroundColor DarkGray
+$cloudFiles = wsl rclone lsjson gdrive:EvidenceVault --files-only | ConvertFrom-Json
+$matchedFile = $cloudFiles | Where-Object { $_.Name -eq $FileName }
+
+if ($matchedFile) {
+    $registry | Add-Member -MemberType NoteProperty -Name $sha -Value "https://drive.google.com/uc?id=$($matchedFile.ID)&export=download" -Force
+    $registry | ConvertTo-Json -Depth 10 | Set-Content $RegPath -Encoding UTF8
+    Write-Host "[ OK ] Ссылка жестко зафиксирована в реестре." -ForegroundColor Green
+} else {
+    Write-Host "[!] Облако еще не обработало файл. Повторите резолвинг позже." -ForegroundColor Red
 }
 
-# 2. Конвейер TI-ULA (Облако + Резолвинг)
-Write-Host "[*] Синхронизация бинарного потока..." -ForegroundColor Yellow
-Update-EvidenceRegistry
-Sync-EvidenceVault
-Resolve-CloudLinks
-
-# 3. Извлечение хэша
-$TargetFile = Join-Path $RepoPath $FileName
-if (-not (Test-Path $TargetFile)) { Write-Host "[ ERROR ] Файл $FileName не найден!" -ForegroundColor Red; return }
-$sha = (Get-FileHash -Path $TargetFile -Algorithm SHA256).Hash.ToUpper()
-
-# 4. Формирование Markdown по вашему эталону
+# 4. Формирование манифеста в Штабе (C:\Evidence)
 $MdFileName = "$($FileName -replace '\.pdf$','').md"
 $Markdown = @"
 ---
@@ -40,8 +52,8 @@ categories: [evidence, ti-ula, hash-standard]
 
 # 📜 ТЕХНОЛОГИЧЕСКИЙ МАНИФЕСТ A©t0r ©
 
-**Автор:** A©tor Maceret Alexei ©  
-**Статус:** Юридически значимый архив (Apostille Mirror)  
+**Автор:** A©tor Maceret Alexei ©
+**Статус:** Юридически значимый архив (Apostille Mirror)
 **Протокол:** TI-ULA (Hash-as-a-Link)
 
 ---
@@ -56,24 +68,15 @@ Get-CloudFileByHash "$sha"
 ` ``
 
 ---
-
-### 🚀 Использование
-1. Установите модуль EvidenceVault.
-2. Запустите скрипт одной строкой:
-```powershell
-.\Publish-EvidenceNode.ps1 -FileName "$FileName"
-` ``
-
----
 **Semnat:** **A©tor Maceret Alexei ©**
 "@
 $Markdown = $Markdown -replace '` ``', '```'
-
-# 5. Деплой в GitHub (Все ветки)
 Set-Content -Path (Join-Path $RepoPath $MdFileName) -Value $Markdown -Encoding UTF8
-git add .
-git commit -m "[A©t0r ©] SIGNED: New Evidence Node $sha" -q
-$CurrentBranch = git branch --show-current
-git push origin `$CurrentBranch
 
-Write-Host "`n[ SUCCESS ] УЗЕЛ $sha ЗАФИКСИРОВАН И ОПУБЛИКОВАН!" -ForegroundColor Cyan
+# 5. Деплой в GitHub
+Set-Location $RepoPath
+git add .
+git commit -m "[A©t0r ©] SIGNED: New Evidence Node $sha (Zero-Copy)" -q
+git push origin master
+
+Write-Host "`n[ SUCCESS ] УЗЕЛ $sha ЗАФИКСИРОВАН В ERGA OMNES БЕЗ ПЕРЕГРУЗКИ ДИСКА C:!" -ForegroundColor Cyan

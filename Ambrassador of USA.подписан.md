@@ -1,0 +1,27 @@
+﻿---
+layout: default
+title: "Evidence Node: Ambrassador of USA.подписан.pdf"
+date: 2026-05-15
+author: "A©tor Maceret Alexei ©"
+categories: [evidence, ti-ula, hash-standard]
+---
+
+# 📜 ТЕХНОЛОГИЧЕСКИЙ МАНИФЕСТ A©t0r ©
+
+**Автор:** A©tor Maceret Alexei ©
+**Статус:** Юридически значимый архив (Apostille Mirror)
+**Протокол:** TI-ULA (Hash-as-a-Link)
+
+---
+
+## 📂 ФИКСАЦИЯ ДОКАЗАТЕЛЬСТВ
+- **Файл:** Ambrassador of USA.подписан.pdf
+- **SHA-256:** $sha
+
+**Инструкция по извлечению подлинника:**
+`powershell
+Get-CloudFileByHash "009FA1FE90B35158EA65625541E4FCE3336CEAF65FB617DAF4FD8B7522614F10"
+ `
+
+---
+**Semnat:** **A©tor Maceret Alexei ©**

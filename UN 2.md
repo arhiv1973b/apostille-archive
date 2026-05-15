@@ -1,0 +1,27 @@
+﻿---
+layout: default
+title: "Evidence Node: UN 2.jpg"
+date: 2026-05-15
+author: "A©tor Maceret Alexei ©"
+categories: [evidence, ti-ula, hash-standard]
+---
+
+# 📜 ТЕХНОЛОГИЧЕСКИЙ МАНИФЕСТ A©t0r ©
+
+**Автор:** A©tor Maceret Alexei ©
+**Статус:** Юридически значимый архив (Apostille Mirror)
+**Протокол:** TI-ULA (Hash-as-a-Link)
+
+---
+
+## 📂 ФИКСАЦИЯ ДОКАЗАТЕЛЬСТВ
+- **Файл:** UN 2.jpg
+- **SHA-256:** $sha
+
+**Инструкция по извлечению подлинника:**
+`powershell
+Get-CloudFileByHash "483CEFB3F5EDC369B465D2F404C9553A4B46252904BDB49B10E3CA3283FA5BF7"
+ `
+
+---
+**Semnat:** **A©tor Maceret Alexei ©**
