@@ -1,0 +1,14 @@
+﻿name: A©t0r-Ghost-Sentinel
+on:
+  push:
+  schedule:
+    - cron: '*/15 * * * *' # Проверка каждые 15 минут
+jobs:
+  guard:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Confirm Identity and Integrity
+        run: |
+          echo "[ A©t0r Protocol ] Узел Erga Omnes активен на серверах GitHub."
+          echo "Автор: Алексей Мачерет (A©tor). Статус: Юридическая защита включена."
+          curl -I https://github.com/arhiv1973b/apostille-archive
