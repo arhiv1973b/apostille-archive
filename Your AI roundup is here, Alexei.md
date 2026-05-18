@@ -25,3 +25,12 @@ Get-CloudFileByHash "D1672016D8DB6030402E3C86A30ABC27BF6078D9532E769522E8B3CAF35
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [Your AI roundup is here, Alexei.md](https://github.com/arhiv1973b/Evidence/blob/master/Your%20AI%20roundup%20is%20here%2C%20Alexei.md)
+- **WSL Path:** `/mnt/c/Evidence/Your AI roundup is here, Alexei.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "D1672016D8DB6030402E3C86A30ABC27BF6078D9532E769522E8B3CAF35D226F"`
+

@@ -25,3 +25,12 @@ Get-CloudFileByHash "D29AACBE7050087D7D21F41AC5570EF88635685E179E7CE7424FF03A397
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [HS5N558YBNEK3.md](https://github.com/arhiv1973b/Evidence/blob/master/HS5N558YBNEK3.md)
+- **WSL Path:** `/mnt/c/Evidence/HS5N558YBNEK3.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "D29AACBE7050087D7D21F41AC5570EF88635685E179E7CE7424FF03A397265E3"`
+

@@ -25,3 +25,12 @@ Get-CloudFileByHash "B0DEDE0DA9E36072665AAA03E2A2043E44340B3EE53581A58D3D814ED07
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [export-Jus-Omn-1763646243.md](https://github.com/arhiv1973b/Evidence/blob/master/export-Jus-Omn-1763646243.md)
+- **WSL Path:** `/mnt/c/Evidence/export-Jus-Omn-1763646243.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "B0DEDE0DA9E36072665AAA03E2A2043E44340B3EE53581A58D3D814ED07B816F"`
+

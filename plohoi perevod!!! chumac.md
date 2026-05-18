@@ -25,3 +25,12 @@ Get-CloudFileByHash "EBCC782D4B84028A027F921FA59385D5C7FC3AE43839B00A087ED48EC99
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [plohoi perevod!!! chumac.md](https://github.com/arhiv1973b/Evidence/blob/master/plohoi%20perevod!!!%20chumac.md)
+- **WSL Path:** `/mnt/c/Evidence/plohoi perevod!!! chumac.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "EBCC782D4B84028A027F921FA59385D5C7FC3AE43839B00A087ED48EC9990B81"`
+

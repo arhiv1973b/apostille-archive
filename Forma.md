@@ -25,3 +25,12 @@ Get-CloudFileByHash "D6F710CFD127DB79EFDC4EED3CEECC94BE7078185A5302BE334A069FDE2
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** [D6F710CFD127DB79EFDC4EED3CEECC94BE7078185A5302BE334A069FDE2B9646](https://drive.google.com/uc?id=1uWCQSuv4Mvduqm80nZhL5vP0ISQmWMkI&export=download)
+- **Google Drive:** [Download](https://drive.google.com/uc?id=1uWCQSuv4Mvduqm80nZhL5vP0ISQmWMkI&export=download)
+- **GitHub:** [Forma.md](https://github.com/arhiv1973b/Evidence/blob/master/Forma.md)
+- **WSL Path:** `/mnt/c/Evidence/Forma.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "D6F710CFD127DB79EFDC4EED3CEECC94BE7078185A5302BE334A069FDE2B9646"`
+

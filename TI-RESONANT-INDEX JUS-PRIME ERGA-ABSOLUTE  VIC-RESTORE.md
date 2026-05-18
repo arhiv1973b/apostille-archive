@@ -25,3 +25,12 @@ Get-CloudFileByHash "237AA357014689360C0CD10ACE0A1B5FD012EF88B5E0C7D326C83A1717F
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [TI-RESONANT-INDEX JUS-PRIME ERGA-ABSOLUTE  VIC-RESTORE.md](https://github.com/arhiv1973b/Evidence/blob/master/TI-RESONANT-INDEX%20JUS-PRIME%20ERGA-ABSOLUTE%20%20VIC-RESTORE.md)
+- **WSL Path:** `/mnt/c/Evidence/TI-RESONANT-INDEX JUS-PRIME ERGA-ABSOLUTE  VIC-RESTORE.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "237AA357014689360C0CD10ACE0A1B5FD012EF88B5E0C7D326C83A1717FEC702"`
+

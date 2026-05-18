@@ -25,3 +25,12 @@ Get-CloudFileByHash "9507721B38156D73569B9702AF47C36257F8310C3A40A5D6D200252D86F
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [Reabilitation Executor Curtea Suprema.md](https://github.com/arhiv1973b/Evidence/blob/master/Reabilitation%20Executor%20Curtea%20Suprema.md)
+- **WSL Path:** `/mnt/c/Evidence/Reabilitation Executor Curtea Suprema.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "9507721B38156D73569B9702AF47C36257F8310C3A40A5D6D200252D86FF8A40"`
+

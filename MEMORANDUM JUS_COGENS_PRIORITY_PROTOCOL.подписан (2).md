@@ -25,3 +25,12 @@ Get-CloudFileByHash "4AEC9EA0FAC9EEC9127D5DDAB0A4E00DC2A698D1B2BEFE91B77E29141E9
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [MEMORANDUM JUS_COGENS_PRIORITY_PROTOCOL.подписан (2).md](https://github.com/arhiv1973b/Evidence/blob/master/MEMORANDUM%20JUS_COGENS_PRIORITY_PROTOCOL.%D0%BF%D0%BE%D0%B4%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%20(2).md)
+- **WSL Path:** `/mnt/c/Evidence/MEMORANDUM JUS_COGENS_PRIORITY_PROTOCOL.подписан (2).md`
+- **Крипто-валидация:** `Get-CloudFileByHash "4AEC9EA0FAC9EEC9127D5DDAB0A4E00DC2A698D1B2BEFE91B77E29141E9AC215"`
+

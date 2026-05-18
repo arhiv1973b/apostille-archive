@@ -25,3 +25,12 @@ Get-CloudFileByHash "EF68F03DEE7D3E5F8E59FD56F2DF0B098DF75F73BD8BD36A3CF73F760BC
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [Parchetul European (EPPO).signed.signed.signed.pdf_2 3.md](https://github.com/arhiv1973b/Evidence/blob/master/Parchetul%20European%20(EPPO).signed.signed.signed.pdf_2%203.md)
+- **WSL Path:** `/mnt/c/Evidence/Parchetul European (EPPO).signed.signed.signed.pdf_2 3.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "EF68F03DEE7D3E5F8E59FD56F2DF0B098DF75F73BD8BD36A3CF73F760BC18000"`
+

@@ -25,3 +25,12 @@ Get-CloudFileByHash "E4C7B2100C1B852E9EA10E7724E9337A5F6DB7FFB3B0A9972AAB3D333B7
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [Jusecator Cecanii (23).md](https://github.com/arhiv1973b/Evidence/blob/master/Jusecator%20Cecanii%20(23).md)
+- **WSL Path:** `/mnt/c/Evidence/Jusecator Cecanii (23).md`
+- **Крипто-валидация:** `Get-CloudFileByHash "E4C7B2100C1B852E9EA10E7724E9337A5F6DB7FFB3B0A9972AAB3D333B762ADE"`
+

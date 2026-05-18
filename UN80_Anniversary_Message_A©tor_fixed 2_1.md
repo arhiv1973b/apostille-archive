@@ -25,3 +25,12 @@ Get-CloudFileByHash "26E4A499A1624075F8721654FDBBD9C519652A400670E8795AF8467D108
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [UN80_Anniversary_Message_A©tor_fixed 2_1.md](https://github.com/arhiv1973b/Evidence/blob/master/UN80_Anniversary_Message_A%C2%A9tor_fixed%202_1.md)
+- **WSL Path:** `/mnt/c/Evidence/UN80_Anniversary_Message_A©tor_fixed 2_1.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "26E4A499A1624075F8721654FDBBD9C519652A400670E8795AF8467D108EB7DC"`
+

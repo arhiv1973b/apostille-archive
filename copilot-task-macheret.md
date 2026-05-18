@@ -25,3 +25,12 @@ Get-CloudFileByHash "58007C8703AAB5AA0CB94431999F07C25B7B2D35790CACFC4C7B255C48D
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [copilot-task-macheret.md](https://github.com/arhiv1973b/Evidence/blob/master/copilot-task-macheret.md)
+- **WSL Path:** `/mnt/c/Evidence/copilot-task-macheret.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "58007C8703AAB5AA0CB94431999F07C25B7B2D35790CACFC4C7B255C48DF4658"`
+

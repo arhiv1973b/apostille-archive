@@ -25,3 +25,12 @@ Get-CloudFileByHash "9686BF1F27772494C177794CBB7AA2C92B4F0F0569FE365824638FD4799
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** [9686BF1F27772494C177794CBB7AA2C92B4F0F0569FE365824638FD4799450E9](https://drive.google.com/uc?id=1NjUVW6dCG_XESCZY0VFj4KTjH6uCUvhN&export=download)
+- **Google Drive:** [Download](https://drive.google.com/uc?id=1NjUVW6dCG_XESCZY0VFj4KTjH6uCUvhN&export=download)
+- **GitHub:** [cerere_posta_moldovei_unicode.md](https://github.com/arhiv1973b/Evidence/blob/master/cerere_posta_moldovei_unicode.md)
+- **WSL Path:** `/mnt/c/Evidence/cerere_posta_moldovei_unicode.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "9686BF1F27772494C177794CBB7AA2C92B4F0F0569FE365824638FD4799450E9"`
+

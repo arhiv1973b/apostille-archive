@@ -25,3 +25,12 @@ Get-CloudFileByHash "55A9C33A53D569EE9E7E6C3AFEEA248187D2061294D2F7A0FCF497EE38A
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [un_contacts_copy_buttons.подписан (2).md](https://github.com/arhiv1973b/Evidence/blob/master/un_contacts_copy_buttons.%D0%BF%D0%BE%D0%B4%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%20(2).md)
+- **WSL Path:** `/mnt/c/Evidence/un_contacts_copy_buttons.подписан (2).md`
+- **Крипто-валидация:** `Get-CloudFileByHash "55A9C33A53D569EE9E7E6C3AFEEA248187D2061294D2F7A0FCF497EE38ACEC85"`
+

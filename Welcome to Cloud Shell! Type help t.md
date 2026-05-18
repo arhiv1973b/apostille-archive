@@ -25,3 +25,12 @@ Get-CloudFileByHash "0F1E8AC04FB434006C23DF15B85D0268E30474510F1497885AAAB335E34
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [Welcome to Cloud Shell! Type help t.md](https://github.com/arhiv1973b/Evidence/blob/master/Welcome%20to%20Cloud%20Shell!%20Type%20help%20t.md)
+- **WSL Path:** `/mnt/c/Evidence/Welcome to Cloud Shell! Type help t.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "0F1E8AC04FB434006C23DF15B85D0268E30474510F1497885AAAB335E34CCD11"`
+

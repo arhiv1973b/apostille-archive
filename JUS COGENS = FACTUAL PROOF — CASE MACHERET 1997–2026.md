@@ -25,3 +25,12 @@ Get-CloudFileByHash "2D7FDC056A85F29A2BC8C247E5C37AD65E837F9617BA50E9F6E5DA02BF5
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [JUS COGENS = FACTUAL PROOF — CASE MACHERET 1997–2026.md](https://github.com/arhiv1973b/Evidence/blob/master/JUS%20COGENS%20%3D%20FACTUAL%20PROOF%20%E2%80%94%20CASE%20MACHERET%201997%E2%80%932026.md)
+- **WSL Path:** `/mnt/c/Evidence/JUS COGENS = FACTUAL PROOF — CASE MACHERET 1997–2026.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "2D7FDC056A85F29A2BC8C247E5C37AD65E837F9617BA50E9F6E5DA02BF5DF9C9"`
+

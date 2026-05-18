@@ -25,3 +25,12 @@ Get-CloudFileByHash "AE83012246E4C1FEEF721072769BFD3E9C945D09EE3FE3830AE3B5F0406
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [War of Moldova.md](https://github.com/arhiv1973b/Evidence/blob/master/War%20of%20Moldova.md)
+- **WSL Path:** `/mnt/c/Evidence/War of Moldova.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "AE83012246E4C1FEEF721072769BFD3E9C945D09EE3FE3830AE3B5F0406A44B5"`
+

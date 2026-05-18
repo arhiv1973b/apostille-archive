@@ -25,3 +25,12 @@ Get-CloudFileByHash "E1FCDABA2819E095586A85D3B2930F0DBA8F0D98D6BB59079EF6D1888AC
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** [E1FCDABA2819E095586A85D3B2930F0DBA8F0D98D6BB59079EF6D1888AC558E5](https://drive.google.com/uc?id=1bUGbKyeVCQwQqUeuCb-7uFx4laAvGs5F&export=download)
+- **Google Drive:** [Download](https://drive.google.com/uc?id=1bUGbKyeVCQwQqUeuCb-7uFx4laAvGs5F&export=download)
+- **GitHub:** [Cenzura.md](https://github.com/arhiv1973b/Evidence/blob/master/Cenzura.md)
+- **WSL Path:** `/mnt/c/Evidence/Cenzura.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "E1FCDABA2819E095586A85D3B2930F0DBA8F0D98D6BB59079EF6D1888AC558E5"`
+

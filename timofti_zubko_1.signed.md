@@ -25,3 +25,12 @@ Get-CloudFileByHash "F4F6069A805A31D4703A787DA97906D552B32CC6F16FAE03272ABF09073
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [timofti_zubko_1.signed.md](https://github.com/arhiv1973b/Evidence/blob/master/timofti_zubko_1.signed.md)
+- **WSL Path:** `/mnt/c/Evidence/timofti_zubko_1.signed.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "F4F6069A805A31D4703A787DA97906D552B32CC6F16FAE03272ABF09073C4609"`
+

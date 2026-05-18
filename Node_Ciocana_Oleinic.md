@@ -25,3 +25,12 @@ Get-CloudFileByHash "C4B7B8F527E7047FEF530BACBD04FA2EE34B8B93BF21D6544214146C6A7
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [Node_Ciocana_Oleinic.md](https://github.com/arhiv1973b/Evidence/blob/master/Node_Ciocana_Oleinic.md)
+- **WSL Path:** `/mnt/c/Evidence/Node_Ciocana_Oleinic.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "C4B7B8F527E7047FEF530BACBD04FA2EE34B8B93BF21D6544214146C6A7AE6BB"`
+

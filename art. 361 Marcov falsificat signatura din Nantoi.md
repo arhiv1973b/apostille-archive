@@ -25,3 +25,12 @@ Get-CloudFileByHash "09C488C6702ED7C84CE2249C27E9828396018D2FF44775A6CF4AE07E32A
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** [09C488C6702ED7C84CE2249C27E9828396018D2FF44775A6CF4AE07E32AD404E](https://drive.google.com/uc?id=17dBYBilW8n9AIeFUoDydb-uokReEISWK&export=download)
+- **Google Drive:** [Download](https://drive.google.com/uc?id=17dBYBilW8n9AIeFUoDydb-uokReEISWK&export=download)
+- **GitHub:** [art. 361 Marcov falsificat signatura din Nantoi.md](https://github.com/arhiv1973b/Evidence/blob/master/art.%20361%20Marcov%20falsificat%20signatura%20din%20Nantoi.md)
+- **WSL Path:** `/mnt/c/Evidence/art. 361 Marcov falsificat signatura din Nantoi.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "09C488C6702ED7C84CE2249C27E9828396018D2FF44775A6CF4AE07E32AD404E"`
+

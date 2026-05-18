@@ -25,3 +25,12 @@ Get-CloudFileByHash "C4AB84C74B233F5185DCD40556F576F3A15F99FD10BBAAF457CD91770C7
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [qrcode_notebooklm.google.com (2).md](https://github.com/arhiv1973b/Evidence/blob/master/qrcode_notebooklm.google.com%20(2).md)
+- **WSL Path:** `/mnt/c/Evidence/qrcode_notebooklm.google.com (2).md`
+- **Крипто-валидация:** `Get-CloudFileByHash "C4AB84C74B233F5185DCD40556F576F3A15F99FD10BBAAF457CD91770C7DD5BE"`
+

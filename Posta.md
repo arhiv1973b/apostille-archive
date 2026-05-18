@@ -25,3 +25,12 @@ Get-CloudFileByHash "A9E314244C2EB59E42568C20D7A4A5CF5B7D25CE29E24302AF9FE7832B0
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [Posta.md](https://github.com/arhiv1973b/Evidence/blob/master/Posta.md)
+- **WSL Path:** `/mnt/c/Evidence/Posta.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "A9E314244C2EB59E42568C20D7A4A5CF5B7D25CE29E24302AF9FE7832B05492A"`
+

@@ -25,3 +25,12 @@ Get-CloudFileByHash "95E688F8B87717ABC42F024CB01DD83B71987709DAEF44C918D1A5F9061
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [⚖ A©tor Declaration_Casade Lege.md](https://github.com/arhiv1973b/Evidence/blob/master/%E2%9A%96%20A%C2%A9tor%20Declaration_Casade%20Lege.md)
+- **WSL Path:** `/mnt/c/Evidence/⚖ A©tor Declaration_Casade Lege.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "95E688F8B87717ABC42F024CB01DD83B71987709DAEF44C918D1A5F906170840"`
+

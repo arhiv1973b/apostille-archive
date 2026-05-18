@@ -25,3 +25,12 @@ Get-CloudFileByHash "483CEFB3F5EDC369B465D2F404C9553A4B46252904BDB49B10E3CA3283F
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [UN.md](https://github.com/arhiv1973b/Evidence/blob/master/UN.md)
+- **WSL Path:** `/mnt/c/Evidence/UN.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "483CEFB3F5EDC369B465D2F404C9553A4B46252904BDB49B10E3CA3283FA5BF7"`
+

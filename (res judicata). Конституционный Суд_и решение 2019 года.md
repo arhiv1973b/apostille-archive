@@ -25,3 +25,12 @@ Get-CloudFileByHash "8FBCF3F3A4C2F2DBE71B0EAF62214287C8C7C90255163ACA36878F1748E
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** [8FBCF3F3A4C2F2DBE71B0EAF62214287C8C7C90255163ACA36878F1748E06CA1](https://drive.google.com/uc?id=1aXTas7bZrTbyaOFbmOe6y2Og6NlYtLtE&export=download)
+- **Google Drive:** [Download](https://drive.google.com/uc?id=1aXTas7bZrTbyaOFbmOe6y2Og6NlYtLtE&export=download)
+- **GitHub:** [(res judicata). Конституционный Суд_и решение 2019 года.md](https://github.com/arhiv1973b/Evidence/blob/master/(res%20judicata).%20%D0%9A%D0%BE%D0%BD%D1%81%D1%82%D0%B8%D1%82%D1%83%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D0%B8%CC%86%20%D0%A1%D1%83%D0%B4_%D0%B8%20%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D0%B5%202019%20%D0%B3%D0%BE%D0%B4%D0%B0.md)
+- **WSL Path:** `/mnt/c/Evidence/(res judicata). Конституционный Суд_и решение 2019 года.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "8FBCF3F3A4C2F2DBE71B0EAF62214287C8C7C90255163ACA36878F1748E06CA1"`
+

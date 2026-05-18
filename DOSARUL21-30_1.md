@@ -25,3 +25,12 @@ Get-CloudFileByHash "8574FF5F3394957565D04772E44A3A9C92CDC33C69B51862D617319D538
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** [8574FF5F3394957565D04772E44A3A9C92CDC33C69B51862D617319D53865576](https://drive.google.com/uc?id=1iXwjnHzlUk2Q1i5ZhezarJVZ64gjRq3M&export=download)
+- **Google Drive:** [Download](https://drive.google.com/uc?id=1iXwjnHzlUk2Q1i5ZhezarJVZ64gjRq3M&export=download)
+- **GitHub:** [DOSARUL21-30_1.md](https://github.com/arhiv1973b/Evidence/blob/master/DOSARUL21-30_1.md)
+- **WSL Path:** `/mnt/c/Evidence/DOSARUL21-30_1.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "8574FF5F3394957565D04772E44A3A9C92CDC33C69B51862D617319D53865576"`
+

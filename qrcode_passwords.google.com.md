@@ -25,3 +25,12 @@ Get-CloudFileByHash "F7FFB529DB182FF77DB1A0F791B4E3C9E38E65FB14E7B10C25FEA0EAD39
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [qrcode_passwords.google.com.md](https://github.com/arhiv1973b/Evidence/blob/master/qrcode_passwords.google.com.md)
+- **WSL Path:** `/mnt/c/Evidence/qrcode_passwords.google.com.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "F7FFB529DB182FF77DB1A0F791B4E3C9E38E65FB14E7B10C25FEA0EAD3903CFE"`
+

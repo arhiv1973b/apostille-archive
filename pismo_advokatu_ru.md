@@ -25,3 +25,12 @@ Get-CloudFileByHash "4CA36FDCC6D29F10D96045148A13432501E70D674DA1D0E25EDD0753F59
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [pismo_advokatu_ru.md](https://github.com/arhiv1973b/Evidence/blob/master/pismo_advokatu_ru.md)
+- **WSL Path:** `/mnt/c/Evidence/pismo_advokatu_ru.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "4CA36FDCC6D29F10D96045148A13432501E70D674DA1D0E25EDD0753F59610A6"`
+

@@ -25,3 +25,12 @@ Get-CloudFileByHash "31F6E1473C455A30BF9E07A11B8915C79EE2CB2103A47A51A0977CDD1DE
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [archive_dossier_unified.md](https://github.com/arhiv1973b/Evidence/blob/master/archive_dossier_unified.md)
+- **WSL Path:** `/mnt/c/Evidence/archive_dossier_unified.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "31F6E1473C455A30BF9E07A11B8915C79EE2CB2103A47A51A0977CDD1DE0A12F"`
+

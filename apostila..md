@@ -25,3 +25,12 @@ Get-CloudFileByHash "AFD871E602A7485930FC70CA760586FB6D737C7DF377CF8E345C6B3C387
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** [AFD871E602A7485930FC70CA760586FB6D737C7DF377CF8E345C6B3C3876A75C](https://drive.google.com/uc?id=15QeiuqK25DwrtJS6PnpN7OsEcNhkZog4&export=download)
+- **Google Drive:** [Download](https://drive.google.com/uc?id=15QeiuqK25DwrtJS6PnpN7OsEcNhkZog4&export=download)
+- **GitHub:** [apostila..md](https://github.com/arhiv1973b/Evidence/blob/master/apostila..md)
+- **WSL Path:** `/mnt/c/Evidence/apostila..md`
+- **Крипто-валидация:** `Get-CloudFileByHash "AFD871E602A7485930FC70CA760586FB6D737C7DF377CF8E345C6B3C3876A75C"`
+

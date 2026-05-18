@@ -1,0 +1,78 @@
+{
+  "Authority": "A©tor Maceret Alexei",
+  "Nodes": [
+    {
+      "FilePath": "C:\\Evidence\\Протокол_ Первый Шаг и Условия - Google Gemini.html",
+      "Reason": "Contains invalid identity/status markers (Erga Omnes violation)",
+      "SHA256": "66E5E600A6F31D3FFE8F19D8974DABD648CAED5A4181D82AFD605E3CCBC16E40"
+    },
+    {
+      "FilePath": "C:\\Evidence\\Actor of Moldova.md",
+      "Reason": "Contains invalid identity/status markers (Erga Omnes violation)",
+      "SHA256": "27FCF7D7B55A7CB96D37E77B05C66F017ED8790587F4542AF0C77BA668C3723E"
+    },
+    {
+      "FilePath": "C:\\Evidence\\Actor of Moldova.signed.md",
+      "Reason": "Contains invalid identity/status markers (Erga Omnes violation)",
+      "SHA256": "2AD13874BDDAD61ED65AC123C89ACB0234E5D3DB81B5FE1D53FDBA4D64900D8E"
+    },
+    {
+      "FilePath": "C:\\Evidence\\arhiv@Actor MINGW64 ~tiula_build (m.md",
+      "Reason": "Contains invalid identity/status markers (Erga Omnes violation)",
+      "SHA256": "85B284867E4DAB2C0C02EB465A35B7A5704F99348BDD1DE99C60CAC05301FA81"
+    },
+    {
+      "FilePath": "C:\\Evidence\\CRIMINAL_MANIFEST_FINCOMBANK_20260418.md_compressed (1).pdf.md",
+      "Reason": "Contains invalid identity/status markers (Erga Omnes violation)",
+      "SHA256": "5B3AA9219CB2A2A0B0A61CFC2796A8598C70C076F85FA8E63E0F08E4FA2E1C01"
+    },
+    {
+      "FilePath": "C:\\Evidence\\CRIMINAL_MANIFEST_FINCOMBANK_RU_20260418.md - Google Документы.md",
+      "Reason": "Contains invalid identity/status markers (Erga Omnes violation)",
+      "SHA256": "FE1EB03C2535B6880E23EE208A49FD80D54BE33F6428797DB18559D790C82F01"
+    },
+    {
+      "FilePath": "C:\\Evidence\\evidence_node_theft_project_funds_2026.json",
+      "Reason": "Contains invalid identity/status markers (Erga Omnes violation)",
+      "SHA256": "CB07B1C303410352C994C89F8B4104B4703EA803A556AEFDDED91EA3B75170E3"
+    },
+    {
+      "FilePath": "C:\\Evidence\\JusCogens_Genesis_Dialogue.json",
+      "Reason": "Contains invalid identity/status markers (Erga Omnes violation)",
+      "SHA256": "EEB6A3B290DDFB8F8B9C6D6388C2A768C61B7C177F559026459645DF2D8153C8"
+    },
+    {
+      "FilePath": "C:\\Evidence\\Raw_Dialogue_1.txt",
+      "Reason": "Contains invalid identity/status markers (Erga Omnes violation)",
+      "SHA256": "4E844908FF04EF1F386985AAE4A596F0E9CD34519095B88CFA5C5C98F39E4AB7"
+    },
+    {
+      "FilePath": "C:\\Evidence\\Raw_Dialogue.txt",
+      "Reason": "Contains invalid identity/status markers (Erga Omnes violation)",
+      "SHA256": "DCB9D3EC05B5AABA106131402431F149F3B6AE1F8D3813E8745772050AEB3D17"
+    },
+    {
+      "FilePath": "C:\\Evidence\\UN - Actor 4_1.md",
+      "Reason": "Contains invalid identity/status markers (Erga Omnes violation)",
+      "SHA256": "96B71FC4C236E3F4E0EF015A5C2194E58DE72F5DAD5FBD0E909C92696A2A5B89"
+    },
+    {
+      "FilePath": "C:\\Evidence\\UN - Actor 4.md",
+      "Reason": "Contains invalid identity/status markers (Erga Omnes violation)",
+      "SHA256": "4BA32D17965056819FAEEC6790427E54D76F9DEB5A26044880F5AC5B430EE3E0"
+    },
+    {
+      "FilePath": "C:\\Evidence\\UN - Actor.md",
+      "Reason": "Contains invalid identity/status markers (Erga Omnes violation)",
+      "SHA256": "BF7E8D852E84F110D42024E8BEF44C87F2ACF056C573BDDF3EA7963141DF5557"
+    },
+    {
+      "FilePath": "C:\\Evidence\\view-source_https___gemini.google.com_app_ac20d32de2b413fa_utm_source=app_launcher&utm_medium=owned&utm_campaign=base_all.html",
+      "Reason": "Contains invalid identity/status markers (Erga Omnes violation)",
+      "SHA256": "3D0ED03CCFD30A4CAF7425FD068C6A8EAEEC356755ABB4F23CA34AD7AECD729F"
+    }
+  ],
+  "Status": "ISOLATED_DISTORTIONS",
+  "Protocol": "TI-ULA-QUARANTINE",
+  "Timestamp": "2026-05-16 03:04:29Z"
+}

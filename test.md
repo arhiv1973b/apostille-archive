@@ -25,3 +25,12 @@ Get-CloudFileByHash "CD9CE640AA83DC2C33801437C5399CE262A3F8A1F806E99BE8D624F8BF9
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [test.md](https://github.com/arhiv1973b/Evidence/blob/master/test.md)
+- **WSL Path:** `/mnt/c/Evidence/test.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "CD9CE640AA83DC2C33801437C5399CE262A3F8A1F806E99BE8D624F8BF9BDCF5"`
+

@@ -25,3 +25,12 @@ Get-CloudFileByHash "62A93D1DE20BB9C5A67C69AF9F786E993C501DF6F1F29E280DE501DBB9D
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** [62A93D1DE20BB9C5A67C69AF9F786E993C501DF6F1F29E280DE501DBB9D040FC](https://drive.google.com/uc?id=1L67TVjuqbDQhKuAqtUl9yr6KbfHxKg23&export=download)
+- **Google Drive:** [Download](https://drive.google.com/uc?id=1L67TVjuqbDQhKuAqtUl9yr6KbfHxKg23&export=download)
+- **GitHub:** [DeepSeek V4 Flash is now available on Ollama's cloud.md](https://github.com/arhiv1973b/Evidence/blob/master/DeepSeek%20V4%20Flash%20is%20now%20available%20on%20Ollama's%20cloud.md)
+- **WSL Path:** `/mnt/c/Evidence/DeepSeek V4 Flash is now available on Ollama's cloud.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "62A93D1DE20BB9C5A67C69AF9F786E993C501DF6F1F29E280DE501DBB9D040FC"`
+

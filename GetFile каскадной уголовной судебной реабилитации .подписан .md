@@ -25,3 +25,12 @@ Get-CloudFileByHash "C4A16E9BF6A142233DB818D95603BEB395E46A3F4B26AF83C5249AA17C3
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** [C4A16E9BF6A142233DB818D95603BEB395E46A3F4B26AF83C5249AA17C38C045](https://drive.google.com/uc?id=1eCXSwMMNgjI6C4dBmUkBMQUcPFPBnPpD&export=download)
+- **Google Drive:** [Download](https://drive.google.com/uc?id=1eCXSwMMNgjI6C4dBmUkBMQUcPFPBnPpD&export=download)
+- **GitHub:** [GetFile каскадной уголовной судебной реабилитации .подписан .md](https://github.com/arhiv1973b/Evidence/blob/master/GetFile%20%D0%BA%D0%B0%D1%81%D0%BA%D0%B0%D0%B4%D0%BD%D0%BE%D0%B8%CC%86%20%D1%83%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%BE%D0%B8%CC%86%20%D1%81%D1%83%D0%B4%D0%B5%D0%B1%D0%BD%D0%BE%D0%B8%CC%86%20%D1%80%D0%B5%D0%B0%D0%B1%D0%B8%D0%BB%D0%B8%D1%82%D0%B0%D1%86%D0%B8%D0%B8%20.%D0%BF%D0%BE%D0%B4%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%20.md)
+- **WSL Path:** `/mnt/c/Evidence/GetFile каскадной уголовной судебной реабилитации .подписан .md`
+- **Крипто-валидация:** `Get-CloudFileByHash "C4A16E9BF6A142233DB818D95603BEB395E46A3F4B26AF83C5249AA17C38C045"`
+

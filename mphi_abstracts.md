@@ -25,3 +25,12 @@ Get-CloudFileByHash "C070B98F136DD287ED105E12ADE4FCE594284722321164CDCC8758ECCA1
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [mphi_abstracts.md](https://github.com/arhiv1973b/Evidence/blob/master/mphi_abstracts.md)
+- **WSL Path:** `/mnt/c/Evidence/mphi_abstracts.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "C070B98F136DD287ED105E12ADE4FCE594284722321164CDCC8758ECCA13E380"`
+

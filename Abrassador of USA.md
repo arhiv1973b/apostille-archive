@@ -25,3 +25,12 @@ Get-CloudFileByHash "6C89CD14304F98B27B410AC08E4DCE71608D175BC29CB8DC56927819A04
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** [6C89CD14304F98B27B410AC08E4DCE71608D175BC29CB8DC56927819A04C3B6C](https://drive.google.com/uc?id=1X4ZvCvKp7ltKXp1r4Fv7fs67Pzi1aetw&export=download)
+- **Google Drive:** [Download](https://drive.google.com/uc?id=1X4ZvCvKp7ltKXp1r4Fv7fs67Pzi1aetw&export=download)
+- **GitHub:** [Abrassador of USA.md](https://github.com/arhiv1973b/Evidence/blob/master/Abrassador%20of%20USA.md)
+- **WSL Path:** `/mnt/c/Evidence/Abrassador of USA.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "6C89CD14304F98B27B410AC08E4DCE71608D175BC29CB8DC56927819A04C3B6C"`
+

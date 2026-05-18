@@ -25,3 +25,12 @@ Get-CloudFileByHash "087532E3886279513EF667C0346699106A0B990151CF015028F7182F446
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** [087532E3886279513EF667C0346699106A0B990151CF015028F7182F446E48B5](https://drive.google.com/uc?id=1VH0MScrr6jut8YmpwaGlK1gumJ2PSWDE&export=download)
+- **Google Drive:** [Download](https://drive.google.com/uc?id=1VH0MScrr6jut8YmpwaGlK1gumJ2PSWDE&export=download)
+- **GitHub:** [A©t0r_NeuroProtocol_TIU-ULA.md](https://github.com/arhiv1973b/Evidence/blob/master/A%C2%A9t0r_NeuroProtocol_TIU-ULA.md)
+- **WSL Path:** `/mnt/c/Evidence/A©t0r_NeuroProtocol_TIU-ULA.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "087532E3886279513EF667C0346699106A0B990151CF015028F7182F446E48B5"`
+

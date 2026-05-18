@@ -25,3 +25,12 @@ Get-CloudFileByHash "84FC68389CC1CAA2376DC4DA4F85E05BABF2BFFBB4B702B99276A81E3A5
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [ZAJAVLENIE_PROKURATURA_2026-04-17_1.md](https://github.com/arhiv1973b/Evidence/blob/master/ZAJAVLENIE_PROKURATURA_2026-04-17_1.md)
+- **WSL Path:** `/mnt/c/Evidence/ZAJAVLENIE_PROKURATURA_2026-04-17_1.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "84FC68389CC1CAA2376DC4DA4F85E05BABF2BFFBB4B702B99276A81E3A5BD5E1"`
+

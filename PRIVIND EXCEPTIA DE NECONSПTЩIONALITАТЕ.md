@@ -25,3 +25,12 @@ Get-CloudFileByHash "3AC33A21010710976C663221C48C6BE5817AC50B42A4A2DEAFAB93AB688
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [PRIVIND EXCEPTIA DE NECONSПTЩIONALITАТЕ.md](https://github.com/arhiv1973b/Evidence/blob/master/PRIVIND%20EXCEPTIA%20DE%20NECONS%D0%9FT%D0%A9IONALIT%D0%90%D0%A2%D0%95.md)
+- **WSL Path:** `/mnt/c/Evidence/PRIVIND EXCEPTIA DE NECONSПTЩIONALITАТЕ.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "3AC33A21010710976C663221C48C6BE5817AC50B42A4A2DEAFAB93AB68832387"`
+

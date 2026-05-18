@@ -25,3 +25,12 @@ Get-CloudFileByHash "E0BD12984AD7E9D7046CDFC1BA688DD086407E3B8A58456C3DD11BF079E
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [poltical USA si UN.md](https://github.com/arhiv1973b/Evidence/blob/master/poltical%20USA%20si%20UN.md)
+- **WSL Path:** `/mnt/c/Evidence/poltical USA si UN.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "E0BD12984AD7E9D7046CDFC1BA688DD086407E3B8A58456C3DD11BF079ED8096"`
+

@@ -25,3 +25,12 @@ Get-CloudFileByHash "19B42ECD6212C628FFC764C5725722195B1BF6F618D87D40D744012B3CA
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [Выводы Jus cogens.md](https://github.com/arhiv1973b/Evidence/blob/master/%D0%92%D1%8B%D0%B2%D0%BE%D0%B4%D1%8B%20Jus%20cogens.md)
+- **WSL Path:** `/mnt/c/Evidence/Выводы Jus cogens.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "19B42ECD6212C628FFC764C5725722195B1BF6F618D87D40D744012B3CA6027B"`
+

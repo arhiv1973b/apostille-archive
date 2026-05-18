@@ -25,3 +25,12 @@ Get-CloudFileByHash "6D240E5CD391584458C925CB7F3A360332210BD3D158DC8DAFA4BF888EB
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [actor_jus_cogens_engine.md](https://github.com/arhiv1973b/Evidence/blob/master/actor_jus_cogens_engine.md)
+- **WSL Path:** `/mnt/c/Evidence/actor_jus_cogens_engine.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "6D240E5CD391584458C925CB7F3A360332210BD3D158DC8DAFA4BF888EB78A54"`
+

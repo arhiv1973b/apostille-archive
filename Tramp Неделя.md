@@ -25,3 +25,12 @@ Get-CloudFileByHash "840ED924C75F62D330DC9A402390425B19374302A16F2931B3F6C032C55
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [Tramp Неделя.md](https://github.com/arhiv1973b/Evidence/blob/master/Tramp%20%D0%9D%D0%B5%D0%B4%D0%B5%D0%BB%D1%8F.md)
+- **WSL Path:** `/mnt/c/Evidence/Tramp Неделя.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "840ED924C75F62D330DC9A402390425B19374302A16F2931B3F6C032C55856D3"`
+

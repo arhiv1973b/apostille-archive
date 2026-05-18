@@ -25,3 +25,12 @@ Get-CloudFileByHash "D95229859A25381C4310A2FD62D3546DD9498B2A80E9159E4AD7CEF4A79
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [Scenariu_Marinescu (копия).подписан.md](https://github.com/arhiv1973b/Evidence/blob/master/Scenariu_Marinescu%20(%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F).%D0%BF%D0%BE%D0%B4%D0%BF%D0%B8%D1%81%D0%B0%D0%BD.md)
+- **WSL Path:** `/mnt/c/Evidence/Scenariu_Marinescu (копия).подписан.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "D95229859A25381C4310A2FD62D3546DD9498B2A80E9159E4AD7CEF4A790D669"`
+

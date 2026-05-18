@@ -25,3 +25,12 @@ Get-CloudFileByHash "F6195C1CBA77D6CD12CC3468C48378AB171B56033742B7904239EF0293B
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** [F6195C1CBA77D6CD12CC3468C48378AB171B56033742B7904239EF0293BE5889](https://drive.google.com/uc?id=1cQt_jeKQwiFl2XAcKoWdedIB9nfwWWKB&export=download)
+- **Google Drive:** [Download](https://drive.google.com/uc?id=1cQt_jeKQwiFl2XAcKoWdedIB9nfwWWKB&export=download)
+- **GitHub:** [Bazovye_vyvody_reabilitare_Maceret.md](https://github.com/arhiv1973b/Evidence/blob/master/Bazovye_vyvody_reabilitare_Maceret.md)
+- **WSL Path:** `/mnt/c/Evidence/Bazovye_vyvody_reabilitare_Maceret.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "F6195C1CBA77D6CD12CC3468C48378AB171B56033742B7904239EF0293BE5889"`
+

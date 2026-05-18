@@ -25,3 +25,12 @@ Get-CloudFileByHash "793A98C9A3A0D1CCC778F83527F41E021A8B51370573BDF29AA61BC0707
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** [793A98C9A3A0D1CCC778F83527F41E021A8B51370573BDF29AA61BC07079A565](https://drive.google.com/uc?id=1Ez29SRVZJTrTJMQAj7sQxCkAy-uHhNvN&export=download)
+- **Google Drive:** [Download](https://drive.google.com/uc?id=1Ez29SRVZJTrTJMQAj7sQxCkAy-uHhNvN&export=download)
+- **GitHub:** [Complaint_Full_PCCOCS_Gen .md](https://github.com/arhiv1973b/Evidence/blob/master/Complaint_Full_PCCOCS_Gen%20.md)
+- **WSL Path:** `/mnt/c/Evidence/Complaint_Full_PCCOCS_Gen .md`
+- **Крипто-валидация:** `Get-CloudFileByHash "793A98C9A3A0D1CCC778F83527F41E021A8B51370573BDF29AA61BC07079A565"`
+

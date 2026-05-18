@@ -25,3 +25,12 @@ Get-CloudFileByHash "870E676F2E93107B8B9BE71F4774F67CF993B50E3193F67E2B6100BE285
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** [870E676F2E93107B8B9BE71F4774F67CF993B50E3193F67E2B6100BE28593655](https://drive.google.com/uc?id=1uM11s5EUCGlKRaEZiE-OZn-rjtdC_xYl&export=download)
+- **Google Drive:** [Download](https://drive.google.com/uc?id=1uM11s5EUCGlKRaEZiE-OZn-rjtdC_xYl&export=download)
+- **GitHub:** [Exlip.md](https://github.com/arhiv1973b/Evidence/blob/master/Exlip.md)
+- **WSL Path:** `/mnt/c/Evidence/Exlip.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "870E676F2E93107B8B9BE71F4774F67CF993B50E3193F67E2B6100BE28593655"`
+

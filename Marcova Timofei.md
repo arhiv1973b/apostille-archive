@@ -25,3 +25,12 @@ Get-CloudFileByHash "CEF869CB8A26C34572CD748CD61A3D4108741001BB4B149A7501A78E546
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [Marcova Timofei.md](https://github.com/arhiv1973b/Evidence/blob/master/Marcova%20Timofei.md)
+- **WSL Path:** `/mnt/c/Evidence/Marcova Timofei.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "CEF869CB8A26C34572CD748CD61A3D4108741001BB4B149A7501A78E5466BD55"`
+

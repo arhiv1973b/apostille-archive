@@ -25,3 +25,12 @@ Get-CloudFileByHash "856C68CEAD9B0E9ED5DE48B2D4E330CCC2229917638EA97B7995AA1286A
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** [856C68CEAD9B0E9ED5DE48B2D4E330CCC2229917638EA97B7995AA1286A14C09](https://drive.google.com/uc?id=1QS_uStwCDfa9MV85WVYtuPNwNEixtdaP&export=download)
+- **Google Drive:** [Download](https://drive.google.com/uc?id=1QS_uStwCDfa9MV85WVYtuPNwNEixtdaP&export=download)
+- **GitHub:** [apostila_ДАТЫ 09.12.2020 ГОДА_№ 1-649_2003.md](https://github.com/arhiv1973b/Evidence/blob/master/apostila_%D0%94%D0%90%D0%A2%D0%AB%2009.12.2020%20%D0%93%D0%9E%D0%94%D0%90_%E2%84%96%201-649_2003.md)
+- **WSL Path:** `/mnt/c/Evidence/apostila_ДАТЫ 09.12.2020 ГОДА_№ 1-649_2003.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "856C68CEAD9B0E9ED5DE48B2D4E330CCC2229917638EA97B7995AA1286A14C09"`
+

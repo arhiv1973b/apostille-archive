@@ -25,3 +25,12 @@ Get-CloudFileByHash "709D5988DE963B6DFE83089DE3FB98955D775E2427D302151DB5FE166DE
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** [709D5988DE963B6DFE83089DE3FB98955D775E2427D302151DB5FE166DE16697](https://drive.google.com/uc?id=1teE_i9JeUY-tGQMLBcGT01poYIeF5qUP&export=download)
+- **Google Drive:** [Download](https://drive.google.com/uc?id=1teE_i9JeUY-tGQMLBcGT01poYIeF5qUP&export=download)
+- **GitHub:** [Cerere_CSJ_traducere_ro (копия)_1.md](https://github.com/arhiv1973b/Evidence/blob/master/Cerere_CSJ_traducere_ro%20(%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F)_1.md)
+- **WSL Path:** `/mnt/c/Evidence/Cerere_CSJ_traducere_ro (копия)_1.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "709D5988DE963B6DFE83089DE3FB98955D775E2427D302151DB5FE166DE16697"`
+

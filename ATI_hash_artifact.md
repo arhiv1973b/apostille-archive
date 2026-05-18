@@ -25,3 +25,12 @@ Get-CloudFileByHash "6F5E4CB295958E680DCFF0149A85DC9E56424F24AB17CBC609B67C876BB
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [ATI_hash_artifact.md](https://github.com/arhiv1973b/Evidence/blob/master/ATI_hash_artifact.md)
+- **WSL Path:** `/mnt/c/Evidence/ATI_hash_artifact.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "6F5E4CB295958E680DCFF0149A85DC9E56424F24AB17CBC609B67C876BB7EBB0"`
+

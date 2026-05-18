@@ -25,3 +25,12 @@ Get-CloudFileByHash "04DC6A0D7DF78E9B59588997E78331B9823259C858F711DD04724CCE029
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [Memorandum_Alexei_Maceret_2025-10-09.md](https://github.com/arhiv1973b/Evidence/blob/master/Memorandum_Alexei_Maceret_2025-10-09.md)
+- **WSL Path:** `/mnt/c/Evidence/Memorandum_Alexei_Maceret_2025-10-09.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "04DC6A0D7DF78E9B59588997E78331B9823259C858F711DD04724CCE0295C8AF"`
+

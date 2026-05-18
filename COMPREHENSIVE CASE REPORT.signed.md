@@ -25,3 +25,12 @@ Get-CloudFileByHash "CE912EDE1DD0D993E13A2629473F0C0C01E3616FA69BC7DB17F51A675D8
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** [CE912EDE1DD0D993E13A2629473F0C0C01E3616FA69BC7DB17F51A675D8916E2](https://drive.google.com/uc?id=1DUJ16YlqdZXSGxaEOxrgzCicK8emAAFF&export=download)
+- **Google Drive:** [Download](https://drive.google.com/uc?id=1DUJ16YlqdZXSGxaEOxrgzCicK8emAAFF&export=download)
+- **GitHub:** [COMPREHENSIVE CASE REPORT.signed.md](https://github.com/arhiv1973b/Evidence/blob/master/COMPREHENSIVE%20CASE%20REPORT.signed.md)
+- **WSL Path:** `/mnt/c/Evidence/COMPREHENSIVE CASE REPORT.signed.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "CE912EDE1DD0D993E13A2629473F0C0C01E3616FA69BC7DB17F51A675D8916E2"`
+

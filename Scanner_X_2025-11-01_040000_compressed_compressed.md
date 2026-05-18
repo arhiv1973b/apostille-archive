@@ -25,3 +25,12 @@ Get-CloudFileByHash "FB46380992504A84AE36442F85A54B185D49779E5FBEECEA56DAFE855DC
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [Scanner_X_2025-11-01_040000_compressed_compressed.md](https://github.com/arhiv1973b/Evidence/blob/master/Scanner_X_2025-11-01_040000_compressed_compressed.md)
+- **WSL Path:** `/mnt/c/Evidence/Scanner_X_2025-11-01_040000_compressed_compressed.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "FB46380992504A84AE36442F85A54B185D49779E5FBEECEA56DAFE855DCFD201"`
+

@@ -25,3 +25,12 @@ Get-CloudFileByHash "4054A653284DA42412E9B89C7205DA5028F7C81169AFA54C06FE653DFEE
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [SESIZARE.md](https://github.com/arhiv1973b/Evidence/blob/master/SESIZARE.md)
+- **WSL Path:** `/mnt/c/Evidence/SESIZARE.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "4054A653284DA42412E9B89C7205DA5028F7C81169AFA54C06FE653DFEE021CC"`
+

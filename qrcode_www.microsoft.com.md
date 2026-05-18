@@ -25,3 +25,12 @@ Get-CloudFileByHash "90DF350DFFFD256B6E659306FA7DE04E63A416A50C40038EFDF0B857042
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [qrcode_www.microsoft.com.md](https://github.com/arhiv1973b/Evidence/blob/master/qrcode_www.microsoft.com.md)
+- **WSL Path:** `/mnt/c/Evidence/qrcode_www.microsoft.com.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "90DF350DFFFD256B6E659306FA7DE04E63A416A50C40038EFDF0B857042D9F78"`
+

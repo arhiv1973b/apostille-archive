@@ -25,3 +25,12 @@ Get-CloudFileByHash "79D10330807AF899FAF099E359B5305E8165B9880DAE281968F1E7748FB
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [Lege- nui Lege 2.md](https://github.com/arhiv1973b/Evidence/blob/master/Lege-%20nui%20Lege%202.md)
+- **WSL Path:** `/mnt/c/Evidence/Lege- nui Lege 2.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "79D10330807AF899FAF099E359B5305E8165B9880DAE281968F1E7748FB249D9"`
+

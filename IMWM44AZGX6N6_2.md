@@ -25,3 +25,12 @@ Get-CloudFileByHash "4DF67AC6004147CFFA470F91CF093AEFFF25F78C3DDC413FF1444D8FD2B
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [IMWM44AZGX6N6_2.md](https://github.com/arhiv1973b/Evidence/blob/master/IMWM44AZGX6N6_2.md)
+- **WSL Path:** `/mnt/c/Evidence/IMWM44AZGX6N6_2.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "4DF67AC6004147CFFA470F91CF093AEFFF25F78C3DDC413FF1444D8FD2BD3327"`
+

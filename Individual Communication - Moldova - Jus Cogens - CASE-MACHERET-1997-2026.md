@@ -25,3 +25,12 @@ Get-CloudFileByHash "680FE5A5376462E068843E1F8D8F8E1DBF47BA1EA01D9D2661457D87F92
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [Individual Communication - Moldova - Jus Cogens - CASE-MACHERET-1997-2026.md](https://github.com/arhiv1973b/Evidence/blob/master/Individual%20Communication%20-%20Moldova%20-%20Jus%20Cogens%20-%20CASE-MACHERET-1997-2026.md)
+- **WSL Path:** `/mnt/c/Evidence/Individual Communication - Moldova - Jus Cogens - CASE-MACHERET-1997-2026.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "680FE5A5376462E068843E1F8D8F8E1DBF47BA1EA01D9D2661457D87F923C24B"`
+

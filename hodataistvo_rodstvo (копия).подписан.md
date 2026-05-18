@@ -25,3 +25,12 @@ Get-CloudFileByHash "B869931F03FF1A014294A9EC77948C7F05E29D4B925F28680FD07650129
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [hodataistvo_rodstvo (копия).подписан.md](https://github.com/arhiv1973b/Evidence/blob/master/hodataistvo_rodstvo%20(%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F).%D0%BF%D0%BE%D0%B4%D0%BF%D0%B8%D1%81%D0%B0%D0%BD.md)
+- **WSL Path:** `/mnt/c/Evidence/hodataistvo_rodstvo (копия).подписан.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "B869931F03FF1A014294A9EC77948C7F05E29D4B925F28680FD07650129BF930"`
+

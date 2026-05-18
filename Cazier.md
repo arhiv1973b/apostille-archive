@@ -25,3 +25,12 @@ Get-CloudFileByHash "5F08852AB5A07D546F9E475F6EF272E0F2CC322CEBBCEDB6595DFDDF8FE
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** [5F08852AB5A07D546F9E475F6EF272E0F2CC322CEBBCEDB6595DFDDF8FE12A62](https://drive.google.com/uc?id=1b28NBTUSqpWONcqRA0kvrL0Hr5LNexCd&export=download)
+- **Google Drive:** [Download](https://drive.google.com/uc?id=1b28NBTUSqpWONcqRA0kvrL0Hr5LNexCd&export=download)
+- **GitHub:** [Cazier.md](https://github.com/arhiv1973b/Evidence/blob/master/Cazier.md)
+- **WSL Path:** `/mnt/c/Evidence/Cazier.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "5F08852AB5A07D546F9E475F6EF272E0F2CC322CEBBCEDB6595DFDDF8FE12A62"`
+

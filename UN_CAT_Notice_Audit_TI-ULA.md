@@ -25,3 +25,12 @@ Get-CloudFileByHash "06101200DA1AEA39465F077F08F3F0A5A98D0D6F23ECE6DE6531C4DE018
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [UN_CAT_Notice_Audit_TI-ULA.md](https://github.com/arhiv1973b/Evidence/blob/master/UN_CAT_Notice_Audit_TI-ULA.md)
+- **WSL Path:** `/mnt/c/Evidence/UN_CAT_Notice_Audit_TI-ULA.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "06101200DA1AEA39465F077F08F3F0A5A98D0D6F23ECE6DE6531C4DE0182BE57"`
+

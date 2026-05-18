@@ -25,3 +25,12 @@ Get-CloudFileByHash "3032E6C239D7A64DF983606CF77B7EDE1E499F2E15335060F2591C13E45
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [turbo-suslik (3)_1.md](https://github.com/arhiv1973b/Evidence/blob/master/turbo-suslik%20(3)_1.md)
+- **WSL Path:** `/mnt/c/Evidence/turbo-suslik (3)_1.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "3032E6C239D7A64DF983606CF77B7EDE1E499F2E15335060F2591C13E45639A9"`
+

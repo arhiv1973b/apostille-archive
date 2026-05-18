@@ -25,3 +25,12 @@ Get-CloudFileByHash "159E7DB45D375F59A727658BA505AB0748B5BAE854F1329391CEE002349
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [transformed_jus_cogens_case.md](https://github.com/arhiv1973b/Evidence/blob/master/transformed_jus_cogens_case.md)
+- **WSL Path:** `/mnt/c/Evidence/transformed_jus_cogens_case.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "159E7DB45D375F59A727658BA505AB0748B5BAE854F1329391CEE002349A198B"`
+

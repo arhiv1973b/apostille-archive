@@ -25,3 +25,12 @@ Get-CloudFileByHash "3A4F992BF5E244008D14188901DD8D432EFF95A6BBF88DB092C21ECF9C2
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** [3A4F992BF5E244008D14188901DD8D432EFF95A6BBF88DB092C21ECF9C25F966](https://drive.google.com/uc?id=14tcIw142BhD-ciQOqHLFiyBnWsHnYEUB&export=download)
+- **Google Drive:** [Download](https://drive.google.com/uc?id=14tcIw142BhD-ciQOqHLFiyBnWsHnYEUB&export=download)
+- **GitHub:** [ACFrOgAJHmzLksM9ft-bs3tvXinFr1q2E6JSjT7K2r0kl2iJE1-I6XEjcctcjBjuRF0WmPAvUI8qGBO5VLcF3zykXHF4F2cu8N2-ucTUobX5XlHT8s0VIwQyeoFulJskJNOUPFPSdK65zr7sZaEetSIbkOi_XzZYGboaOH3RuA==.md](https://github.com/arhiv1973b/Evidence/blob/master/ACFrOgAJHmzLksM9ft-bs3tvXinFr1q2E6JSjT7K2r0kl2iJE1-I6XEjcctcjBjuRF0WmPAvUI8qGBO5VLcF3zykXHF4F2cu8N2-ucTUobX5XlHT8s0VIwQyeoFulJskJNOUPFPSdK65zr7sZaEetSIbkOi_XzZYGboaOH3RuA%3D%3D.md)
+- **WSL Path:** `/mnt/c/Evidence/ACFrOgAJHmzLksM9ft-bs3tvXinFr1q2E6JSjT7K2r0kl2iJE1-I6XEjcctcjBjuRF0WmPAvUI8qGBO5VLcF3zykXHF4F2cu8N2-ucTUobX5XlHT8s0VIwQyeoFulJskJNOUPFPSdK65zr7sZaEetSIbkOi_XzZYGboaOH3RuA==.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "3A4F992BF5E244008D14188901DD8D432EFF95A6BBF88DB092C21ECF9C25F966"`
+

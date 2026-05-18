@@ -25,3 +25,12 @@ Get-CloudFileByHash "7A226CDE26E8637F9600948605E24A85EACB6824D719F5CAF602D1E54D8
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** [7A226CDE26E8637F9600948605E24A85EACB6824D719F5CAF602D1E54D888B1E](https://drive.google.com/uc?id=14OjBXupM8zE6GjKJOjwzCKKufrNJpo60&export=download)
+- **Google Drive:** [Download](https://drive.google.com/uc?id=14OjBXupM8zE6GjKJOjwzCKKufrNJpo60&export=download)
+- **GitHub:** [apostille_archive_english.md](https://github.com/arhiv1973b/Evidence/blob/master/apostille_archive_english.md)
+- **WSL Path:** `/mnt/c/Evidence/apostille_archive_english.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "7A226CDE26E8637F9600948605E24A85EACB6824D719F5CAF602D1E54D888B1E"`
+

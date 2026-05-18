@@ -25,3 +25,12 @@ Get-CloudFileByHash "42AB98F7356E062EEE56AE7830114BB243F9D2C4AE0E03F0A66F658F0DD
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [PEP_PVP.md](https://github.com/arhiv1973b/Evidence/blob/master/PEP_PVP.md)
+- **WSL Path:** `/mnt/c/Evidence/PEP_PVP.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "42AB98F7356E062EEE56AE7830114BB243F9D2C4AE0E03F0A66F658F0DDDF16E"`
+

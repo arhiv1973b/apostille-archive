@@ -25,3 +25,12 @@ Get-CloudFileByHash "2EABF76CE84B3E8C5162793DEAC1FF0F06DA0D2A02B4FC78A9228F0B9AB
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [Outlook_8.md](https://github.com/arhiv1973b/Evidence/blob/master/Outlook_8.md)
+- **WSL Path:** `/mnt/c/Evidence/Outlook_8.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "2EABF76CE84B3E8C5162793DEAC1FF0F06DA0D2A02B4FC78A9228F0B9ABDF1FD"`
+

@@ -25,3 +25,12 @@ Get-CloudFileByHash "C2F20CB767FC84D0036AEC8327711007B7B9E444721B6BB2F05A43DB415
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [MACHERET_STATEMENT_20042026 - Google Документы.md](https://github.com/arhiv1973b/Evidence/blob/master/MACHERET_STATEMENT_20042026%20-%20Google%20%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B.md)
+- **WSL Path:** `/mnt/c/Evidence/MACHERET_STATEMENT_20042026 - Google Документы.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "C2F20CB767FC84D0036AEC8327711007B7B9E444721B6BB2F05A43DB415BB13F"`
+

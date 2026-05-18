@@ -25,3 +25,12 @@ Get-CloudFileByHash "175DD3DCFD251A7FD7E5182694D210E130FE1809D81722A7E79F801BDFE
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [Svodnaya_tablitsa_jus_cogens_Actor (копия)_1.md](https://github.com/arhiv1973b/Evidence/blob/master/Svodnaya_tablitsa_jus_cogens_Actor%20(%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F)_1.md)
+- **WSL Path:** `/mnt/c/Evidence/Svodnaya_tablitsa_jus_cogens_Actor (копия)_1.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "175DD3DCFD251A7FD7E5182694D210E130FE1809D81722A7E79F801BDFED8D43"`
+

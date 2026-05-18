@@ -25,3 +25,12 @@ Get-CloudFileByHash "EEA8E50EB0B0174D48A31E2D510F1740F9A66881576B1D5774A65CE5E39
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** [EEA8E50EB0B0174D48A31E2D510F1740F9A66881576B1D5774A65CE5E3910CB9](https://drive.google.com/uc?id=1ivPalyt_o5I6R7r4msBYOAMuNgYd66ev&export=download)
+- **Google Drive:** [Download](https://drive.google.com/uc?id=1ivPalyt_o5I6R7r4msBYOAMuNgYd66ev&export=download)
+- **GitHub:** [Explanatory_Memorandum_Ac_t0r-1_1.md](https://github.com/arhiv1973b/Evidence/blob/master/Explanatory_Memorandum_Ac_t0r-1_1.md)
+- **WSL Path:** `/mnt/c/Evidence/Explanatory_Memorandum_Ac_t0r-1_1.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "EEA8E50EB0B0174D48A31E2D510F1740F9A66881576B1D5774A65CE5E3910CB9"`
+

@@ -25,3 +25,12 @@ Get-CloudFileByHash "4EBE07D6E6AE6DC6BB1EBF73371B4C67A6CFC739F8138243A4FBB0EEEAC
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [spisok pdf.efu.md](https://github.com/arhiv1973b/Evidence/blob/master/spisok%20pdf.efu.md)
+- **WSL Path:** `/mnt/c/Evidence/spisok pdf.efu.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "4EBE07D6E6AE6DC6BB1EBF73371B4C67A6CFC739F8138243A4FBB0EEEAC04333"`
+

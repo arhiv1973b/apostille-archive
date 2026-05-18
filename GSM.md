@@ -25,3 +25,12 @@ Get-CloudFileByHash "A33FB41F554A3D6F757383159FB483B5A970D2879E20C38D0A22BE708E8
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [GSM.md](https://github.com/arhiv1973b/Evidence/blob/master/GSM.md)
+- **WSL Path:** `/mnt/c/Evidence/GSM.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "A33FB41F554A3D6F757383159FB483B5A970D2879E20C38D0A22BE708E81AD25"`
+

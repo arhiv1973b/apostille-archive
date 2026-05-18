@@ -41,6 +41,12 @@ if ($matchedFile) {
 
 # 4. Формирование манифеста в Штабе (C:\Evidence)
 $MdFileName = "$($FileName -replace '\.pdf$','').md"
+$GitHubBase = "https://github.com/arhiv1973b/Evidence/blob/master"
+$GitHubLink = "[$FileName]($GitHubBase/$([uri]::EscapeDataString($FileName)))"
+$GoogleLink = "N/A"
+if ($matchedFile) { $GoogleLink = "[Download](https://drive.google.com/uc?id=$($matchedFile.ID)&export=download)" }
+$WSLPath = "/mnt/c/Evidence/$FileName"
+
 $Markdown = @"
 ---
 layout: default
@@ -65,13 +71,24 @@ categories: [evidence, ti-ula, hash-standard]
 **Инструкция по извлечению подлинника:**
 ```powershell
 Get-CloudFileByHash "$sha"
-` ``
+```
+
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Google Drive:** $GoogleLink
+- **GitHub:** $GitHubLink
+- **WSL Path:** `$WSLPath`
+- **Крипто-валидация:** ``Get-CloudFileByHash "$sha"``
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
 "@
-$Markdown = $Markdown -replace '` ``', '```'
 Set-Content -Path (Join-Path $RepoPath $MdFileName) -Value $Markdown -Encoding UTF8
+
+# 4.1 Обновление MASTER_INDEX
+Write-Host "[*] Обновление MASTER_INDEX.md..." -ForegroundColor DarkGray
+& "C:\Evidence\Update-ActiveLinks.ps1"
 
 # 5. Деплой в GitHub
 Set-Location $RepoPath

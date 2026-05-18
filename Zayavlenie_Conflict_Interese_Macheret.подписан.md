@@ -25,3 +25,12 @@ Get-CloudFileByHash "E2DCACE003FA8F830C0F12ED574317444E7D8137E7C783F8851FD7DCE82
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [Zayavlenie_Conflict_Interese_Macheret.подписан.md](https://github.com/arhiv1973b/Evidence/blob/master/Zayavlenie_Conflict_Interese_Macheret.%D0%BF%D0%BE%D0%B4%D0%BF%D0%B8%D1%81%D0%B0%D0%BD.md)
+- **WSL Path:** `/mnt/c/Evidence/Zayavlenie_Conflict_Interese_Macheret.подписан.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "E2DCACE003FA8F830C0F12ED574317444E7D8137E7C783F8851FD7DCE8292180"`
+

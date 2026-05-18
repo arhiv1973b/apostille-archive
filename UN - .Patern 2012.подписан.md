@@ -25,3 +25,12 @@ Get-CloudFileByHash "C25CE8A7E38999A8241788DAC7844C0022F088DED59CD90150BB693A6A5
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [UN - .Patern 2012.подписан.md](https://github.com/arhiv1973b/Evidence/blob/master/UN%20-%20.Patern%202012.%D0%BF%D0%BE%D0%B4%D0%BF%D0%B8%D1%81%D0%B0%D0%BD.md)
+- **WSL Path:** `/mnt/c/Evidence/UN - .Patern 2012.подписан.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "C25CE8A7E38999A8241788DAC7844C0022F088DED59CD90150BB693A6A531AD0"`
+

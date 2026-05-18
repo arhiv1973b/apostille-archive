@@ -25,3 +25,12 @@ Get-CloudFileByHash "579F9E01AA39F554DD0F984FA2827CA0444ACC4F9A5AB7AC36E30F8ABD8
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [Judecatoria Cecanii Power.md](https://github.com/arhiv1973b/Evidence/blob/master/Judecatoria%20Cecanii%20Power.md)
+- **WSL Path:** `/mnt/c/Evidence/Judecatoria Cecanii Power.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "579F9E01AA39F554DD0F984FA2827CA0444ACC4F9A5AB7AC36E30F8ABD8EBFCB"`
+

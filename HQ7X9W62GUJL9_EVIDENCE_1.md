@@ -25,3 +25,12 @@ Get-CloudFileByHash "C04D8AB74465FE34C01B5B9A4D18BCE7C280750915BC74A00CDF21D1D15
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [HQ7X9W62GUJL9_EVIDENCE_1.md](https://github.com/arhiv1973b/Evidence/blob/master/HQ7X9W62GUJL9_EVIDENCE_1.md)
+- **WSL Path:** `/mnt/c/Evidence/HQ7X9W62GUJL9_EVIDENCE_1.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "C04D8AB74465FE34C01B5B9A4D18BCE7C280750915BC74A00CDF21D1D15DD27E"`
+

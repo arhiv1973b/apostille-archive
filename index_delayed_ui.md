@@ -25,3 +25,12 @@ Get-CloudFileByHash "A0F545BAAA43CD5D137A63A755E0699C95ECD291A099D37993160834FE1
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [index_delayed_ui.md](https://github.com/arhiv1973b/Evidence/blob/master/index_delayed_ui.md)
+- **WSL Path:** `/mnt/c/Evidence/index_delayed_ui.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "A0F545BAAA43CD5D137A63A755E0699C95ECD291A099D37993160834FE16151E"`
+

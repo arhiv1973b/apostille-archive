@@ -25,3 +25,12 @@ Get-CloudFileByHash "8861C98393B221DA65EEFF3BCFCCE95D966125837CFB7D2CD4E9F6279E9
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [Memorandum_Jus_Cogens_Erga_Omnes_A©tor_Macheret_1.md](https://github.com/arhiv1973b/Evidence/blob/master/Memorandum_Jus_Cogens_Erga_Omnes_A%C2%A9tor_Macheret_1.md)
+- **WSL Path:** `/mnt/c/Evidence/Memorandum_Jus_Cogens_Erga_Omnes_A©tor_Macheret_1.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "8861C98393B221DA65EEFF3BCFCCE95D966125837CFB7D2CD4E9F6279E982282"`
+

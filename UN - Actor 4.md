@@ -25,3 +25,12 @@ Get-CloudFileByHash "BEFF8C486CAA6967615B3FF3859F6FD0202B5466AA659709672FEFDF4C6
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [UN - Actor 4.md](https://github.com/arhiv1973b/Evidence/blob/master/UN%20-%20Actor%204.md)
+- **WSL Path:** `/mnt/c/Evidence/UN - Actor 4.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "BEFF8C486CAA6967615B3FF3859F6FD0202B5466AA659709672FEFDF4C66A7BB"`
+

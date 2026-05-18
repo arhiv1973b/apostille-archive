@@ -25,3 +25,12 @@ Get-CloudFileByHash "30336B172B47120558FB3420F6FB0329873C91A2FC99A440EE8D66F3009
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** [30336B172B47120558FB3420F6FB0329873C91A2FC99A440EE8D66F300900ED6](https://drive.google.com/uc?id=1XhL-Yo7wA7spt-x9-2gDyGej8xEY3wps&export=download)
+- **Google Drive:** [Download](https://drive.google.com/uc?id=1XhL-Yo7wA7spt-x9-2gDyGej8xEY3wps&export=download)
+- **GitHub:** [Auditilui EU.md](https://github.com/arhiv1973b/Evidence/blob/master/Auditilui%20EU.md)
+- **WSL Path:** `/mnt/c/Evidence/Auditilui EU.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "30336B172B47120558FB3420F6FB0329873C91A2FC99A440EE8D66F300900ED6"`
+

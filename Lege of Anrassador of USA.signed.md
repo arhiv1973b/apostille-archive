@@ -25,3 +25,12 @@ Get-CloudFileByHash "702EB5B6570FC6A5A3C3B0A0BF086E3CF5629486A092356E2D5521A0E24
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [Lege of Anrassador of USA.signed.md](https://github.com/arhiv1973b/Evidence/blob/master/Lege%20of%20Anrassador%20of%20USA.signed.md)
+- **WSL Path:** `/mnt/c/Evidence/Lege of Anrassador of USA.signed.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "702EB5B6570FC6A5A3C3B0A0BF086E3CF5629486A092356E2D5521A0E2401966"`
+

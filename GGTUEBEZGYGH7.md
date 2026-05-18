@@ -25,3 +25,12 @@ Get-CloudFileByHash "484F586563DEDB047426416C5591089E1CF83AFE6DA6B7BB5AF1BB15400
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [GGTUEBEZGYGH7.md](https://github.com/arhiv1973b/Evidence/blob/master/GGTUEBEZGYGH7.md)
+- **WSL Path:** `/mnt/c/Evidence/GGTUEBEZGYGH7.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "484F586563DEDB047426416C5591089E1CF83AFE6DA6B7BB5AF1BB154000E6D4"`
+

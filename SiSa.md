@@ -25,3 +25,12 @@ Get-CloudFileByHash "44E8B84401C0CB29C59CD584D6C7C0626735BE0768F7BF4BC20C1703049
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [SiSa.md](https://github.com/arhiv1973b/Evidence/blob/master/SiSa.md)
+- **WSL Path:** `/mnt/c/Evidence/SiSa.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "44E8B84401C0CB29C59CD584D6C7C0626735BE0768F7BF4BC20C170304948B61"`
+

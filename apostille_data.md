@@ -25,3 +25,12 @@ Get-CloudFileByHash "F15D441A5AC6555FFD5AA6EBFA4F6A77660C9894015281C91CBB5694299
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [apostille_data.md](https://github.com/arhiv1973b/Evidence/blob/master/apostille_data.md)
+- **WSL Path:** `/mnt/c/Evidence/apostille_data.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "F15D441A5AC6555FFD5AA6EBFA4F6A77660C9894015281C91CBB56942997A58E"`
+

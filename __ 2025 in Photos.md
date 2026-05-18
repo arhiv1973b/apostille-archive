@@ -25,3 +25,12 @@ Get-CloudFileByHash "3AC0195DC61EFC8AB0BE830CBE14942E7A300BFAD3C18FBD1445CE8B5B8
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [__ 2025 in Photos.md](https://github.com/arhiv1973b/Evidence/blob/master/__%202025%20in%20Photos.md)
+- **WSL Path:** `/mnt/c/Evidence/__ 2025 in Photos.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "3AC0195DC61EFC8AB0BE830CBE14942E7A300BFAD3C18FBD1445CE8B5B89C6C6"`
+

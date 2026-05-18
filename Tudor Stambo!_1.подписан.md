@@ -25,3 +25,12 @@ Get-CloudFileByHash "3EA75A5975DE20EC54F17FD017C4FCB3799FD4B109488F4B8F4DFD53136
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [Tudor Stambo!_1.подписан.md](https://github.com/arhiv1973b/Evidence/blob/master/Tudor%20Stambo!_1.%D0%BF%D0%BE%D0%B4%D0%BF%D0%B8%D1%81%D0%B0%D0%BD.md)
+- **WSL Path:** `/mnt/c/Evidence/Tudor Stambo!_1.подписан.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "3EA75A5975DE20EC54F17FD017C4FCB3799FD4B109488F4B8F4DFD53136CAE4F"`
+

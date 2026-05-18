@@ -25,3 +25,12 @@ Get-CloudFileByHash "D09E904516A5A3BCC0CD897CB85131464A944BFD35A002560ED11DEEEFD
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [Test imperativă .signed.md](https://github.com/arhiv1973b/Evidence/blob/master/Test%20imperativa%CC%86%20.signed.md)
+- **WSL Path:** `/mnt/c/Evidence/Test imperativă .signed.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "D09E904516A5A3BCC0CD897CB85131464A944BFD35A002560ED11DEEEFD0310D"`
+

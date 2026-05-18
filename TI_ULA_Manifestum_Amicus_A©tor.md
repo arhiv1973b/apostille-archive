@@ -25,3 +25,12 @@ Get-CloudFileByHash "A57DF37781D6255CF5C4D636E73A31B78204DD809B65009071901F04A90
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [TI_ULA_Manifestum_Amicus_A©tor.md](https://github.com/arhiv1973b/Evidence/blob/master/TI_ULA_Manifestum_Amicus_A%C2%A9tor.md)
+- **WSL Path:** `/mnt/c/Evidence/TI_ULA_Manifestum_Amicus_A©tor.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "A57DF37781D6255CF5C4D636E73A31B78204DD809B65009071901F04A90CEA78"`
+

@@ -25,3 +25,12 @@ Get-CloudFileByHash "0C45EBCE9BEAD0C0233AC53E9C7A13DE0C207B10E77D420327A4769F97D
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** [0C45EBCE9BEAD0C0233AC53E9C7A13DE0C207B10E77D420327A4769F97DFAF7E](https://drive.google.com/uc?id=1kk31JTFkar9yJJbflhAi0YyS4AxbIffX&export=download)
+- **Google Drive:** [Download](https://drive.google.com/uc?id=1kk31JTFkar9yJJbflhAi0YyS4AxbIffX&export=download)
+- **GitHub:** [BO2TCZ6WHSFG4.md](https://github.com/arhiv1973b/Evidence/blob/master/BO2TCZ6WHSFG4.md)
+- **WSL Path:** `/mnt/c/Evidence/BO2TCZ6WHSFG4.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "0C45EBCE9BEAD0C0233AC53E9C7A13DE0C207B10E77D420327A4769F97DFAF7E"`
+

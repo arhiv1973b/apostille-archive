@@ -25,3 +25,12 @@ Get-CloudFileByHash "E0F814A51760416DC2F5E33CEDBD9AB4D4BF3F2F08120409B7BF3EECDD0
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [final_audit_report Cod Fiscal 2_555 2_455 and 2_666.md](https://github.com/arhiv1973b/Evidence/blob/master/final_audit_report%20Cod%20Fiscal%202_555%202_455%20and%202_666.md)
+- **WSL Path:** `/mnt/c/Evidence/final_audit_report Cod Fiscal 2_555 2_455 and 2_666.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "E0F814A51760416DC2F5E33CEDBD9AB4D4BF3F2F08120409B7BF3EECDD04A7A6"`
+

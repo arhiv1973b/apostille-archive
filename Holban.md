@@ -25,3 +25,12 @@ Get-CloudFileByHash "5EC12990B202C242E0777EBA42B87ED2FFDA2BDD2EFE13776E5FDD86DAE
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [Holban.md](https://github.com/arhiv1973b/Evidence/blob/master/Holban.md)
+- **WSL Path:** `/mnt/c/Evidence/Holban.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "5EC12990B202C242E0777EBA42B87ED2FFDA2BDD2EFE13776E5FDD86DAEF7611"`
+

@@ -25,3 +25,12 @@ Get-CloudFileByHash "1BB0B9B09F60253861029ADF42F92E257DC64AB280660DD686A960CA5EB
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** [1BB0B9B09F60253861029ADF42F92E257DC64AB280660DD686A960CA5EBDA82C](https://drive.google.com/uc?id=18gNJYq7IGNrspFPFLFkrXZzIN8ba05M_&export=download)
+- **Google Drive:** [Download](https://drive.google.com/uc?id=18gNJYq7IGNrspFPFLFkrXZzIN8ba05M_&export=download)
+- **GitHub:** [Curtea Suprema - Holban_1.signed.md](https://github.com/arhiv1973b/Evidence/blob/master/Curtea%20Suprema%20-%20Holban_1.signed.md)
+- **WSL Path:** `/mnt/c/Evidence/Curtea Suprema - Holban_1.signed.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "1BB0B9B09F60253861029ADF42F92E257DC64AB280660DD686A960CA5EBDA82C"`
+

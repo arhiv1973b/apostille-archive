@@ -25,3 +25,12 @@ Get-CloudFileByHash "6A0286051CD5BC788E538ED212200786BB53CEC418C5AC18B5CE2A446DB
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [Ofertă_1.md](https://github.com/arhiv1973b/Evidence/blob/master/Oferta%CC%86_1.md)
+- **WSL Path:** `/mnt/c/Evidence/Ofertă_1.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "6A0286051CD5BC788E538ED212200786BB53CEC418C5AC18B5CE2A446DB6D7DC"`
+

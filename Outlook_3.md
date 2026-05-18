@@ -25,3 +25,12 @@ Get-CloudFileByHash "B92C574929DDEA6557C95AE951CC11B7A5358B3BD34021EB105ED733653
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [Outlook_3.md](https://github.com/arhiv1973b/Evidence/blob/master/Outlook_3.md)
+- **WSL Path:** `/mnt/c/Evidence/Outlook_3.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "B92C574929DDEA6557C95AE951CC11B7A5358B3BD34021EB105ED733653F8A19"`
+

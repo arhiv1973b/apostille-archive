@@ -25,3 +25,12 @@ Get-CloudFileByHash "656702284D2795CB0294CCAC443D2C195EE6F0E4C511DCA30797CB40539
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [corrected_case_maceret.md](https://github.com/arhiv1973b/Evidence/blob/master/corrected_case_maceret.md)
+- **WSL Path:** `/mnt/c/Evidence/corrected_case_maceret.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "656702284D2795CB0294CCAC443D2C195EE6F0E4C511DCA30797CB4053963D53"`
+

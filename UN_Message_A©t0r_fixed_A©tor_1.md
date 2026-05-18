@@ -25,3 +25,12 @@ Get-CloudFileByHash "587ADFED4AA0592891C9679B60103BB3B623F668384D734626DD3BF04EA
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [UN_Message_A©t0r_fixed_A©tor_1.md](https://github.com/arhiv1973b/Evidence/blob/master/UN_Message_A%C2%A9t0r_fixed_A%C2%A9tor_1.md)
+- **WSL Path:** `/mnt/c/Evidence/UN_Message_A©t0r_fixed_A©tor_1.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "587ADFED4AA0592891C9679B60103BB3B623F668384D734626DD3BF04EA302D9"`
+

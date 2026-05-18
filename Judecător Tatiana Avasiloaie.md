@@ -25,3 +25,12 @@ Get-CloudFileByHash "B7609FF0F3C608FBF0F882C4B1FCB1B458EB727B2D3F327CCB8ED10F619
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [Judecător Tatiana Avasiloaie.md](https://github.com/arhiv1973b/Evidence/blob/master/Judeca%CC%86tor%20Tatiana%20Avasiloaie.md)
+- **WSL Path:** `/mnt/c/Evidence/Judecător Tatiana Avasiloaie.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "B7609FF0F3C608FBF0F882C4B1FCB1B458EB727B2D3F327CCB8ED10F6193AE47"`
+

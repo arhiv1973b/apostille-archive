@@ -25,3 +25,12 @@ Get-CloudFileByHash "F243AA0380CEC0062FC4C9D4F25579D9424D53336ABDA391BC364542EAC
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [un_jus_.cogens.&reabilitation&erga.omnes_compressed (2).md](https://github.com/arhiv1973b/Evidence/blob/master/un_jus_.cogens.%26reabilitation%26erga.omnes_compressed%20(2).md)
+- **WSL Path:** `/mnt/c/Evidence/un_jus_.cogens.&reabilitation&erga.omnes_compressed (2).md`
+- **Крипто-валидация:** `Get-CloudFileByHash "F243AA0380CEC0062FC4C9D4F25579D9424D53336ABDA391BC364542EAC6630E"`
+

@@ -25,3 +25,12 @@ Get-CloudFileByHash "9FDE7AAC69B0216670EDB799F54869DC3C523492CDE37A641B9439B986E
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [Jaloba na Gureeva.md](https://github.com/arhiv1973b/Evidence/blob/master/Jaloba%20na%20Gureeva.md)
+- **WSL Path:** `/mnt/c/Evidence/Jaloba na Gureeva.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "9FDE7AAC69B0216670EDB799F54869DC3C523492CDE37A641B9439B986E05C99"`
+

@@ -25,3 +25,12 @@ Get-CloudFileByHash "2686B9D961A562B213DD510384A26CF516DC9CFF07EC82682F97FA5D190
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [Reabilitation Oleinic și Maceret .md](https://github.com/arhiv1973b/Evidence/blob/master/Reabilitation%20Oleinic%20s%CC%A6i%20Maceret%20.md)
+- **WSL Path:** `/mnt/c/Evidence/Reabilitation Oleinic și Maceret .md`
+- **Крипто-валидация:** `Get-CloudFileByHash "2686B9D961A562B213DD510384A26CF516DC9CFF07EC82682F97FA5D1900823E"`
+

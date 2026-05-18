@@ -25,3 +25,12 @@ Get-CloudFileByHash "DCDB50BF5FB6EA5FB27E9F3C978AE55344550367E86FB8C1E533E91A039
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [Recurs Jus Cogens & Erga Omnes.md](https://github.com/arhiv1973b/Evidence/blob/master/Recurs%20Jus%20Cogens%20%26%20Erga%20Omnes.md)
+- **WSL Path:** `/mnt/c/Evidence/Recurs Jus Cogens & Erga Omnes.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "DCDB50BF5FB6EA5FB27E9F3C978AE55344550367E86FB8C1E533E91A0390025E"`
+

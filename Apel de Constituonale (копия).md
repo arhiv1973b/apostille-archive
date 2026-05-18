@@ -25,3 +25,12 @@ Get-CloudFileByHash "123409240BF7D0BEC2ACB461A24463D108B19EB5E0DDD2A62D223A1D462
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** [123409240BF7D0BEC2ACB461A24463D108B19EB5E0DDD2A62D223A1D4629408F](https://drive.google.com/uc?id=1ycOzWUvw7qz-4TTUvLJp-nZfiXG9gdq0&export=download)
+- **Google Drive:** [Download](https://drive.google.com/uc?id=1ycOzWUvw7qz-4TTUvLJp-nZfiXG9gdq0&export=download)
+- **GitHub:** [Apel de Constituonale (копия).md](https://github.com/arhiv1973b/Evidence/blob/master/Apel%20de%20Constituonale%20(%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F).md)
+- **WSL Path:** `/mnt/c/Evidence/Apel de Constituonale (копия).md`
+- **Крипто-валидация:** `Get-CloudFileByHash "123409240BF7D0BEC2ACB461A24463D108B19EB5E0DDD2A62D223A1D4629408F"`
+

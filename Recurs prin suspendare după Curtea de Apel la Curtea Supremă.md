@@ -25,3 +25,12 @@ Get-CloudFileByHash "89DC1CD6DFFDD82183F2ABB73CCB31C544AC198CC754A79960187B716A3
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [Recurs prin suspendare după Curtea de Apel la Curtea Supremă.md](https://github.com/arhiv1973b/Evidence/blob/master/Recurs%20prin%20suspendare%20dupa%CC%86%20Curtea%20de%20Apel%20la%20Curtea%20Suprema%CC%86.md)
+- **WSL Path:** `/mnt/c/Evidence/Recurs prin suspendare după Curtea de Apel la Curtea Supremă.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "89DC1CD6DFFDD82183F2ABB73CCB31C544AC198CC754A79960187B716A3186A6"`
+

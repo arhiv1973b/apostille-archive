@@ -25,3 +25,12 @@ Get-CloudFileByHash "3897611F8A0FD05560DE3E677710AA90232FFF5CD70686DA0344A61D83D
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [Actor_Archive_Initial.md](https://github.com/arhiv1973b/Evidence/blob/master/Actor_Archive_Initial.md)
+- **WSL Path:** `/mnt/c/Evidence/Actor_Archive_Initial.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "3897611F8A0FD05560DE3E677710AA90232FFF5CD70686DA0344A61D83DEC527"`
+

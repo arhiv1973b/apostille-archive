@@ -25,3 +25,12 @@ Get-CloudFileByHash "CD6FF3B577165F0E6A8326D6C2B38FC06D9CC086FF4CDFDAB604D799351
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [export GEMINI_API_KEY=AQ.Ab8RN6IdBS.md](https://github.com/arhiv1973b/Evidence/blob/master/export%20GEMINI_API_KEY%3DAQ.Ab8RN6IdBS.md)
+- **WSL Path:** `/mnt/c/Evidence/export GEMINI_API_KEY=AQ.Ab8RN6IdBS.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "CD6FF3B577165F0E6A8326D6C2B38FC06D9CC086FF4CDFDAB604D7993515C812"`
+

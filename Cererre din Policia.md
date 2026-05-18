@@ -25,3 +25,12 @@ Get-CloudFileByHash "3C341BD963BC498E01D5D98EFC76BD6BAF5747F91483FDA270FD8C1F965
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** [3C341BD963BC498E01D5D98EFC76BD6BAF5747F91483FDA270FD8C1F96535EE6](https://drive.google.com/uc?id=1BTpugDvB6EUB_A7qRlHHGx-1gBlg32GB&export=download)
+- **Google Drive:** [Download](https://drive.google.com/uc?id=1BTpugDvB6EUB_A7qRlHHGx-1gBlg32GB&export=download)
+- **GitHub:** [Cererre din Policia.md](https://github.com/arhiv1973b/Evidence/blob/master/Cererre%20din%20Policia.md)
+- **WSL Path:** `/mnt/c/Evidence/Cererre din Policia.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "3C341BD963BC498E01D5D98EFC76BD6BAF5747F91483FDA270FD8C1F96535EE6"`
+

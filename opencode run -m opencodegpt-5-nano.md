@@ -25,3 +25,12 @@ Get-CloudFileByHash "C7B2DBC9D27B213FB7567D7E75394C76F2D3F412B4CA39DCCE3659E6123
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [opencode run -m opencodegpt-5-nano.md](https://github.com/arhiv1973b/Evidence/blob/master/opencode%20run%20-m%20opencodegpt-5-nano.md)
+- **WSL Path:** `/mnt/c/Evidence/opencode run -m opencodegpt-5-nano.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "C7B2DBC9D27B213FB7567D7E75394C76F2D3F412B4CA39DCCE3659E61232D4CC"`
+

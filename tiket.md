@@ -25,3 +25,12 @@ Get-CloudFileByHash "8C1B22FD8BBE0D9D7DE99A759428BC96450CB9F165709E1C5A7D0A4C4D4
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [tiket.md](https://github.com/arhiv1973b/Evidence/blob/master/tiket.md)
+- **WSL Path:** `/mnt/c/Evidence/tiket.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "8C1B22FD8BBE0D9D7DE99A759428BC96450CB9F165709E1C5A7D0A4C4D4BC760"`
+

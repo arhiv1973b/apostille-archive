@@ -1,2 +1,5 @@
 ﻿*.pdf
 *.pdf
+
+.gemini/
+gha-creds-*.json

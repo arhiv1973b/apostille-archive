@@ -25,3 +25,12 @@ Get-CloudFileByHash "314A2E985A8B0F379EF1AE177040D206DC1F957DD20A8489604E93A2BAD
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** [314A2E985A8B0F379EF1AE177040D206DC1F957DD20A8489604E93A2BAD29544](https://drive.google.com/uc?id=1QrPaPKCSPX19pX_4J50YeQUN4sPGb7fD&export=download)
+- **Google Drive:** [Download](https://drive.google.com/uc?id=1QrPaPKCSPX19pX_4J50YeQUN4sPGb7fD&export=download)
+- **GitHub:** [Centru Apel de Curtea.signed..md](https://github.com/arhiv1973b/Evidence/blob/master/Centru%20Apel%20de%20Curtea.signed..md)
+- **WSL Path:** `/mnt/c/Evidence/Centru Apel de Curtea.signed..md`
+- **Крипто-валидация:** `Get-CloudFileByHash "314A2E985A8B0F379EF1AE177040D206DC1F957DD20A8489604E93A2BAD29544"`
+

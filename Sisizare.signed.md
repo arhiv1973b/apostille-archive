@@ -25,3 +25,12 @@ Get-CloudFileByHash "47EF01C8D6061E342F07E516D79CFAC4556761B615129CF98A36CB39EC1
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [Sisizare.signed.md](https://github.com/arhiv1973b/Evidence/blob/master/Sisizare.signed.md)
+- **WSL Path:** `/mnt/c/Evidence/Sisizare.signed.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "47EF01C8D6061E342F07E516D79CFAC4556761B615129CF98A36CB39EC150FC7"`
+

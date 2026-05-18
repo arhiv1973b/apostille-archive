@@ -25,3 +25,12 @@ Get-CloudFileByHash "EFD1B5A355B0B61E2545CD80AB74E4016BFB04356B16CB78DA8A6A309C6
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [Judecator Tudor Stambol.md](https://github.com/arhiv1973b/Evidence/blob/master/Judecator%20Tudor%20Stambol.md)
+- **WSL Path:** `/mnt/c/Evidence/Judecator Tudor Stambol.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "EFD1B5A355B0B61E2545CD80AB74E4016BFB04356B16CB78DA8A6A309C6DB3E6"`
+

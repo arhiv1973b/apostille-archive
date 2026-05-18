@@ -25,3 +25,12 @@ Get-CloudFileByHash "997B57645C9344F31C50AD91780129A167E00F460C7B1C9954DF7D51788
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [passaport.md](https://github.com/arhiv1973b/Evidence/blob/master/passaport.md)
+- **WSL Path:** `/mnt/c/Evidence/passaport.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "997B57645C9344F31C50AD91780129A167E00F460C7B1C9954DF7D51788336E2"`
+

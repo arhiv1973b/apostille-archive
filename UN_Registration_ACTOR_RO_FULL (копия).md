@@ -25,3 +25,12 @@ Get-CloudFileByHash "804B0135434C4970D970912DA367349982018CFFE39C33E08FAF8B86092
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [UN_Registration_ACTOR_RO_FULL (копия).md](https://github.com/arhiv1973b/Evidence/blob/master/UN_Registration_ACTOR_RO_FULL%20(%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F).md)
+- **WSL Path:** `/mnt/c/Evidence/UN_Registration_ACTOR_RO_FULL (копия).md`
+- **Крипто-валидация:** `Get-CloudFileByHash "804B0135434C4970D970912DA367349982018CFFE39C33E08FAF8B860928B283"`
+

@@ -25,3 +25,12 @@ Get-CloudFileByHash "25E7C4A68C6CAEE3610F016EDB29AAAF1A8E783A1E12988521A42B3F4C9
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [SERVICIUL FISCAL DE STAT.md](https://github.com/arhiv1973b/Evidence/blob/master/SERVICIUL%20FISCAL%20DE%20STAT.md)
+- **WSL Path:** `/mnt/c/Evidence/SERVICIUL FISCAL DE STAT.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "25E7C4A68C6CAEE3610F016EDB29AAAF1A8E783A1E12988521A42B3F4C98A026"`
+

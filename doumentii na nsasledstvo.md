@@ -25,3 +25,12 @@ Get-CloudFileByHash "5CAD030AE84D3DD48B2B9235EDA0255DB611CF638DC8B71B09164BBFDEC
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** [5CAD030AE84D3DD48B2B9235EDA0255DB611CF638DC8B71B09164BBFDEC8824E](https://drive.google.com/uc?id=1t9Ghwf1-evNHa8ahtbDP1fWcAGy_ol3l&export=download)
+- **Google Drive:** [Download](https://drive.google.com/uc?id=1t9Ghwf1-evNHa8ahtbDP1fWcAGy_ol3l&export=download)
+- **GitHub:** [doumentii na nsasledstvo.md](https://github.com/arhiv1973b/Evidence/blob/master/doumentii%20na%20nsasledstvo.md)
+- **WSL Path:** `/mnt/c/Evidence/doumentii na nsasledstvo.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "5CAD030AE84D3DD48B2B9235EDA0255DB611CF638DC8B71B09164BBFDEC8824E"`
+

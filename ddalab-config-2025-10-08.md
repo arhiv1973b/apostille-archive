@@ -25,3 +25,12 @@ Get-CloudFileByHash "F9545A7290F8AB6762624973A31E5DE1744B323359462943A2A2512D7AA
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [ddalab-config-2025-10-08.md](https://github.com/arhiv1973b/Evidence/blob/master/ddalab-config-2025-10-08.md)
+- **WSL Path:** `/mnt/c/Evidence/ddalab-config-2025-10-08.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "F9545A7290F8AB6762624973A31E5DE1744B323359462943A2A2512D7AA00C57"`
+

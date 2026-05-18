@@ -25,3 +25,12 @@ Get-CloudFileByHash "C4229BCB0F796557113B1271EF89B9AE3C9D3F1179786C0284C4D6D936C
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [Json_1.md](https://github.com/arhiv1973b/Evidence/blob/master/Json_1.md)
+- **WSL Path:** `/mnt/c/Evidence/Json_1.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "C4229BCB0F796557113B1271EF89B9AE3C9D3F1179786C0284C4D6D936CEEF91"`
+

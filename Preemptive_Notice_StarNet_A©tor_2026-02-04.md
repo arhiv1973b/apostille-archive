@@ -25,3 +25,12 @@ Get-CloudFileByHash "FC129A8B2911F3260B15B0FADF30881BE987437CDF77B05CF3C388D7F77
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [Preemptive_Notice_StarNet_A©tor_2026-02-04.md](https://github.com/arhiv1973b/Evidence/blob/master/Preemptive_Notice_StarNet_A%C2%A9tor_2026-02-04.md)
+- **WSL Path:** `/mnt/c/Evidence/Preemptive_Notice_StarNet_A©tor_2026-02-04.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "FC129A8B2911F3260B15B0FADF30881BE987437CDF77B05CF3C388D7F772ED89"`
+

@@ -25,3 +25,12 @@ Get-CloudFileByHash "EF893FB2D4415FDAB5C30213CCED254114CCA13078DB5B65B7A17D3D825
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [qrcode_msign.gov.md (9).md](https://github.com/arhiv1973b/Evidence/blob/master/qrcode_msign.gov.md%20(9).md)
+- **WSL Path:** `/mnt/c/Evidence/qrcode_msign.gov.md (9).md`
+- **Крипто-валидация:** `Get-CloudFileByHash "EF893FB2D4415FDAB5C30213CCED254114CCA13078DB5B65B7A17D3D825CE90D"`
+

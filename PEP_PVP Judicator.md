@@ -25,3 +25,12 @@ Get-CloudFileByHash "35835B4852EE9F86ED6F91F4E47F8DF80DDC2047A93DBC0C848EDD1330C
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [PEP_PVP Judicator.md](https://github.com/arhiv1973b/Evidence/blob/master/PEP_PVP%20Judicator.md)
+- **WSL Path:** `/mnt/c/Evidence/PEP_PVP Judicator.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "35835B4852EE9F86ED6F91F4E47F8DF80DDC2047A93DBC0C848EDD1330CA6C4C"`
+

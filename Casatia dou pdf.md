@@ -25,3 +25,12 @@ Get-CloudFileByHash "1C2263D4CE40E54A31C161BEFE0632BCF4CE8A8944674E2149A1FDD0889
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** [1C2263D4CE40E54A31C161BEFE0632BCF4CE8A8944674E2149A1FDD088951FC5](https://drive.google.com/uc?id=1wmXkOfXYvUHYd2lSuYCowI1B7nEuLaso&export=download)
+- **Google Drive:** [Download](https://drive.google.com/uc?id=1wmXkOfXYvUHYd2lSuYCowI1B7nEuLaso&export=download)
+- **GitHub:** [Casatia dou pdf.md](https://github.com/arhiv1973b/Evidence/blob/master/Casatia%20dou%20pdf.md)
+- **WSL Path:** `/mnt/c/Evidence/Casatia dou pdf.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "1C2263D4CE40E54A31C161BEFE0632BCF4CE8A8944674E2149A1FDD088951FC5"`
+

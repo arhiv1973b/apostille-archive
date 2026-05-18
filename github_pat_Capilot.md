@@ -25,3 +25,12 @@ Get-CloudFileByHash "A244CD6497E177582838435D97D558135119A1B0AFC87278DEA80F9A835
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [github_pat_Capilot.md](https://github.com/arhiv1973b/Evidence/blob/master/github_pat_Capilot.md)
+- **WSL Path:** `/mnt/c/Evidence/github_pat_Capilot.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "A244CD6497E177582838435D97D558135119A1B0AFC87278DEA80F9A835B58A6"`
+

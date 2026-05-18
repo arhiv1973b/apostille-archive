@@ -25,3 +25,12 @@ Get-CloudFileByHash "5A41D516DF7967B2F02219589233D2B4EC0927A79F79614397951A67A00
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [un_jus.cogens.signed.md](https://github.com/arhiv1973b/Evidence/blob/master/un_jus.cogens.signed.md)
+- **WSL Path:** `/mnt/c/Evidence/un_jus.cogens.signed.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "5A41D516DF7967B2F02219589233D2B4EC0927A79F79614397951A67A008AC45"`
+

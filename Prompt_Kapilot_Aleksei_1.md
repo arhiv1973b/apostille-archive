@@ -25,3 +25,12 @@ Get-CloudFileByHash "0E9B3BCF460BF0C6EB1354BB229239488704624E96077B1F75C8572F695
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [Prompt_Kapilot_Aleksei_1.md](https://github.com/arhiv1973b/Evidence/blob/master/Prompt_Kapilot_Aleksei_1.md)
+- **WSL Path:** `/mnt/c/Evidence/Prompt_Kapilot_Aleksei_1.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "0E9B3BCF460BF0C6EB1354BB229239488704624E96077B1F75C8572F695A97DC"`
+

@@ -25,3 +25,12 @@ Get-CloudFileByHash "A5C9B40989525E728179402F53FA51750E011D99529B75A658C2D9304B6
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [We Have Received Your Message.signed.md](https://github.com/arhiv1973b/Evidence/blob/master/We%20Have%20Received%20Your%20Message.signed.md)
+- **WSL Path:** `/mnt/c/Evidence/We Have Received Your Message.signed.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "A5C9B40989525E728179402F53FA51750E011D99529B75A658C2D9304B6788F2"`
+

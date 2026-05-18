@@ -25,3 +25,12 @@ Get-CloudFileByHash "F258EA9CDDA92FE285FD73193DB13366D3CEABFF768FD118456DFC3776E
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [GO.md](https://github.com/arhiv1973b/Evidence/blob/master/GO.md)
+- **WSL Path:** `/mnt/c/Evidence/GO.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "F258EA9CDDA92FE285FD73193DB13366D3CEABFF768FD118456DFC3776ED726A"`
+

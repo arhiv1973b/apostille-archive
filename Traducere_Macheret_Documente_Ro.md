@@ -25,3 +25,12 @@ Get-CloudFileByHash "BF16F6E002BBABF04431D38C950EB7C24CBCC2AE530F9ABD48E91AC19D4
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [Traducere_Macheret_Documente_Ro.md](https://github.com/arhiv1973b/Evidence/blob/master/Traducere_Macheret_Documente_Ro.md)
+- **WSL Path:** `/mnt/c/Evidence/Traducere_Macheret_Documente_Ro.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "BF16F6E002BBABF04431D38C950EB7C24CBCC2AE530F9ABD48E91AC19D4C573E"`
+

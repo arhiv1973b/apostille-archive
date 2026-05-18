@@ -25,3 +25,12 @@ Get-CloudFileByHash "4DAFC8408B7040D7C6994C60585F3B83B9828BB23ED061105C87EA11522
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** [4DAFC8408B7040D7C6994C60585F3B83B9828BB23ED061105C87EA1152227CCF](https://drive.google.com/uc?id=1QpSBY6dICeBtUtflhBeCNruErzJXJAsU&export=download)
+- **Google Drive:** [Download](https://drive.google.com/uc?id=1QpSBY6dICeBtUtflhBeCNruErzJXJAsU&export=download)
+- **GitHub:** [Actor of Moldova.md](https://github.com/arhiv1973b/Evidence/blob/master/Actor%20of%20Moldova.md)
+- **WSL Path:** `/mnt/c/Evidence/Actor of Moldova.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "4DAFC8408B7040D7C6994C60585F3B83B9828BB23ED061105C87EA1152227CCF"`
+

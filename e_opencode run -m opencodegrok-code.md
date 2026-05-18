@@ -25,3 +25,12 @@ Get-CloudFileByHash "B4DD1C43FE20156E7721F828812CA11620360597B807296608FFF139121
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [e_opencode run -m opencodegrok-code.md](https://github.com/arhiv1973b/Evidence/blob/master/e_opencode%20run%20-m%20opencodegrok-code.md)
+- **WSL Path:** `/mnt/c/Evidence/e_opencode run -m opencodegrok-code.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "B4DD1C43FE20156E7721F828812CA11620360597B807296608FFF13912140CEE"`
+

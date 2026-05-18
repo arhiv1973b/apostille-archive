@@ -25,3 +25,12 @@ Get-CloudFileByHash "B4CEC2BFA5434A49D9FCA1B9E962ECBBF2FC5484BD476B8C1DCB7DC3C9D
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [My complaint _суббота_13_ European Ombudsman.signed.md](https://github.com/arhiv1973b/Evidence/blob/master/My%20complaint%20_%D1%81%D1%83%D0%B1%D0%B1%D0%BE%D1%82%D0%B0_13_%20European%20Ombudsman.signed.md)
+- **WSL Path:** `/mnt/c/Evidence/My complaint _суббота_13_ European Ombudsman.signed.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "B4CEC2BFA5434A49D9FCA1B9E962ECBBF2FC5484BD476B8C1DCB7DC3C9DA8A91"`
+

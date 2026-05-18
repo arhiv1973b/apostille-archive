@@ -25,3 +25,12 @@ Get-CloudFileByHash "F036C38AEF841BDF5BAB3C468336C8102B3B7B4626D19EF88FE69E8E3FE
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [CANONICAL_JUS_COGENS_MASTER_2026_REFUSAL.md](https://github.com/arhiv1973b/Evidence/blob/master/CANONICAL_JUS_COGENS_MASTER_2026_REFUSAL.md)
+- **WSL Path:** `/mnt/c/Evidence/CANONICAL_JUS_COGENS_MASTER_2026_REFUSAL.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "F036C38AEF841BDF5BAB3C468336C8102B3B7B4626D19EF88FE69E8E3FE3FED6"`
+

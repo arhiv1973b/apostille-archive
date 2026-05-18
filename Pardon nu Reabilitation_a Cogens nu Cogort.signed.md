@@ -25,3 +25,12 @@ Get-CloudFileByHash "B71FCC8F07F84DF294E188C5BC6C0F903CB9F23A47926254E11FECC702F
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [Pardon nu Reabilitation_a Cogens nu Cogort.signed.md](https://github.com/arhiv1973b/Evidence/blob/master/Pardon%20nu%20Reabilitation_a%20Cogens%20nu%20Cogort.signed.md)
+- **WSL Path:** `/mnt/c/Evidence/Pardon nu Reabilitation_a Cogens nu Cogort.signed.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "B71FCC8F07F84DF294E188C5BC6C0F903CB9F23A47926254E11FECC702F87899"`
+

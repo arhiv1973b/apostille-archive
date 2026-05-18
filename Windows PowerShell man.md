@@ -25,3 +25,12 @@ Get-CloudFileByHash "7E92E0D9C3D84EDAFC1361D2E3898D8735572560B8E166FE9C847ADC684
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [Windows PowerShell man.md](https://github.com/arhiv1973b/Evidence/blob/master/Windows%20PowerShell%20man.md)
+- **WSL Path:** `/mnt/c/Evidence/Windows PowerShell man.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "7E92E0D9C3D84EDAFC1361D2E3898D8735572560B8E166FE9C847ADC684C86C6"`
+

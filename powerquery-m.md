@@ -25,3 +25,12 @@ Get-CloudFileByHash "739F893E8C314235F0B6AA721412F62B47C10CD8254A018DFE106E9F4D5
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [powerquery-m.md](https://github.com/arhiv1973b/Evidence/blob/master/powerquery-m.md)
+- **WSL Path:** `/mnt/c/Evidence/powerquery-m.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "739F893E8C314235F0B6AA721412F62B47C10CD8254A018DFE106E9F4D59A6E9"`
+

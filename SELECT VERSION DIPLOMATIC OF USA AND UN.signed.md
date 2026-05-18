@@ -25,3 +25,12 @@ Get-CloudFileByHash "DDBF779045420F5D2E8FDCF3BEB7E2FF5AAAAFAA371536AA32D25482704
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [SELECT VERSION DIPLOMATIC OF USA AND UN.signed.md](https://github.com/arhiv1973b/Evidence/blob/master/SELECT%20VERSION%20DIPLOMATIC%20OF%20USA%20AND%20UN.signed.md)
+- **WSL Path:** `/mnt/c/Evidence/SELECT VERSION DIPLOMATIC OF USA AND UN.signed.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "DDBF779045420F5D2E8FDCF3BEB7E2FF5AAAAFAA371536AA32D25482704E5A15"`
+

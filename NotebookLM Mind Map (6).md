@@ -25,3 +25,12 @@ Get-CloudFileByHash "1AB2DE5CFD08B424CD242BEE5E14A791A70163566265D4DB84C8FF1BD73
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [NotebookLM Mind Map (6).md](https://github.com/arhiv1973b/Evidence/blob/master/NotebookLM%20Mind%20Map%20(6).md)
+- **WSL Path:** `/mnt/c/Evidence/NotebookLM Mind Map (6).md`
+- **Крипто-валидация:** `Get-CloudFileByHash "1AB2DE5CFD08B424CD242BEE5E14A791A70163566265D4DB84C8FF1BD73C2ACE"`
+

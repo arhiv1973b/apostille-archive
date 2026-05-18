@@ -25,3 +25,12 @@ Get-CloudFileByHash "B9E0BE0D0E91BE80D74CEB46B312E60F0ED8829FC5D0C79DA036FF0350F
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [Outlook.signed.md](https://github.com/arhiv1973b/Evidence/blob/master/Outlook.signed.md)
+- **WSL Path:** `/mnt/c/Evidence/Outlook.signed.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "B9E0BE0D0E91BE80D74CEB46B312E60F0ED8829FC5D0C79DA036FF0350F86AC6"`
+

@@ -25,3 +25,12 @@ Get-CloudFileByHash "9994AB6AFF86DE835EFD12B115F44AB671DA2AB224D430CD0FDB337B5AB
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [opencode run -m opencodebig-pickle.md](https://github.com/arhiv1973b/Evidence/blob/master/opencode%20run%20-m%20opencodebig-pickle.md)
+- **WSL Path:** `/mnt/c/Evidence/opencode run -m opencodebig-pickle.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "9994AB6AFF86DE835EFD12B115F44AB671DA2AB224D430CD0FDB337B5AB26FF7"`
+

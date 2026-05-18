@@ -25,3 +25,12 @@ Get-CloudFileByHash "AB8732A7FFFD5FC4C6D946D44CC4AFE20FCC2B84339CDAD2F749A283E63
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [Planjera CSM.md](https://github.com/arhiv1973b/Evidence/blob/master/Planjera%20CSM.md)
+- **WSL Path:** `/mnt/c/Evidence/Planjera CSM.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "AB8732A7FFFD5FC4C6D946D44CC4AFE20FCC2B84339CDAD2F749A283E63BD008"`
+

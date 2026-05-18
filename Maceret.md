@@ -25,3 +25,12 @@ Get-CloudFileByHash "E2ACC3C75EC15D2CBDF6869E2D055ECB5098D565E1B28E3D3FAA094F628
 
 ---
 **Semnat:** **A©tor Maceret Alexei ©**
+---
+
+## 🔗 АКТИВНЫЕ ССЫЛКИ
+- **Absolute Hash Link:** N/A
+- **Google Drive:** N/A
+- **GitHub:** [Maceret.md](https://github.com/arhiv1973b/Evidence/blob/master/Maceret.md)
+- **WSL Path:** `/mnt/c/Evidence/Maceret.md`
+- **Крипто-валидация:** `Get-CloudFileByHash "E2ACC3C75EC15D2CBDF6869E2D055ECB5098D565E1B28E3D3FAA094F6280BDA1"`
+
