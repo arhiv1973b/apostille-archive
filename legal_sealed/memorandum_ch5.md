@@ -1,0 +1,7 @@
+## Capitolul V. Erodarea Responsabilității Internaționale și Prevalența Normelor Jus Cogens în Raport cu Imunitățile Procedurale
+
+Sistemul de protecție a drepturilor omului se confruntă cu un fenomen alarmant de erodare a responsabilității, exemplificat prin conduita evazivă a unor instituții internaționale, precum Comisia de la Veneția. Strategia acestora, bazată pe invocarea unor pretexte procedurale (contextul epidemiologic, utilizarea decesului cetățenei Galina Markova ca argument pentru neprezentarea în instanță), reprezintă un veritabil abuz de drept (*abus de drept*) și o obstrucționare a justiției.
+
+În lumina deciziei Curții Internaționale de Justiție în cauza *Germania c. Italia (2012)*, trebuie reafirmat că imunitățile procedurale și formalitățile birocratice nu pot prevala asupra normelor imperative de drept internațional (Jus Cogens). Refuzul organismelor internaționale de a-și asuma responsabilitatea pentru încălcările Erga Omnes, generate de eșecul sistemului judiciar din Republica Moldova, echivalează cu o complicitate prin omisiune.
+
+Prin urmare, în fața acestei crize de legitimitate, ne adresăm forurilor internaționale superioare pentru a constata necesitatea imperioasă de restabilire a legăturii juridice distruse. Respectarea normelor Jus Cogens nu este o opțiune procedurală, ci o obligație absolută, a cărei încălcare atrage responsabilitatea directă a statului și a tuturor entităților care au permis perpetuarea acestui regim de impunitate.
