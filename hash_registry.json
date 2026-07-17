@@ -1,7 +1,9 @@
 {
   "case_id": "CASE-MACHERET-1997-2026",
-  "protocol": "TI-ULA v2.5.0",
-  "timestamp": "2026-07-17 12:00:00Z",
+  "protocol": "TI-ULA-MATERIAL-ROOT v2.6.0",
+  "root_event_id": "1998-10-13-CASE-1-568",
+  "material_claim_value_usd": "1100000.00",
+  "timestamp": "2026-07-17T13:00:00Z",
   "files": [
     { "path": "legal_sealed/memorandum_ch1_ch2.md", "sha256": "607BE50CE649DCFA1E6D6E0AAA0B2EDB3CFB51DA8F81559F9EB47454BE4BDD6E" },
     { "path": "legal_sealed/memorandum_ch3_ch4.md", "sha256": "F1C83AC4BF2BBBE40546742400C2D9302A88385BAB6DA7552A173AECA5EC6BDB" },
