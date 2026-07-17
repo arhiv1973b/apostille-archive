@@ -2043,3 +2043,39 @@
 {"Time":"2026-05-10 11:53:22Z","Hash":"010a46b24e9bb4d154ee68953e13b687ac00940cc0f8da62949554b42702adc3","Event":"SYS_LINK_FOUND | SESSION:c70f69e5-58b1-4b71-90be-524590907233 | FILE:C:\\Users\\arhiv\\OneDrive\\_1\\iCloudPhotos\\Photos\\ФАЙЛ - A©tor of Moldova.pdf | STATUS:LOCKED","IDNP":"...655"}
 {"Time":"2026-05-10 11:55:23Z","Hash":"d75a6b473991b9200701fba408847b5464300a5d3e0f4e06a049071f2d2576dd","Event":"SYS_LINK_FOUND | SESSION:c70f69e5-58b1-4b71-90be-524590907233 | FILE:C:\\Users\\arhiv\\OneDrive\\_1\\iCloudPhotos\\Photos\\A©tor arhiv si actual reestrf.pdf | STATUS:LOCKED","IDNP":"...655"}
 {"Time":"2026-05-10 11:56:15Z","Hash":"62430ed5dcee99f9e407be9cb0d49ef5ebbe342ed34a1b06f2dd12ae388ac63f","Event":"SYS_LINK_FOUND | SESSION:c70f69e5-58b1-4b71-90be-524590907233 | FILE:C:\\Users\\arhiv\\OneDrive\\_1\\iCloudPhotos\\Photos\\Actor of Moldova.pdf | STATUS:LOCKED","IDNP":"...655"}
+{"message":"Пример ошибки","timestamp":"2026-06-15T00:24:19.0345970+03:00","status":"INSTITUTIONAL_DENIAL_EVENT","node_context":"FIN-CASCADE-036-HUMANITARIAN-ANCHOR","command":null}
+{"message":"Пример ошибки","timestamp":"2026-06-15T00:25:36.5745917+03:00","command":null,"session_id":"6b104422-fd63-4fac-a9e6-a21eaa6546cf","node_context":"FIN-CASCADE-036-HUMANITARIAN-ANCHOR","status":"INSTITUTIONAL_DENIAL_EVENT"}
+{"message":"Пример ошибки","timestamp":"2026-06-15T00:27:21.2428918+03:00","command":null,"session_id":"12f36ee6-64d2-48db-ba6f-12fd21c9a5f3","node_context":"FIN-CASCADE-036-HUMANITARIAN-ANCHOR","status":"INSTITUTIONAL_DENIAL_EVENT"}
+
+{"message":"Пример ошибки","timestamp":"2026-06-15T00:29:56.5658525+03:00","command":null,"session_id":"88ba5b8c-8809-42e7-8476-b49044aa89d4","node_context":"FIN-CASCADE-036-HUMANITARIAN-ANCHOR","status":"INSTITUTIONAL_DENIAL_EVENT"}
+
+{"message":"Пример ошибки","timestamp":"2026-06-15T00:30:15.0665514+03:00","command":null,"session_id":"a3648c2c-36ca-4b76-bdc9-55eb567e7566","node_context":"FIN-CASCADE-036-HUMANITARIAN-ANCHOR","status":"INSTITUTIONAL_DENIAL_EVENT"}
+--- NEW SESSION 1b299eed-1f7b-402c-887c-369e1f86643c --- Строки: 20260615_003238
+{"message":"Пример ошибки","timestamp":"2026-06-15T00:32:38.1803520+03:00","command":null,"session_id":"1b299eed-1f7b-402c-887c-369e1f86643c","node_context":"FIN-CASCADE-036-HUMANITARIAN-ANCHOR","status":"INSTITUTIONAL_DENIAL_EVENT"}
+--- NEW SESSION f03648ad-65ba-4158-89e0-c5fc0ae6b90b --- Строки: 20260615_003252
+{"message":"Пример ошибки","timestamp":"2026-06-15T00:32:52.1057513+03:00","command":null,"session_id":"f03648ad-65ba-4158-89e0-c5fc0ae6b90b","node_context":"FIN-CASCADE-036-HUMANITARIAN-ANCHOR","status":"INSTITUTIONAL_DENIAL_EVENT"}
+--- NEW SESSION 1f1b57ca-26db-4927-9ae0-cbf69bb14ba9 --- Строки: 20260615_003317
+{"message":"Пример ошибки","timestamp":"2026-06-15T00:33:17.1065895+03:00","command":null,"session_id":"1f1b57ca-26db-4927-9ae0-cbf69bb14ba9","node_context":"FIN-CASCADE-036-HUMANITARIAN-ANCHOR","status":"INSTITUTIONAL_DENIAL_EVENT"}
+--- NEW SESSION 523d853d-c3da-4632-b20e-c3ba9b6e115a --- Строки: 20260615_003405
+{"message":"Пример ошибки","timestamp":"2026-06-15T00:34:05.1911043+03:00","command":null,"session_id":"523d853d-c3da-4632-b20e-c3ba9b6e115a","node_context":"FIN-CASCADE-036-HUMANITARIAN-ANCHOR","status":"INSTITUTIONAL_DENIAL_EVENT"}
+--- NEW SESSION 493fb7be-1540-409d-870e-e7b094345e87 --- Дата: 20260615 · Строки: 20260615_003523
+{"message":"Пример ошибки","timestamp":"2026-06-15T00:35:23.5627271+03:00","command":null,"session_id":"493fb7be-1540-409d-870e-e7b094345e87","node_context":"FIN-CASCADE-036-HUMANITARIAN-ANCHOR","status":"INSTITUTIONAL_DENIAL_EVENT"}
+--- NEW SESSION 6db2192f-5f55-482f-a342-a414dabb1b73 --- Дата: 20260615 · Строки: 20260615_003528
+{"message":"Пример ошибки","timestamp":"2026-06-15T00:35:28.0615520+03:00","command":null,"session_id":"6db2192f-5f55-482f-a342-a414dabb1b73","node_context":"FIN-CASCADE-036-HUMANITARIAN-ANCHOR","status":"INSTITUTIONAL_DENIAL_EVENT"}
+--- NEW SESSION 31e00bcd-a451-4745-9fa3-8ce6130d461c --- Дата: 20260615 · Строки: 20260615_003538
+{"message":"Пример ошибки","timestamp":"2026-06-15T00:35:38.6791741+03:00","command":null,"session_id":"31e00bcd-a451-4745-9fa3-8ce6130d461c","node_context":"FIN-CASCADE-036-HUMANITARIAN-ANCHOR","status":"INSTITUTIONAL_DENIAL_EVENT"}
+--- NEW SESSION d997c5d7-df2f-41d7-b035-03ab939702df --- Дата: 20260615 · Строки: 20260615_003732 · Errors=0
+{"message":"Пример ошибки","timestamp":"2026-06-15T00:37:32.8144818+03:00","command":null,"session_id":"d997c5d7-df2f-41d7-b035-03ab939702df","node_context":"FIN-CASCADE-036-HUMANITARIAN-ANCHOR","status":"INSTITUTIONAL_DENIAL_EVENT"}
+--- NEW SESSION 76e04adb-9834-4aa5-ad6b-c5e6c77fa148 --- Дата: 20260615 · Строки: 20260615_003859 · Errors=0
+{"message":"Пример ошибки","timestamp":"2026-06-15T00:38:59.2318048+03:00","command":null,"session_id":"76e04adb-9834-4aa5-ad6b-c5e6c77fa148","node_context":"FIN-CASCADE-036-HUMANITARIAN-ANCHOR","status":"INSTITUTIONAL_DENIAL_EVENT"}
+--- NEW SESSION e8f5bc4e-c5b6-4596-b505-3a8af48f6eb6 --- Дата: 20260615 · Строки: 20260615_003914 · Errors=0
+{"message":"Пример ошибки","timestamp":"2026-06-15T00:39:14.1066524+03:00","command":null,"session_id":"e8f5bc4e-c5b6-4596-b505-3a8af48f6eb6","node_context":"FIN-CASCADE-036-HUMANITARIAN-ANCHOR","status":"INSTITUTIONAL_DENIAL_EVENT"}
+--- NEW SESSION ee7799db-1ae1-4c63-8ee4-01df19f2627f --- Дата: 20260615 · Строки: 20260615_003922 · Errors=0
+{"message":"Пример ошибки","timestamp":"2026-06-15T00:39:22.6127269+03:00","command":null,"session_id":"ee7799db-1ae1-4c63-8ee4-01df19f2627f","node_context":"FIN-CASCADE-036-HUMANITARIAN-ANCHOR","status":"INSTITUTIONAL_DENIAL_EVENT"}
+--- NEXT CASCADE STEP --- Дата: 20260615 · Session: 5d9b9b94-69f6-4a11-a266-123d55e19db0 · Строки: 20260615_004443
+--- NEW SESSION 5d9b9b94-69f6-4a11-a266-123d55e19db0 --- Дата: 20260615 · Строки: 20260615_004443 · Errors=0
+{"message":"Пример ошибки CASCADE_TRIGGER","timestamp":"2026-06-15T00:44:43.9731669+03:00","command":null,"session_id":"5d9b9b94-69f6-4a11-a266-123d55e19db0","node_context":"FIN-CASCADE-036-HUMANITARIAN-ANCHOR","status":"CASCADE_STEP_EVENT"}
+--- NEW SESSION def7a22f-ec9e-4375-96a1-e1b2eb587323 --- Дата: 20260615 · Строки: 20260615_014102 · Errors=0
+{"message":"Пример ошибки: unhandled exception (unauthorized access to node 025)","timestamp":"2026-06-15T01:41:02.6274830+03:00","command":null,"session_id":"def7a22f-ec9e-4375-96a1-e1b2eb587323","node_context":"FIN-CASCADE-036-HUMANITARIAN-ANCHOR","status":"INSTITUTIONAL_DENIAL_EVENT"}
+--- NEW SESSION d3bee47a-1a24-40e5-b307-3fa1c98cd187 --- Дата: 20260615 · Строки: 20260615_014116 · Errors=0
+{"message":"Пример ошибки: unhandled exception (unauthorized access to node 025)","timestamp":"2026-06-15T01:41:16.9166426+03:00","command":null,"session_id":"d3bee47a-1a24-40e5-b307-3fa1c98cd187","node_context":"FIN-CASCADE-036-HUMANITARIAN-ANCHOR","status":"INSTITUTIONAL_DENIAL_EVENT"}
